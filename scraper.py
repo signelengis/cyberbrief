@@ -43,10 +43,11 @@ FEEDS = [
 KEV_FEED = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 
 # Primary sections that are scraped, deduped, aged and archived
-PRIMARY = ['kev', 'breach', 'cve', 'patch', 'threat', 'ransomware', 'news']
+PRIMARY = ['breach', 'cve', 'patch', 'threat', 'ransomware', 'news']
+# KEV is rebuilt fresh from CISA every run (never aged, never archived, never deduped)
 # Derived views rebuilt from the active set each run (not aged, not archived)
 DERIVED = ['sector', 'awareness']
-SECTIONS = PRIMARY + DERIVED
+SECTIONS = ['kev'] + PRIMARY + DERIVED
 
 MAX_PER_SECTION = 12          # cap active items per section
 MAX_NEW_PER_RUN = 8           # cap new items pulled per section per run
@@ -193,9 +194,10 @@ class CyberBriefScraper:
                 return v
         return ''
 
-    # ---- CISA KEV ----------------------------------------------------------
-    def fetch_kev(self, existing_keys):
-        """Authoritative exploited-in-the-wild entries from CISA."""
+    # ---- CISA KEV (fresh full snapshot every run) --------------------------
+    def fetch_kev(self):
+        """Authoritative exploited-in-the-wild entries from CISA. Rebuilt whole
+        each run so the section always mirrors the current catalog top."""
         items = []
         try:
             logger.info("Fetching CISA KEV catalog ...")
@@ -206,21 +208,17 @@ class CyberBriefScraper:
             for v in vulns[:MAX_KEV]:
                 cid = v.get('cveID', '')
                 url = f"https://nvd.nist.gov/vuln/detail/{cid}"
-                if url.lower() in existing_keys:
-                    continue
-                existing_keys.add(url.lower())
                 due = v.get('dueDate', '')
                 try:
                     due = datetime.strptime(due, '%Y-%m-%d').strftime('%b %d, %Y') if due else ''
                 except Exception:
                     pass
-                added = v.get('dateAdded', '')
                 items.append({
                     "cve_id": cid,
                     "product": v.get('product', ''),
                     "vendor": v.get('vendorProject', ''),
                     "severity": "Critical",
-                    "date_added": added,
+                    "date_added": v.get('dateAdded', ''),
                     "due_date": due,
                     "action": v.get('requiredAction', 'Apply mitigations'),
                     "summary": self.clean(v.get('shortDescription', '')),
@@ -228,7 +226,7 @@ class CyberBriefScraper:
                     "date": datetime.now().strftime('%b %d, %Y'),
                     "sources": [{"label": "CISA KEV", "url": url}],
                 })
-            logger.info(f"  KEV: {len(items)} new entries")
+            logger.info(f"  KEV: {len(items)} entries")
         except Exception as e:
             logger.warning(f"  KEV fetch failed: {e}")
         return items
@@ -261,7 +259,6 @@ class CyberBriefScraper:
                 logger.info(f"  ok ({len(feed.entries)} entries scanned)")
             except Exception as e:
                 logger.warning(f"  failed {source_name}: {e}")
-        new['kev'] = self.fetch_kev(existing_keys)
         total = sum(len(v) for v in new.values())
         logger.info("New items: " + ", ".join(f"{s} {len(new[s])}" for s in PRIMARY))
         logger.info(f"New items pulled: {total}")
@@ -354,6 +351,7 @@ class CyberBriefScraper:
             for section in PRIMARY:
                 data[section] = (new.get(section, []) + data.get(section, []))[:MAX_PER_SECTION]
 
+            data['kev'] = self.fetch_kev()        # fresh full CISA snapshot
             data = self.rebuild_views(data)   # sector + awareness
 
             self.save_data(data)
