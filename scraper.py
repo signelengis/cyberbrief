@@ -100,26 +100,37 @@ class CyberBriefScraper:
     @staticmethod
     def classify(title, summary):
         text = f"{title} {summary}".lower()
+        has_cve = bool(re.search(r'cve-\d{4}-\d+', text))
         # most specific first
         if any(k in text for k in
                 ['ransomware', 'ransom gang', 'ransom demand', 'lockbit', 'clop',
-                 'blackcat', 'alphv', 'akira', 'rhysida', 'encrypts files']):
+                 'blackcat', 'alphv', 'akira', 'rhysida', 'encrypts files',
+                 'encrypts victim', 'data encrypted', 'double extortion']):
             return 'ransomware'
+        # BREACH before CVE: exposed data / stolen records is a breach, not a vuln
+        if any(k in text for k in
+                ['data breach', 'breached', 'data leak', 'leaked data',
+                 'stolen data', 'data theft', 'records exposed',
+                 'database exposed', 'exposed data', 'customer data', 'exfiltrat',
+                 'personal information', 'stole ', 'hacked and stole']):
+            return 'breach'
+        # PATCH: explicit patch-release language (tightened — no bare 'fixes ')
         if 'patch tuesday' in text or any(k in text for k in
-                ['security update', 'patches ', 'patch for', 'has patched',
-                 'fixes ', 'fixed ', 'security advisory', 'out-of-band update']):
+                ['security update', 'patches critical', 'patches multiple',
+                 'patches high', 'has patched', 'releases patch', 'issues patch',
+                 'security advisory', 'out-of-band update', 'patch now',
+                 'patches flaw', 'patches vulnerab', 'rolls out fixes']):
             return 'patch'
-        if re.search(r'cve-\d{4}-\d+', text) or any(k in text for k in
-                ['vulnerability', 'zero-day', 'zero day', 'rce', 'flaw',
-                 'exploit', 'buffer overflow', 'privilege escalation']):
+        # CVE: require a real CVE id OR strong single-vuln language
+        if has_cve or any(k in text for k in
+                ['zero-day', 'zero day', 'remote code execution', ' rce ',
+                 'buffer overflow', 'privilege escalation', 'sql injection',
+                 'authentication bypass', 'arbitrary code']):
             return 'cve'
         if any(k in text for k in
-                ['breach', 'data leak', 'leaked', 'exposed', 'stolen data',
-                 'data theft', 'records exposed', 'database exposed']):
-            return 'breach'
-        if any(k in text for k in
                 ['apt', 'threat actor', 'hacking group', 'botnet', 'malware',
-                 'phishing campaign', 'nation-state', 'trojan', 'backdoor']):
+                 'phishing campaign', 'nation-state', 'trojan', 'backdoor',
+                 'infostealer', 'stealer', 'rat ', 'spyware', 'campaign']):
             return 'threat'
         return 'news'
 
@@ -154,7 +165,9 @@ class CyberBriefScraper:
             return {**base, "org": title, "severity": sev, "records": "See source"}
         if section == 'cve':
             m = re.search(r'cve-\d{4}-\d+', (title + ' ' + summary).lower())
-            return {**base, "cve_id": (m.group(0).upper() if m else title[:60]),
+            cve_id = m.group(0).upper() if m else ''
+            return {**base, "cve_id": cve_id, "title": title,
+                    "product": self.extract_product(title, summary),
                     "vendor": source_name, "severity": sev}
         if section == 'patch':
             return {**base, "title": title, "vendor": source_name, "severity": sev}
@@ -164,6 +177,21 @@ class CyberBriefScraper:
             return {**base, "group": title, "victim": "", "sector": "",
                     "severity": sev}
         return {**base, "title": title, "category": "news"}
+
+    # vendor/product guess from the headline for the CVE tracker label
+    _VENDORS = ['Microsoft', 'Windows', 'Oracle', 'Adobe', 'SAP', 'Cisco',
+                'Fortinet', 'Ivanti', 'SonicWall', 'Citrix', 'VMware', 'Zoom',
+                'Splunk', 'Apache', 'Atlassian', 'GitLab', 'Google', 'Chrome',
+                'Firefox', 'Mozilla', 'Apple', 'Linux', 'F5', 'Juniper',
+                'Palo Alto', 'Zimbra', 'MOVEit', 'ColdFusion', 'NetWeaver',
+                'SharePoint', 'Exchange', 'RabbitMQ', 'Cursor']
+
+    def extract_product(self, title, summary):
+        text = title + ' ' + summary
+        for v in self._VENDORS:
+            if re.search(r'\b' + re.escape(v) + r'\b', text, re.I):
+                return v
+        return ''
 
     # ---- CISA KEV ----------------------------------------------------------
     def fetch_kev(self, existing_keys):
