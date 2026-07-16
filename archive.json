@@ -1546,6 +1546,42 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290"
         }
       ]
+    },
+    {
+      "cve_id": "CVE-2026-46817",
+      "product": "E-Business Suite",
+      "vendor": "Oracle",
+      "severity": "Critical",
+      "date_added": "2026-07-15",
+      "due_date": "Jul 18, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Oracle Payments.",
+      "age": 5,
+      "date": "Jul 15, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2023-4346",
+      "product": "KNX Protocol Connection Authorization Option 1",
+      "vendor": "KNX Association",
+      "severity": "Critical",
+      "date_added": "2026-07-15",
+      "due_date": "Jul 29, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to lock the device.",
+      "age": 5,
+      "date": "Jul 15, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346"
+        }
+      ]
     }
   ],
   "patch": [
@@ -1659,6 +1695,34 @@
       "date": "Jul 15, 2026",
       "title": "A Record-Breaking Patch Tuesday for June 2026",
       "vendor": "Krebs on Security",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
+      "age": 5,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.",
+      "age": 5,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes"
+        }
+      ],
+      "date": "Jul 15, 2026",
+      "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
+      "vendor": "Dark Reading",
       "severity": "Critical"
     }
   ],
