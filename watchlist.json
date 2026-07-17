@@ -1,0 +1,15 @@
+{
+  "_comment": "CyberBrief priority-vendor watchlist. Edit this file in the cyberbrief repo (next to data.json) to add/remove vendors — the page picks it up on load, no rebuild needed. Each entry: name (label shown on the badge) + terms (lowercase strings matched against each item's title, vendor, product, and summary). Add aliases/products as terms so nothing is missed.",
+  "watchlist": [
+    { "name": "Cisco", "terms": ["cisco"] },
+    { "name": "Palo Alto", "terms": ["palo alto", "pan-os", "panos", "prisma", "cortex", "globalprotect"] },
+    { "name": "Microsoft", "terms": ["microsoft", "windows", "office 365", "o365", "microsoft 365", "sharepoint", "exchange server", "microsoft exchange", "microsoft outlook", "microsoft teams", "azure", "entra id", "onedrive", "microsoft defender", "asp.net"] },
+    { "name": "Adobe", "terms": ["adobe", "coldfusion", "acrobat", "commerce", "magento"] },
+    { "name": "CrowdStrike", "terms": ["crowdstrike", "falcon"] },
+    { "name": "Trend Micro", "terms": ["trend micro", "apex one", "trendmicro"] },
+    { "name": "Mimecast", "terms": ["mimecast"] },
+    { "name": "Abnormal AI", "terms": ["abnormal ai", "abnormal security"] },
+    { "name": "Netskope", "terms": ["netskope"] },
+    { "name": "Zscaler", "terms": ["zscaler", "zpa", "zia"] }
+  ]
+}
