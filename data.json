@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Hackers exfiltrated personal, financial, and health information from the company\u2019s Oracle EBS instance in August 2025. The post Est\u00e9e Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Using social engineering, hackers compromised employee accounts with access to personal and health information. The post Clover Health Investments Discloses Data Breach appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "Cosmetics giant Est\u00e9e Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -83,26 +83,28 @@
       "org": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform. The post Ernst & Young Data Breach Affects Personal, Financial Information appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "org": "Ernst & Young Data Breach Affects Personal, Financial Information",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
+      "summary": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected servers. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "cve_id": "CVE-2026-63030",
+      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+      "product": "",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -118,7 +120,7 @@
     },
     {
       "summary": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell. \"By the early...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -134,7 +136,7 @@
     },
     {
       "summary": "The ServiceNow AI platform vulnerability tracked as CVE-2026-6875 can be exploited for remote code execution. The post Exploitation of ServiceNow Vulnerability Seen Days After Disclosure appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -150,7 +152,7 @@
     },
     {
       "summary": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -166,7 +168,7 @@
     },
     {
       "summary": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -182,7 +184,7 @@
     },
     {
       "summary": "Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -198,7 +200,7 @@
     },
     {
       "summary": "The zero-days CVE-2026-15409 and CVE-2026-15410 were exploited by a threat actor tracked by Volexity as UTA0533. The post SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -211,44 +213,12 @@
       "product": "SonicWall",
       "vendor": "SecurityWeek",
       "severity": "Critical"
-    },
-    {
-      "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "CVE-2026-6875",
-      "title": "Critical ServiceNow code execution flaw now exploited in attacks",
-      "product": "",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "cve_id": "CVE-2026-14266",
-      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
       "summary": "Part of a larger toolkit, HollowGraph uses a compromised 365 account\u2019s calendar as a two-way dead-drop. The post New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -261,7 +231,7 @@
     },
     {
       "summary": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign codenamed FakeGit. \"FakeGit uses copied...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -274,7 +244,7 @@
     },
     {
       "summary": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -287,7 +257,7 @@
     },
     {
       "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -300,7 +270,7 @@
     },
     {
       "summary": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -310,25 +280,116 @@
       "date": "Jul 20, 2026",
       "actor": "Attackers Combo Up Evasion Tactics for BEC Phishing",
       "severity": "High"
-    },
-    {
-      "summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "actor": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
+      "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "category": "news"
+    },
+    {
+      "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+      "category": "news"
+    },
+    {
+      "summary": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+      "category": "news"
+    },
+    {
+      "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it. An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "category": "news"
+    },
+    {
+      "summary": "New executive order calls for end-to-end visibility into defense supply chains, including software dependencies, foreign ownership and cyber-related supplier risks. The post Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/trump-orders-defense-contractors-to-map-software-suppliers-across-critical-supply-chains/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains",
+      "category": "news"
+    },
+    {
+      "summary": "The open-weight Antares models are designed to pinpoint known vulnerabilities in codebases faster and at a fraction of the cost of larger AI models. The post Cisco Launches Low-Cost AI Models for Source Code Security appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Cisco Launches Low-Cost AI Models for Source Code Security",
+      "category": "news"
+    },
+    {
+      "summary": "Independently judged and sponsor-neutral, the new awards program honors the people, organizations, and technologies delivering proven impact in industrial cybersecurity; winners to be announced live at the 2026 ICS Cybersecurity Conference in Nashville The post SecurityWeek Launches Critical Impact Awards to...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/securityweek-launches-critical-impact-awards-to-recognize-excellence-in-industrial-cybersecurity/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -341,7 +402,7 @@
     },
     {
       "summary": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -354,7 +415,7 @@
     },
     {
       "summary": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy, operating models, long-term reliability, and production readiness. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -367,7 +428,7 @@
     },
     {
       "summary": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent. Researchers demonstrated that chain, plus six other attacks,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -377,113 +438,81 @@
       "date": "Jul 21, 2026",
       "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
       "category": "news"
-    },
-    {
-      "summary": "Every patch is a confession. The moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every system that hasn't updated yet. This is N-day exploitation, and it's always...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-      "category": "news"
-    },
-    {
-      "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt, described by three Zhejiang University researchers in a paper accepted to CHES 2026, the IACR's...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
-      "category": "news"
-    },
-    {
-      "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
-      "category": "news"
-    },
-    {
-      "summary": "The startup will use the investment to accelerate the development of its threat prediction and discovery products. The post Empirical Security Raises $25 Million in Series A Funding appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "Empirical Security Raises $25 Million in Series A Funding",
-      "category": "news"
-    },
-    {
-      "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "Hugging Face warns an autonomous AI agent hacked its network",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "Microsoft confirms Windows Server Update Services sync delays",
-      "category": "news"
-    },
-    {
-      "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversaries to weaponize Mythos findings at...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-      "category": "news"
-    },
-    {
-      "summary": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing....",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-      "category": "news"
     }
   ],
   "kev": [
+    {
+      "cve_id": "CVE-2026-60137",
+      "product": "Core",
+      "vendor": "WordPress",
+      "severity": "Critical",
+      "date_added": "2026-07-21",
+      "due_date": "Aug 04, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations.",
+      "age": 0,
+      "date": "Jul 21, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-63030",
+      "product": "Core",
+      "vendor": "WordPress",
+      "severity": "Critical",
+      "date_added": "2026-07-21",
+      "due_date": "Jul 24, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137.",
+      "age": 0,
+      "date": "Jul 21, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-0770",
+      "product": "Langflow",
+      "vendor": "Langflow",
+      "severity": "Critical",
+      "date_added": "2026-07-21",
+      "due_date": "Jul 24, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations.",
+      "age": 0,
+      "date": "Jul 21, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2021-27137",
+      "product": "DD-WRT",
+      "vendor": "DD-WRT",
+      "severity": "Critical",
+      "date_added": "2026-07-21",
+      "due_date": "Jul 24, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.",
+      "age": 0,
+      "date": "Jul 21, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137"
+        }
+      ]
+    },
     {
       "cve_id": "CVE-2026-58644",
       "product": "SharePoint",
@@ -627,84 +656,54 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
         }
       ]
-    },
-    {
-      "cve_id": "CVE-2026-15410",
-      "product": "SMA1000 Appliances",
-      "vendor": "SonicWall",
-      "severity": "Critical",
-      "date_added": "2026-07-14",
-      "due_date": "Jul 17, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
-      "age": 0,
-      "date": "Jul 21, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2008-4128",
-      "product": "IOS",
-      "vendor": "Cisco",
-      "severity": "Critical",
-      "date_added": "2026-07-13",
-      "due_date": "Jul 16, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /level/15/exec/-/configure/http URI.",
-      "age": 0,
-      "date": "Jul 21, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-56291",
-      "product": "Forms",
-      "vendor": "Balbooa",
-      "severity": "Critical",
-      "date_added": "2026-07-10",
-      "due_date": "Jul 13, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
-      "age": 0,
-      "date": "Jul 21, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-48939",
-      "product": "iCagenda",
-      "vendor": "iCagenda",
-      "severity": "Critical",
-      "date_added": "2026-07-10",
-      "due_date": "Jul 13, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
-      "age": 0,
-      "date": "Jul 21, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939"
-        }
-      ]
     }
   ],
   "patch": [
     {
-      "summary": "The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects. The post Zimbra Update Patches Critical Vulnerabilities appeared first on SecurityWeek.",
+      "summary": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it. Intezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component. As many as nine security vulnerabilities have been patched in Zimbra 10.1.20. Topping the list is a command injection vulnerability in...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects. The post Zimbra Update Patches Critical Vulnerabilities appeared first on SecurityWeek.",
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -715,40 +714,42 @@
       "title": "Zimbra Update Patches Critical Vulnerabilities",
       "vendor": "SecurityWeek",
       "severity": "Critical"
-    },
-    {
-      "summary": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops. That is the finding of a cybersecurity advisory published...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
-        }
-      ],
-      "date": "Jul 20, 2026",
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "ransomware": [
     {
-      "summary": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
+      "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "group": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
+        }
+      ],
+      "date": "Jul 21, 2026",
+      "group": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    },
+    {
+      "summary": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -763,7 +764,7 @@
     },
     {
       "summary": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -778,7 +779,7 @@
     },
     {
       "summary": "The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -792,23 +793,7 @@
       "severity": "High"
     }
   ],
-  "sector": [
-    {
-      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
-      "org": "The Hacker News",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt, described by three Zhejiang University researchers in a paper accepted to CHES 2026, the IACR's...",
-      "age": 0,
-      "date": "Jul 21, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html"
-        }
-      ]
-    }
-  ],
+  "sector": [],
   "awareness": [
     {
       "title": "Clover Health Investments Discloses Data Breach",
@@ -816,7 +801,7 @@
       "severity": "High",
       "summary": "Using social engineering, hackers compromised employee accounts with access to personal and health information. The post Clover Health Investments Discloses Data Breach appeared first on SecurityWeek.",
       "source": "SecurityWeek",
-      "age": 0,
+      "age": 1,
       "date": "Jul 21, 2026",
       "sources": [
         {
@@ -831,7 +816,7 @@
       "severity": "High",
       "summary": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer...",
       "source": "The Hacker News",
-      "age": 3,
+      "age": 4,
       "date": "Jul 20, 2026",
       "sources": [
         {
@@ -846,7 +831,7 @@
       "severity": "High",
       "summary": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
       "source": "Dark Reading",
-      "age": 3,
+      "age": 4,
       "date": "Jul 20, 2026",
       "sources": [
         {
@@ -856,17 +841,32 @@
       ]
     },
     {
-      "title": "Hugging Face warns an autonomous AI agent hacked its network",
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
+      "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
       "source": "BleepingComputer",
-      "age": 1,
+      "age": 0,
       "date": "Jul 21, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
+          "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/"
+        }
+      ]
+    },
+    {
+      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2,...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Jul 21, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
         }
       ]
     }
