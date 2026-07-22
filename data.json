@@ -1,8 +1,36 @@
 {
   "breach": [
     {
-      "summary": "European banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
+      "summary": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
       "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "org": "Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "An attacker only needed to convince the targeted user to visit a malicious website to exfiltrate WhatsApp messages and contacts. The post Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/flaw-in-adobe-extension-with-300m-installs-enabled-whatsapp-data-theft/"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "org": "Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "European banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -16,7 +44,7 @@
     },
     {
       "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -27,40 +55,60 @@
       "org": "Chick-fil-A discloses data breach after credential stuffing attacks",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Hackers exfiltrated personal, financial, and health information from the company\u2019s Oracle EBS instance in August 2025. The post Est\u00e9e Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "org": "Est\u00e9e Lauder Discloses Impact From Oracle EBS Zero-Day Hack",
-      "severity": "Critical",
-      "records": "See source"
-    },
-    {
-      "summary": "Using social engineering, hackers compromised employee accounts with access to personal and health information. The post Clover Health Investments Discloses Data Breach appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/clover-health-investments-discloses-data-breach/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "org": "Clover Health Investments Discloses Data Breach",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
+      "summary": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment. The high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "cve_id": "CVE-2026-8933",
+      "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data. The shortcoming has been codenamed HermeticReader by Guardio Labs. It's...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "cve_id": "",
+      "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+      "product": "Adobe",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's \"get_log_file\" endpoint...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "cve_id": "CVE-2026-29059",
+      "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -76,7 +124,7 @@
     },
     {
       "summary": "CVE-2026-50522 is being exploited by threat actors to steal machine keys and retain long-term access. The post Fourth SharePoint Vulnerability Exploited in Past Month\u2019s Wave of Attacks appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -92,7 +140,7 @@
     },
     {
       "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -108,7 +156,7 @@
     },
     {
       "summary": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected servers. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -121,60 +169,12 @@
       "product": "",
       "vendor": "BleepingComputer",
       "severity": "Critical"
-    },
-    {
-      "summary": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "cve_id": "",
-      "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
-      "product": "Windows",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell. \"By the early...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "cve_id": "CVE-2026-63030",
-      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The ServiceNow AI platform vulnerability tracked as CVE-2026-6875 can be exploited for remote code execution. The post Exploitation of ServiceNow Vulnerability Seen Days After Disclosure appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "cve_id": "CVE-2026-6875",
-      "title": "Exploitation of ServiceNow Vulnerability Seen Days After Disclosure",
-      "product": "",
-      "vendor": "SecurityWeek",
-      "severity": "High"
     }
   ],
   "threat": [
     {
       "summary": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint and malware-based detection entirely. The CrowdStrike Global Threat Report...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -187,7 +187,7 @@
     },
     {
       "summary": "Using AI, the startup provides adaptive prevention through environment mapping, risk analysis, and automated policy enforcement. The post Endpoint Security Firm Glow Launches With $180M in Funding at $1.2B Valuation appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -200,7 +200,7 @@
     },
     {
       "summary": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain. The package, named \"Newtonsoftt.Json.Net,\" masquerades as the Newtonsoft.Json library and is...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -213,7 +213,7 @@
     },
     {
       "summary": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more than 14 million downloads. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -223,25 +223,116 @@
       "date": "Jul 22, 2026",
       "actor": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
       "severity": "High"
-    },
-    {
-      "summary": "Part of a larger toolkit, HollowGraph uses a compromised 365 account\u2019s calendar as a two-way dead-drop. The post New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "actor": "New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Cloud storage costs tend to creep up over time, since most services charge monthly or annually for as long as you use them. FileJump's Lifetime Plan skips that model entirely, offering 2TB of cloud storage for a single payment of $59 (MSRP $467). [...]",
+      "summary": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organizations prioritize vulnerabilities affecting infrastructure, firmware, networking, and edge devices. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
+      "category": "news"
+    },
+    {
+      "summary": "The Adobe Acrobat extension for Chrome could be used to access conversations and data rendered in WhatsApp Web without any form of authentication. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
+      "category": "news"
+    },
+    {
+      "summary": "Authorities in Germany and the U.S. dismantled the central infrastructure of Kratos, a phishing-as-a-service (PhaaS) platform with global reach, and its developer was arrested in Indonesia. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "Police dismantle Kratos phishing platform, arrest developer",
+      "category": "news"
+    },
+    {
+      "summary": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic influence they have earned. According to McKinsey's State of AI...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "The Fastest Path to AI Adoption Runs Through Security",
+      "category": "news"
+    },
+    {
+      "summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week. The AI company said the models were operating with \"reduced cyber...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+      "category": "news"
+    },
+    {
+      "summary": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds. The flaw is in Microsoft's official Azure DevOps MCP server, and it works because one of its tools...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+      "category": "news"
+    },
+    {
+      "summary": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees. 404 Media reported Tuesday that a fix for the issue was deployed by Apple on July 3, 2026, after more than a year, when it was...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+      "category": "news"
+    },
+    {
+      "summary": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent. Researchers demonstrated that chain, plus six other attacks,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+      "category": "news"
+    },
+    {
+      "summary": "Cloud storage costs tend to creep up over time, since most services charge monthly or annually for as long as you use them. FileJump's Lifetime Plan skips that model entirely, offering 2TB of cloud storage for a single payment of $59 (MSRP $467). [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -254,7 +345,7 @@
     },
     {
       "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -267,7 +358,7 @@
     },
     {
       "summary": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -280,7 +371,7 @@
     },
     {
       "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversaries to weaponize Mythos findings at...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -289,110 +380,6 @@
       ],
       "date": "Jul 22, 2026",
       "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-      "category": "news"
-    },
-    {
-      "summary": "The startup will use the fresh investment to accelerate its go-to-market strategy and to expand its platform. The post StrongestLayer Raises $4.1 Million in Seed Funding Extension appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/strongestlayer-raises-4-1-million-in-seed-funding-extension/"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "StrongestLayer Raises $4.1 Million in Seed Funding Extension",
-      "category": "news"
-    },
-    {
-      "summary": "Analysis found 434 exploitable flaws in AI-generated apps, with denial-of-service, authorization and secrets exposure risks among the most common issues. The post Vibe-Coded Apps Riddled With Exploitable Security Flaws appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/vibe-coded-apps-riddled-with-exploitable-security-flaws/"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "Vibe-Coded Apps Riddled With Exploitable Security Flaws",
-      "category": "news"
-    },
-    {
-      "summary": "New executive order calls for end-to-end visibility into defense supply chains, including software dependencies, foreign ownership and cyber-related supplier risks. The post Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/trump-orders-defense-contractors-to-map-software-suppliers-across-critical-supply-chains/"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains",
-      "category": "news"
-    },
-    {
-      "summary": "The open-weight Antares models are designed to pinpoint known vulnerabilities in codebases faster and at a fraction of the cost of larger AI models. The post Cisco Launches Low-Cost AI Models for Source Code Security appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "Cisco Launches Low-Cost AI Models for Source Code Security",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI says its AI models, including GPT\u20115.6 Sol and a pre-release model, hacked into the Hugging Face artificial intelligence repository while being tested in a sandboxed testing environment. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "OpenAI says its AI models hacked Hugging Face during testing",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
-      "category": "news"
-    },
-    {
-      "summary": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it. In a joint announcement on Monday, the Frankfurt public...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html"
-        }
-      ],
-      "date": "Jul 22, 2026",
-      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
       "category": "news"
     }
   ],
@@ -617,7 +604,7 @@
   "patch": [
     {
       "summary": "Microsoft has reminded customers that it will stop shipping security updates for Exchange 2016 and 2019 through the Extended Security Update (ESU) program in October. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -631,7 +618,7 @@
     },
     {
       "summary": "Many of the vulnerabilities fixed with the July 2026 Critical Patch Update were likely discovered by AI. The post Oracle Patches Over 1,400 Vulnerabilities With Quarterly Security Updates appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -645,7 +632,7 @@
     },
     {
       "summary": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it. Intezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -659,7 +646,7 @@
     },
     {
       "summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -673,7 +660,7 @@
     },
     {
       "summary": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component. As many as nine security vulnerabilities have been patched in Zimbra 10.1.20. Topping the list is a command injection vulnerability in...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -684,26 +671,42 @@
       "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects. The post Zimbra Update Patches Critical Vulnerabilities appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "title": "Zimbra Update Patches Critical Vulnerabilities",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
     }
   ],
   "ransomware": [
     {
-      "summary": "The Anubis ransomware group claims to have stolen 1 TB of confidential data from the Coca-Cola subsidiary. The post Ransomware Group Threatening to Leak Data Stolen From Coca-Cola\u2019s Fairlife appeared first on SecurityWeek.",
+      "summary": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "group": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    },
+    {
+      "summary": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help reduce AI-enabled ransomware risk while supporting secure AI adoption. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/"
+        }
+      ],
+      "date": "Jul 22, 2026",
+      "group": "How enterprise GenAI can amplify ransomware risk \u2014 and how to contain it",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    },
+    {
+      "summary": "The Anubis ransomware group claims to have stolen 1 TB of confidential data from the Coca-Cola subsidiary. The post Ransomware Group Threatening to Leak Data Stolen From Coca-Cola\u2019s Fairlife appeared first on SecurityWeek.",
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -718,7 +721,7 @@
     },
     {
       "summary": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -733,7 +736,7 @@
     },
     {
       "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -748,7 +751,7 @@
     },
     {
       "summary": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -760,21 +763,6 @@
       "victim": "",
       "sector": "",
       "severity": "High"
-    },
-    {
-      "summary": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/"
-        }
-      ],
-      "date": "Jul 21, 2026",
-      "group": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
-      "victim": "",
-      "sector": "",
-      "severity": "Critical"
     }
   ],
   "sector": [
@@ -784,7 +772,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "Critical",
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Jul 22, 2026",
       "sources": [
         {
@@ -794,29 +782,59 @@
       ]
     },
     {
-      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
+      "title": "Police dismantle Kratos phishing platform, arrest developer",
+      "org": "BleepingComputer",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "Authorities in Germany and the U.S. dismantled the central infrastructure of Kratos, a phishing-as-a-service (PhaaS) platform with global reach, and its developer was arrested in Indonesia. [...]",
+      "age": 0,
+      "date": "Jul 22, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/"
+        }
+      ]
+    },
+    {
+      "title": "The Fastest Path to AI Adoption Runs Through Security",
       "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
-      "summary": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it. In a joint announcement on Monday, the Frankfurt public...",
-      "age": 1,
+      "summary": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic influence they have earned. According to McKinsey's State of AI...",
+      "age": 0,
       "date": "Jul 22, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html"
+          "url": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html"
         }
       ]
     }
   ],
   "awareness": [
     {
+      "title": "Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
+      "date": "Jul 22, 2026",
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/"
+        }
+      ]
+    },
+    {
       "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
       "source": "BleepingComputer",
-      "age": 1,
+      "age": 2,
       "date": "Jul 22, 2026",
       "sources": [
         {
@@ -826,17 +844,17 @@
       ]
     },
     {
-      "title": "Clover Health Investments Discloses Data Breach",
+      "title": "Police dismantle Kratos phishing platform, arrest developer",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Using social engineering, hackers compromised employee accounts with access to personal and health information. The post Clover Health Investments Discloses Data Breach appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "age": 4,
-      "date": "Jul 21, 2026",
+      "severity": "Medium",
+      "summary": "Authorities in Germany and the U.S. dismantled the central infrastructure of Kratos, a phishing-as-a-service (PhaaS) platform with global reach, and its developer was arrested in Indonesia. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Jul 22, 2026",
       "sources": [
         {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/clover-health-investments-discloses-data-breach/"
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/"
         }
       ]
     },
@@ -846,27 +864,12 @@
       "severity": "Medium",
       "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Jul 22, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/"
-        }
-      ]
-    },
-    {
-      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it. In a joint announcement on Monday, the Frankfurt public...",
-      "source": "The Hacker News",
-      "age": 1,
-      "date": "Jul 22, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html"
         }
       ]
     }
