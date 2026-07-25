@@ -1,8 +1,22 @@
 {
   "breach": [
     {
+      "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "org": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
       "summary": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -31,8 +45,24 @@
   ],
   "cve": [
     {
-      "summary": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker...",
+      "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723, the...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "cve_id": "CVE-2026-16723",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -45,44 +75,25 @@
       "product": "GitLab",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet. XBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html"
-        }
-      ],
-      "date": "Jul 24, 2026",
-      "cve_id": "",
-      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-      "product": "Microsoft",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html"
-        }
-      ],
-      "date": "Jul 24, 2026",
-      "cve_id": "",
-      "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations into...",
+      "summary": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "actor": "Malicious sites use JavaScript to build malware in browser memory",
+      "severity": "High"
+    },
+    {
+      "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations into...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -95,7 +106,7 @@
     },
     {
       "summary": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -108,7 +119,7 @@
     },
     {
       "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware. \"BlueNoroff has operationalised...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -118,25 +129,116 @@
       "date": "Jul 24, 2026",
       "actor": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
       "severity": "High"
-    },
-    {
-      "summary": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings. The malware families in question are: TinyEgg,...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
-        }
-      ],
-      "date": "Jul 24, 2026",
-      "actor": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
+      "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization. The vulnerability has been codenamed...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "category": "news"
+    },
+    {
+      "summary": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
+      "category": "news"
+    },
+    {
+      "summary": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax collection. The agent then worked through the ministry's network on its own,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+      "category": "news"
+    },
+    {
+      "summary": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code. Every version before 4.14.0 is affected. NodeBB has fixed them all, and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+      "category": "news"
+    },
+    {
+      "summary": "An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and Latin America with a previously undocumented Windows loader called TriBack Loader. Group-IB found the server in...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+      "category": "news"
+    },
+    {
+      "summary": "Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instead of stealing a real identity, the attacker manufactures a new one, frankensteining together several real data points with fabricated...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
+      "category": "news"
+    },
+    {
+      "summary": "Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video. The selfie for sign-in, per the tech giant, is another option on top of existing recovery methods to log in to an account, including an email address or a phone number. The idea is to use a video...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
+      "category": "news"
+    },
+    {
+      "summary": "Industry professionals debate whether it represents a lab containment failure or an unprecedented agentic capability milestone. The post Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/"
+        }
+      ],
+      "date": "Jul 25, 2026",
+      "title": "Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday",
+      "category": "news"
+    },
+    {
+      "summary": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -149,7 +251,7 @@
     },
     {
       "summary": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -162,7 +264,7 @@
     },
     {
       "summary": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Microsoft 365 services. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -175,7 +277,7 @@
     },
     {
       "summary": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains how pre-fetch verification and governed dependency management can help stop these attacks before malicious code enters...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -184,110 +286,6 @@
       ],
       "date": "Jul 25, 2026",
       "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-      "category": "news"
-    },
-    {
-      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost. Because Domain Controller accounts carry directory replication rights, the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-      "category": "news"
-    },
-    {
-      "summary": "Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at least half at every severity level. Critical findings will drop from $20,000-$30,000+ to a fixed $10,000, while its permanent invite-only VIP tier will pay $30,000 or more. Reports filed before that date, including those already in GitHub's...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
-      "category": "news"
-    },
-    {
-      "summary": "A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations. The post Rockwell Patches Code Execution Flaws in Arena Simulation Software appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "Rockwell Patches Code Execution Flaws in Arena Simulation Software",
-      "category": "news"
-    },
-    {
-      "summary": "The company has raised a total of $49 million in funding, including from Battery Ventures, Accel and Foundation Capital. The post AegisAI Raises $36 Million for AI-Powered Email Security appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "AegisAI Raises $36 Million for AI-Powered Email Security",
-      "category": "news"
-    },
-    {
-      "summary": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
-      "category": "news"
-    },
-    {
-      "summary": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "Man gets six years for hacking 750 women's Snapchat accounts",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft is impacted by a massive outage affecting Teams and Microsoft 365 services, primarily affecting users in North America. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anywhere on the Mac. Accomplish AI, which shared details of the vulnerability...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
-        }
-      ],
-      "date": "Jul 25, 2026",
-      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
       "category": "news"
     }
   ],
@@ -513,7 +511,7 @@
   "ransomware": [
     {
       "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. \"Attackers chain a pre-authentication information disclosure in the FlexPLM...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -528,7 +526,7 @@
     },
     {
       "summary": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity company PRODAFT is tracking the centrally administered RaaS operation...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -543,7 +541,7 @@
     },
     {
       "summary": "Noteworthy stories that might have slipped under the radar: Siemens ROX II industrial switch vulnerabilities, Russian Zimbra webmail espionage campaign, Stadler Rail ransomware extortion attempt. The post In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws appeared first...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -557,15 +555,46 @@
       "severity": "High"
     }
   ],
-  "sector": [],
+  "sector": [
+    {
+      "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and Latin America with a previously undocumented Windows loader called TriBack Loader. Group-IB found the server in...",
+      "age": 0,
+      "date": "Jul 25, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html"
+        }
+      ]
+    }
+  ],
   "awareness": [
+    {
+      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Jul 25, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
+        }
+      ]
+    },
     {
       "title": "Chick-fil-A data breach affects more than 13,000 customers",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
       "source": "BleepingComputer",
-      "age": 3,
+      "age": 4,
       "date": "Jul 24, 2026",
       "sources": [
         {
@@ -580,7 +609,7 @@
       "severity": "High",
       "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations into...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Jul 25, 2026",
       "sources": [
         {
@@ -595,7 +624,7 @@
       "severity": "High",
       "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware. \"BlueNoroff has operationalised...",
       "source": "The Hacker News",
-      "age": 3,
+      "age": 4,
       "date": "Jul 24, 2026",
       "sources": [
         {
@@ -605,17 +634,32 @@
       ]
     },
     {
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost. Because Domain Controller accounts carry directory replication rights, the...",
+      "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization. The vulnerability has been codenamed...",
       "source": "The Hacker News",
       "age": 0,
       "date": "Jul 25, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html"
+          "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
+        }
+      ]
+    },
+    {
+      "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instead of stealing a real identity, the attacker manufactures a new one, frankensteining together several real data points with fabricated...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Jul 25, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html"
         }
       ]
     }
