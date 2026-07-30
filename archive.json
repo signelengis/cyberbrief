@@ -1893,6 +1893,54 @@
       "product": "Linux",
       "vendor": "The Hacker News",
       "severity": "High"
+    },
+    {
+      "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
+      "age": 5,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "",
+      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+      "product": "",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "",
+      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "cve_id": "CVE-2026-53921",
+      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
     }
   ],
   "threat": [
@@ -3052,6 +3100,32 @@
       ],
       "date": "Jul 28, 2026",
       "actor": "Google Adopts New Threat Actor Naming System",
+      "severity": "High"
+    },
+    {
+      "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "actor": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
+      "age": 5,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates"
+        }
+      ],
+      "date": "Jul 28, 2026",
+      "actor": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
       "severity": "High"
     }
   ],

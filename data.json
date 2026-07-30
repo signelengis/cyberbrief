@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -17,8 +17,40 @@
   ],
   "cve": [
     {
-      "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as...",
+      "summary": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "cve_id": "",
+      "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+      "product": "Exchange",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "cve_id": "CVE-2026-20316",
+      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+      "product": "Cisco",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -34,7 +66,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution. The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -50,7 +82,7 @@
     },
     {
       "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser. Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -66,7 +98,7 @@
     },
     {
       "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -82,7 +114,7 @@
     },
     {
       "summary": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given. The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -98,7 +130,7 @@
     },
     {
       "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -111,60 +143,25 @@
       "product": "",
       "vendor": "BleepingComputer",
       "severity": "Critical"
-    },
-    {
-      "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "",
-      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-      "product": "",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "",
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "cve_id": "CVE-2026-53921",
-      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone...",
+      "summary": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "actor": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -177,7 +174,7 @@
     },
     {
       "summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers. They linked the framework to a fake \"\u516c\u5b89\u4e00\u7f51\u901a\u529e\" Public Security service...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -190,7 +187,7 @@
     },
     {
       "summary": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773.beta.0 @joyfill/components@4.0.0-rc24-2773-beta.4 The two...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -200,38 +197,116 @@
       "date": "Jul 29, 2026",
       "actor": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
       "severity": "High"
-    },
-    {
-      "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "actor": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-      "severity": "High"
-    },
-    {
-      "summary": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates"
-        }
-      ],
-      "date": "Jul 28, 2026",
-      "actor": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and tools that rely on its API. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Anthropic confirms Claude is down worldwide",
+      "category": "news"
+    },
+    {
+      "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+      "category": "news"
+    },
+    {
+      "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines are collapsing....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
+      "category": "news"
+    },
+    {
+      "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack. According to The State of Incident Response Readiness 2026, based on a survey...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+      "category": "news"
+    },
+    {
+      "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law. The principal security agency said the instant messaging platform...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
+      "category": "news"
+    },
+    {
+      "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+      "category": "news"
+    },
+    {
+      "summary": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents. The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+      "category": "news"
+    },
+    {
+      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -244,7 +319,7 @@
     },
     {
       "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -257,7 +332,7 @@
     },
     {
       "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -270,7 +345,7 @@
     },
     {
       "summary": "\u200b\u200bMicrosoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -280,334 +355,13 @@
       "date": "Jul 29, 2026",
       "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
       "category": "news"
-    },
-    {
-      "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-      "category": "news"
-    },
-    {
-      "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-      "category": "news"
-    },
-    {
-      "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
-      "category": "news"
-    },
-    {
-      "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade \"A\" rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "These near-mint ASUS Chromebook refurbs are only $145",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "CISA shares advice on isolating vital systems during cyberattacks",
-      "category": "news"
-    },
-    {
-      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-      "category": "news"
-    },
-    {
-      "summary": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-      "category": "news"
     }
   ],
-  "kev": [
-    {
-      "cve_id": "CVE-2025-68686",
-      "product": "FortiOS",
-      "vendor": "Fortinet",
-      "severity": "Critical",
-      "date_added": "2026-07-27",
-      "due_date": "Aug 10, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-exploit cases, via crafted HTTP requests. An attacker would need first to have compromised the product via another vulnerability, at filesystem level.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-16812",
-      "product": "VeloCloud Orchestrator",
-      "vendor": "Arista",
-      "severity": "Critical",
-      "date_added": "2026-07-27",
-      "due_date": "Jul 30, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-16232",
-      "product": "SmartConsole",
-      "vendor": "Check Point",
-      "severity": "Critical",
-      "date_added": "2026-07-22",
-      "due_date": "Jul 25, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-50522",
-      "product": "SharePoint",
-      "vendor": "Microsoft",
-      "severity": "Critical",
-      "date_added": "2026-07-22",
-      "due_date": "Jul 25, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-60137",
-      "product": "Core",
-      "vendor": "WordPress",
-      "severity": "Critical",
-      "date_added": "2026-07-21",
-      "due_date": "Aug 04, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-63030",
-      "product": "Core",
-      "vendor": "WordPress",
-      "severity": "Critical",
-      "date_added": "2026-07-21",
-      "due_date": "Jul 24, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-0770",
-      "product": "Langflow",
-      "vendor": "Langflow",
-      "severity": "Critical",
-      "date_added": "2026-07-21",
-      "due_date": "Jul 24, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2021-27137",
-      "product": "DD-WRT",
-      "vendor": "DD-WRT",
-      "severity": "Critical",
-      "date_added": "2026-07-21",
-      "due_date": "Jul 24, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-58644",
-      "product": "SharePoint",
-      "vendor": "Microsoft",
-      "severity": "Critical",
-      "date_added": "2026-07-16",
-      "due_date": "Jul 19, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-25089",
-      "product": "FortiSandbox",
-      "vendor": "Fortinet",
-      "severity": "Critical",
-      "date_added": "2026-07-16",
-      "due_date": "Jul 19, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-39808",
-      "product": "FortiSandbox",
-      "vendor": "Fortinet",
-      "severity": "Critical",
-      "date_added": "2026-07-16",
-      "due_date": "Jul 19, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-46817",
-      "product": "E-Business Suite",
-      "vendor": "Oracle",
-      "severity": "Critical",
-      "date_added": "2026-07-15",
-      "due_date": "Jul 18, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Oracle Payments.",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817"
-        }
-      ]
-    }
-  ],
+  "kev": [],
   "patch": [
     {
       "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -621,7 +375,7 @@
     },
     {
       "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -642,7 +396,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Jul 29, 2026",
       "sources": [
         {
@@ -652,12 +406,42 @@
       ]
     },
     {
+      "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack. According to The State of Incident Response Readiness 2026, based on a survey...",
+      "age": 0,
+      "date": "Jul 30, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html"
+        }
+      ]
+    },
+    {
+      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law. The principal security agency said the instant messaging platform...",
+      "age": 0,
+      "date": "Jul 30, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html"
+        }
+      ]
+    },
+    {
       "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
       "org": "BleepingComputer",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
-      "age": 0,
+      "age": 1,
       "date": "Jul 29, 2026",
       "sources": [
         {
@@ -665,46 +449,31 @@
           "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/"
         }
       ]
-    },
-    {
-      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-      "org": "The Hacker News",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated...",
-      "age": 0,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html"
-        }
-      ]
-    },
-    {
-      "title": "CISA shares advice on isolating vital systems during cyberattacks",
-      "org": "BleepingComputer",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
-      "age": 1,
-      "date": "Jul 29, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/"
-        }
-      ]
     }
   ],
   "awareness": [
+    {
+      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+      "topic": "AWARENESS",
+      "severity": "Critical",
+      "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Jul 30, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/"
+        }
+      ]
+    },
     {
       "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Jul 29, 2026",
       "sources": [
         {
@@ -714,32 +483,62 @@
       ]
     },
     {
-      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
       "source": "BleepingComputer",
       "age": 0,
-      "date": "Jul 29, 2026",
+      "date": "Jul 30, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
+          "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/"
         }
       ]
     },
     {
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
+      "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Jul 30, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
+        }
+      ]
+    },
+    {
+      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Jul 30, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
       "source": "BleepingComputer",
       "age": 1,
       "date": "Jul 29, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/"
+          "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
         }
       ]
     }
