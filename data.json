@@ -1,8 +1,36 @@
 {
   "breach": [
     {
-      "summary": "Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek.",
+      "summary": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "org": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "org": "Analog Devices discloses data breach, says operations unaffected",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek.",
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -16,7 +44,7 @@
     },
     {
       "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -32,7 +60,7 @@
   "cve": [
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation. The vulnerability, assigned...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -48,7 +76,7 @@
     },
     {
       "summary": "The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices. The post Cisco Secure FMC Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -64,7 +92,7 @@
     },
     {
       "summary": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -80,7 +108,7 @@
     },
     {
       "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -96,7 +124,7 @@
     },
     {
       "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -112,7 +140,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution. The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -125,60 +153,25 @@
       "product": "",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser. Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "cve_id": "CVE-2026-10702",
-      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-      "product": "Firefox",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "cve_id": "CVE-2026-16232",
-      "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given. The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "cve_id": "",
-      "title": "JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack",
-      "product": "",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE backdoors. A compromised page could...",
+      "summary": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable defenses, and reshape compromised systems, and why defenders must investigate the original entry point rather than simply remove the malware. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "actor": "After the Break-In: What Attackers Do Once They're Already Inside",
+      "severity": "High"
+    },
+    {
+      "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE backdoors. A compromised page could...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -191,7 +184,7 @@
     },
     {
       "summary": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent remote access. \"In this campaign,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -204,7 +197,7 @@
     },
     {
       "summary": "Researchers warn that AI could turn dangling DNS takeovers into a nation-state weapon capable of disrupting governments, banks and global supply chains. The post \u2018DangleGeddon\u2019: AI Could Weaponize Forgotten DNS Records at Global Scale appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -217,7 +210,7 @@
     },
     {
       "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -230,7 +223,7 @@
     },
     {
       "summary": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -243,7 +236,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -257,8 +250,112 @@
   ],
   "news": [
     {
-      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+      "category": "news"
+    },
+    {
+      "summary": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two most recent releases as it expands its use of AI. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
+      "category": "news"
+    },
+    {
+      "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and tools that rely on its API. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Anthropic confirms Claude is down worldwide",
+      "category": "news"
+    },
+    {
+      "summary": "A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+      "category": "news"
+    },
+    {
+      "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+      "category": "news"
+    },
+    {
+      "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US. Previously authorized models can still...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
+      "category": "news"
+    },
+    {
+      "summary": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea\u2019s Sapphire Sleet",
+      "category": "news"
+    },
+    {
+      "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+      "category": "news"
+    },
+    {
+      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -271,7 +368,7 @@
     },
     {
       "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -284,7 +381,7 @@
     },
     {
       "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -297,7 +394,7 @@
     },
     {
       "summary": "\u200b\u200bMicrosoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -306,110 +403,6 @@
       ],
       "date": "Jul 30, 2026",
       "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
-      "category": "news"
-    },
-    {
-      "summary": "Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. H\u00e5kon M\u00e5l\u00f8y disclosed the technique on July 28, 144 days after reporting it to Microsoft. In his proof of concept, the internally generated file triggered the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
-      "category": "news"
-    },
-    {
-      "summary": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to applications, applications exchange...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "The Network Has Become the Control Plane for AI Security",
-      "category": "news"
-    },
-    {
-      "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law. The principal security agency said the instant messaging platform...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-      "category": "news"
-    },
-    {
-      "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade \"A\" rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "These near-mint ASUS Chromebook refurbs are only $145",
-      "category": "news"
-    },
-    {
-      "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "CISA shares advice on isolating vital systems during cyberattacks",
-      "category": "news"
-    },
-    {
-      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/"
-        }
-      ],
-      "date": "Jul 30, 2026",
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
       "category": "news"
     }
   ],
@@ -633,8 +626,22 @@
   ],
   "patch": [
     {
+      "summary": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execute arbitrary code, or escape from a virtual machine to the host. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
       "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -645,23 +652,25 @@
       "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html"
-        }
-      ],
-      "date": "Jul 29, 2026",
-      "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
-  "ransomware": [],
+  "ransomware": [
+    {
+      "summary": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/"
+        }
+      ],
+      "date": "Jul 30, 2026",
+      "group": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    }
+  ],
   "sector": [
     {
       "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
@@ -669,7 +678,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
-      "age": 3,
+      "age": 4,
       "date": "Jul 29, 2026",
       "sources": [
         {
@@ -684,7 +693,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "Critical",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation. The vulnerability, assigned...",
-      "age": 1,
+      "age": 2,
       "date": "Jul 30, 2026",
       "sources": [
         {
@@ -699,7 +708,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Researchers warn that AI could turn dangling DNS takeovers into a nation-state weapon capable of disrupting governments, banks and global supply chains. The post \u2018DangleGeddon\u2019: AI Could Weaponize Forgotten DNS Records at Global Scale appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "date": "Jul 30, 2026",
       "sources": [
         {
@@ -714,7 +723,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and...",
-      "age": 1,
+      "age": 2,
       "date": "Jul 30, 2026",
       "sources": [
         {
@@ -724,47 +733,47 @@
       ]
     },
     {
-      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-      "org": "BleepingComputer",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
-      "age": 0,
-      "date": "Jul 30, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/"
-        }
-      ]
-    },
-    {
-      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
+      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
       "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
-      "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law. The principal security agency said the instant messaging platform...",
+      "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US. Previously authorized models can still...",
       "age": 0,
       "date": "Jul 30, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html"
+          "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html"
         }
       ]
     },
     {
-      "title": "CISA shares advice on isolating vital systems during cyberattacks",
+      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated...",
+      "age": 0,
+      "date": "Jul 30, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html"
+        }
+      ]
+    },
+    {
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
       "org": "BleepingComputer",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
-      "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
+      "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
       "age": 1,
       "date": "Jul 30, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/"
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/"
         }
       ]
     }
@@ -776,7 +785,7 @@
       "severity": "Critical",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation. The vulnerability, assigned...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Jul 30, 2026",
       "sources": [
         {
@@ -791,7 +800,7 @@
       "severity": "Critical",
       "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
       "source": "BleepingComputer",
-      "age": 2,
+      "age": 3,
       "date": "Jul 30, 2026",
       "sources": [
         {
@@ -806,7 +815,7 @@
       "severity": "High",
       "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Jul 30, 2026",
       "sources": [
         {
@@ -821,7 +830,7 @@
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone...",
       "source": "The Hacker News",
-      "age": 3,
+      "age": 4,
       "date": "Jul 29, 2026",
       "sources": [
         {
@@ -831,47 +840,47 @@
       ]
     },
     {
-      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
       "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "severity": "High",
+      "summary": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...]",
       "source": "BleepingComputer",
       "age": 0,
       "date": "Jul 30, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/"
         }
       ]
     },
     {
-      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which...",
+      "summary": "A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been...",
       "source": "The Hacker News",
       "age": 0,
       "date": "Jul 30, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
+          "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
         }
       ]
     },
     {
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
+      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
       "source": "BleepingComputer",
       "age": 1,
       "date": "Jul 30, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/"
+          "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
         }
       ]
     }
