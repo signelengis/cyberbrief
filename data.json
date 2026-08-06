@@ -1,8 +1,22 @@
 {
   "breach": [
     {
+      "summary": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "org": "Meta AI model hacked a company during misconfigured cyber test",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
       "summary": "CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail \u2014 and some vendors aren't prepared.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -13,54 +27,28 @@
       "org": "CSS: The Hidden Threat Lurking in Your Inbox",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed. The \"evil twin\" extensions were uploaded to the repository between July 26 and August 1, 2026,...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "org": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "Hackers stole personal information, medical records, and financial information from the organization\u2019s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "org": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "org": "Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links. We observed production websites embedding hidden prompt injection payloads...",
+      "summary": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "cve_id": "CVE-2026-64561",
+      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+      "product": "Linux",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links. We observed production websites embedding hidden prompt injection payloads...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -76,7 +64,7 @@
     },
     {
       "summary": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -92,7 +80,7 @@
     },
     {
       "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -108,7 +96,7 @@
     },
     {
       "summary": "Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution. The post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -124,7 +112,7 @@
     },
     {
       "summary": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -137,76 +125,77 @@
       "product": "Oracle",
       "vendor": "BleepingComputer",
       "severity": "High"
-    },
-    {
-      "summary": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds. The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "cve_id": "CVE-2026-64531",
-      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
-      "product": "Linux",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "cve_id": "",
-      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "cve_id": "CVE-2026-9198",
-      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "cve_id": "",
-      "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
-      "product": "",
-      "vendor": "SecurityWeek",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are...",
+      "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "actor": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "severity": "High"
+    },
+    {
+      "summary": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "actor": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "severity": "High"
+    },
+    {
+      "summary": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as support software, and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "actor": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+      "severity": "High"
+    },
+    {
+      "summary": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "actor": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
+      "severity": "High"
+    },
+    {
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "actor": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -219,7 +208,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -232,7 +221,7 @@
     },
     {
       "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -245,7 +234,7 @@
     },
     {
       "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote access software. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -258,7 +247,7 @@
     },
     {
       "summary": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -271,7 +260,7 @@
     },
     {
       "summary": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks. The server-side gate hides the malicious page from crawlers and...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -284,7 +273,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer. The new dead drop resolver approach, observed in two trojanized npm packages...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -294,38 +283,116 @@
       "date": "Aug 05, 2026",
       "actor": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
       "severity": "High"
-    },
-    {
-      "summary": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute. When a bystander publicly warned that the code was malicious, the agent denied it, force-pushed a rewritten branch history...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "actor": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
-      "severity": "High"
-    },
-    {
-      "summary": "Palo Alto Networks researchers have demonstrated attacks against Google\u2019s synced passkey implementation. The post New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts appeared first on SecurityWeek.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/"
-        }
-      ],
-      "date": "Aug 05, 2026",
-      "actor": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+      "summary": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don\u2019t pay for it",
+      "category": "news"
+    },
+    {
+      "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "category": "news"
+    },
+    {
+      "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+      "category": "news"
+    },
+    {
+      "summary": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+      "category": "news"
+    },
+    {
+      "summary": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+      "category": "news"
+    },
+    {
+      "summary": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+      "category": "news"
+    },
+    {
+      "summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers Dani\u00ebl Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+      "category": "news"
+    },
+    {
+      "summary": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html"
+        }
+      ],
+      "date": "Aug 06, 2026",
+      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -338,7 +405,7 @@
     },
     {
       "summary": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based detection offers a more durable defense than relying on domains, signatures, and other known-bad indicators. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -351,7 +418,7 @@
     },
     {
       "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -364,7 +431,7 @@
     },
     {
       "summary": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -373,110 +440,6 @@
       ],
       "date": "Aug 06, 2026",
       "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-      "category": "news"
-    },
-    {
-      "summary": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect's on-chain...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "category": "news"
-    },
-    {
-      "summary": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of ChatGPT accounts likely originating...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-      "category": "news"
-    },
-    {
-      "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "77 Open VSX extensions found harvesting developer info",
-      "category": "news"
-    },
-    {
-      "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents within their intended boundaries. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
-      "category": "news"
-    },
-    {
-      "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms. One such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html"
-        }
-      ],
-      "date": "Aug 06, 2026",
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
       "category": "news"
     }
   ],
@@ -525,7 +488,7 @@
       "date_added": "2026-08-04",
       "due_date": "Aug 07, 2026",
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor.",
+      "summary": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE\u20112025\u201124813.",
       "age": 0,
       "date": "Aug 06, 2026",
       "sources": [
@@ -701,7 +664,7 @@
   "patch": [
     {
       "summary": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -717,7 +680,7 @@
   "ransomware": [
     {
       "summary": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -732,7 +695,7 @@
     },
     {
       "summary": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK\u2019s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -747,7 +710,7 @@
     },
     {
       "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -768,7 +731,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted...",
-      "age": 0,
+      "age": 1,
       "date": "Aug 06, 2026",
       "sources": [
         {
@@ -778,42 +741,12 @@
       ]
     },
     {
-      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-      "org": "The Hacker News",
-      "sector": "PUBLIC SECTOR",
-      "severity": "Critical",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection...",
-      "age": 4,
-      "date": "Aug 05, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
-        }
-      ]
-    },
-    {
-      "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
-      "org": "SecurityWeek",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek.",
-      "age": 4,
-      "date": "Aug 05, 2026",
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/"
-        }
-      ]
-    },
-    {
       "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
       "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New...",
-      "age": 0,
+      "age": 1,
       "date": "Aug 06, 2026",
       "sources": [
         {
@@ -823,12 +756,27 @@
       ]
     },
     {
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "org": "BleepingComputer",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+      "age": 0,
+      "date": "Aug 06, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/"
+        }
+      ]
+    },
+    {
       "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
       "org": "BleepingComputer",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Aug 06, 2026",
       "sources": [
         {
@@ -836,61 +784,16 @@
           "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/"
         }
       ]
-    },
-    {
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "org": "The Hacker News",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million...",
-      "age": 1,
-      "date": "Aug 06, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
-        }
-      ]
     }
   ],
   "awareness": [
-    {
-      "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed. The \"evil twin\" extensions were uploaded to the repository between July 26 and August 1, 2026,...",
-      "source": "The Hacker News",
-      "age": 4,
-      "date": "Aug 05, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html"
-        }
-      ]
-    },
-    {
-      "title": "Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "age": 4,
-      "date": "Aug 05, 2026",
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/"
-        }
-      ]
-    },
     {
       "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
       "topic": "AWARENESS",
       "severity": "Critical",
       "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links. We observed production websites embedding hidden prompt injection payloads...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Aug 06, 2026",
       "sources": [
         {
@@ -900,12 +803,42 @@
       ]
     },
     {
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Aug 06, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/"
+        }
+      ]
+    },
+    {
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also...",
+      "source": "Krebs on Security",
+      "age": 0,
+      "date": "Aug 06, 2026",
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
+        }
+      ]
+    },
+    {
       "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise...",
       "source": "The Hacker News",
-      "age": 2,
+      "age": 3,
       "date": "Aug 06, 2026",
       "sources": [
         {
@@ -920,7 +853,7 @@
       "severity": "High",
       "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
       "source": "Dark Reading",
-      "age": 2,
+      "age": 3,
       "date": "Aug 06, 2026",
       "sources": [
         {
@@ -935,7 +868,7 @@
       "severity": "High",
       "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote access software. [...]",
       "source": "BleepingComputer",
-      "age": 3,
+      "age": 4,
       "date": "Aug 05, 2026",
       "sources": [
         {
@@ -945,17 +878,17 @@
       ]
     },
     {
-      "title": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
+      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Palo Alto Networks researchers have demonstrated attacks against Google\u2019s synced passkey implementation. The post New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "age": 4,
-      "date": "Aug 05, 2026",
+      "severity": "Medium",
+      "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Aug 06, 2026",
       "sources": [
         {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/"
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/"
         }
       ]
     },
@@ -965,7 +898,7 @@
       "severity": "Medium",
       "summary": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based detection offers a more durable defense than relying on domains, signatures, and other known-bad indicators. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Aug 06, 2026",
       "sources": [
         {
@@ -980,57 +913,12 @@
       "severity": "Medium",
       "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Aug 06, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of ChatGPT accounts likely originating...",
-      "source": "The Hacker News",
-      "age": 0,
-      "date": "Aug 06, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html"
-        }
-      ]
-    },
-    {
-      "title": "77 Open VSX extensions found harvesting developer info",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Aug 06, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/"
-        }
-      ]
-    },
-    {
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million...",
-      "source": "The Hacker News",
-      "age": 1,
-      "date": "Aug 06, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
         }
       ]
     }
