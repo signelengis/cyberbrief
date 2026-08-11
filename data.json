@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them. The post Corporate Data Stolen in Levi Strauss Cyberattack appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -46,7 +46,7 @@
   "cve": [
     {
       "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -64,7 +64,7 @@
   "threat": [
     {
       "summary": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -77,7 +77,7 @@
     },
     {
       "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -90,7 +90,7 @@
     },
     {
       "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -103,7 +103,7 @@
     },
     {
       "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -116,7 +116,7 @@
     },
     {
       "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -129,7 +129,7 @@
     },
     {
       "summary": "Sophisticated iPhone exploit chains previously limited to nation-states are spreading far and wide to organized cybercrime groups.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -142,7 +142,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -156,8 +156,112 @@
   ],
   "news": [
     {
-      "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
+      "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "LexisNexis shuts down services after suspicious activity on servers",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. \"Unlike traditional software supply chain attacks, zero source code files were modified within...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+      "category": "news"
+    },
+    {
+      "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed. PromptArmor, an AI...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "category": "news"
+    },
+    {
+      "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "category": "news"
+    },
+    {
+      "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "category": "news"
+    },
+    {
+      "summary": "The previous GPG signing subkey was inadvertently added to a GitHub repository and Mozilla decided to revoke it. The post Mozilla Issues New Firefox GPG Key Following Exposure appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "Mozilla Issues New Firefox GPG Key Following Exposure",
+      "category": "news"
+    },
+    {
+      "summary": "The current GPT-5.6-Sol has been assigned a \u2018high\u2019 cybersecurity threshold, but Astra could reach the maximum \u2018critical\u2019 threshold. The post OpenAI\u2019s Upcoming Astra Model Raises Autonomous Cyberattack Concerns appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/"
+        }
+      ],
+      "date": "Aug 11, 2026",
+      "title": "OpenAI\u2019s Upcoming Astra Model Raises Autonomous Cyberattack Concerns",
+      "category": "news"
+    },
+    {
+      "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -170,7 +274,7 @@
     },
     {
       "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's implementing security...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -183,7 +287,7 @@
     },
     {
       "summary": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up \u2014 take what you need, pay me back whenever, no need to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -196,7 +300,7 @@
     },
     {
       "summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -205,110 +309,6 @@
       ],
       "date": "Aug 11, 2026",
       "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-      "category": "news"
-    },
-    {
-      "summary": "The startup analyzes subtle telemetry signals to detect attacks that traditional security tools cannot see inside accelerator-powered AI infrastructure. The post Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds",
-      "category": "news"
-    },
-    {
-      "summary": "Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC",
-      "category": "news"
-    },
-    {
-      "summary": "An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word. The post \u2018Ghostjacking\u2019 Attack Uses Poisoned Logs to Turn AI Agents Bad appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "\u2018Ghostjacking\u2019 Attack Uses Poisoned Logs to Turn AI Agents Bad",
-      "category": "news"
-    },
-    {
-      "summary": "Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states. The post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/"
-        }
-      ],
-      "date": "Aug 11, 2026",
-      "title": "New Jersey, Alabama Join States Targeted in Water Cyberattacks",
-      "category": "news"
-    },
-    {
-      "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "category": "news"
-    },
-    {
-      "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "Member of The Com sent to prison for blackmail, sextortion",
-      "category": "news"
-    },
-    {
-      "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "North Carolina Ports confirms cyberattack disrupting operations",
-      "category": "news"
-    },
-    {
-      "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed. When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html"
-        }
-      ],
-      "date": "Aug 10, 2026",
-      "title": "Shipping 10\u201350\u00d7 More Code? Watch This Webinar on Securing AI-Speed Development",
       "category": "news"
     }
   ],
@@ -533,7 +533,7 @@
   "patch": [
     {
       "summary": "The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances. The post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -549,7 +549,7 @@
   "ransomware": [
     {
       "summary": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -564,7 +564,7 @@
     },
     {
       "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -579,7 +579,7 @@
     },
     {
       "summary": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said....",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -600,12 +600,27 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
-      "age": 1,
+      "age": 2,
       "date": "Aug 10, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/"
+        }
+      ]
+    },
+    {
+      "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+      "org": "BleepingComputer",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
+      "age": 0,
+      "date": "Aug 11, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
         }
       ]
     }
@@ -617,7 +632,7 @@
       "severity": "High",
       "summary": "Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them. The post Corporate Data Stolen in Levi Strauss Cyberattack appeared first on SecurityWeek.",
       "source": "SecurityWeek",
-      "age": 2,
+      "age": 3,
       "date": "Aug 10, 2026",
       "sources": [
         {
@@ -632,7 +647,7 @@
       "severity": "High",
       "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Aug 10, 2026",
       "sources": [
         {
@@ -647,7 +662,7 @@
       "severity": "High",
       "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Aug 10, 2026",
       "sources": [
         {
@@ -662,27 +677,12 @@
       "severity": "High",
       "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although...",
       "source": "The Hacker News",
-      "age": 2,
+      "age": 3,
       "date": "Aug 10, 2026",
       "sources": [
         {
           "label": "The Hacker News",
           "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
-        }
-      ]
-    },
-    {
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Aug 10, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/"
         }
       ]
     }
