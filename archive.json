@@ -2939,6 +2939,102 @@
       "product": "Cisco",
       "vendor": "SecurityWeek",
       "severity": "Critical"
+    },
+    {
+      "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) -...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "CVE-2026-48362",
+      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+      "product": "Adobe",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "CVE-2026-59310",
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "product": "VMware",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "CVE-2026-58231",
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "product": "SAP",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "CVE-2026-50656",
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "product": "Microsoft",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "CVE-2026-20349",
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "product": "Cisco",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The bug allowed attackers to gain full control of the victims\u2019 systems and deploy the ForestTiger backdoor. The post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek.",
+      "age": 5,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "cve_id": "",
+      "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
+      "product": "Windows",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
     }
   ],
   "threat": [
@@ -4983,6 +5079,32 @@
       "date": "Aug 12, 2026",
       "actor": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
       "severity": "Critical"
+    },
+    {
+      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it obtained, built...",
+      "age": 5,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "actor": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "severity": "High"
+    },
+    {
+      "summary": "LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users. The post Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack appeared first on SecurityWeek.",
+      "age": 5,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "actor": "Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack",
+      "severity": "High"
     }
   ],
   "news": [
@@ -6149,6 +6271,76 @@
       "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
       "vendor": "Dark Reading",
       "severity": "High"
+    },
+    {
+      "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+      "age": 5,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
+      "age": 5,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Microsoft releases Windows 10 KB5120249 extended security update",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Intel has informed customers about several high-severity vulnerabilities that can lead to privilege escalation and even code execution. The post Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined appeared first on SecurityWeek.",
+      "age": 5,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/chipmaker-patch-tuesday-intel-amd-fix-over-80-vulnerabilities-combined/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "CISA has also published several advisories describing vulnerabilities in ICS and other OT products. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact appeared first on SecurityWeek.",
+      "age": 5,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data. The post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.",
+      "age": 5,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/"
+        }
+      ],
+      "date": "Aug 12, 2026",
+      "title": "SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
     }
   ],
   "ransomware": [
