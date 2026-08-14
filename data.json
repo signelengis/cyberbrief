@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -13,40 +13,28 @@
       "org": "Trezor discloses data breach affecting nearly 14,000 customers",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "org": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The \"City-Forum\" campaign has been active since at least March 2025 and has targeted organizations across multiple sectors with custom tooling.",
-      "age": 4,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "org": "Long-running Data Theft Campaign Targeting Salesforce, ServiceNow",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
+      "summary": "The security defect is described as an SQL injection that could allow attackers to achieve remote code execution. The post Hackers Exploiting Unpatched GeoServer Zero-Day appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "cve_id": "",
+      "title": "Hackers Exploiting Unpatched GeoServer Zero-Day",
+      "product": "",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
       "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -62,7 +50,7 @@
     },
     {
       "summary": "The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches. The post Adobe Commerce Bug Targeted Immediately After Disclosure appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -78,7 +66,7 @@
     },
     {
       "summary": "Attackers with Author-level user or higher permissions could exploit the flaw via malicious Postscript files. The post WordPress 7.0.4 Patches Remote Code Execution Vulnerability appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -94,7 +82,7 @@
     },
     {
       "summary": "Tracked as CVE-2026\u201359310, the directory traversal bug allows remote attackers to execute arbitrary code. The post Critical VMware vCenter Vulnerability in Attackers\u2019 Crosshairs appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -110,7 +98,7 @@
     },
     {
       "summary": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -123,28 +111,38 @@
       "product": "",
       "vendor": "Dark Reading",
       "severity": "High"
-    },
-    {
-      "summary": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "cve_id": "CVE-2026-71362",
-      "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
-      "product": "Adobe",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Exploitation against CVE-2026\u201359310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
+      "summary": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "actor": "Apple sends new \u2018Threat Notification\u2019 alerts over mercenary spyware attacks",
+      "severity": "High"
+    },
+    {
+      "summary": "The Rust-based macOS infostealer harvests users\u2019 passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "actor": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
+      "severity": "High"
+    },
+    {
+      "summary": "Exploitation against CVE-2026\u201359310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -157,7 +155,7 @@
     },
     {
       "summary": "Researchers discovered hackers-for-hire performing cyber espionage and financially motivated heists from the same Web panel.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -167,25 +165,116 @@
       "date": "Aug 13, 2026",
       "actor": "'Jewelbug' APT Balances State Espionage & Cryptocurrency Theft",
       "severity": "High"
-    },
-    {
-      "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "actor": "Android malware combo takes out loans and relays victims' credit cards",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
+      "summary": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "WhatsApp rolls out new feature that flags potential scam messages",
+      "category": "news"
+    },
+    {
+      "summary": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+      "category": "news"
+    },
+    {
+      "summary": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none. According to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+      "category": "news"
+    },
+    {
+      "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's. The flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+      "category": "news"
+    },
+    {
+      "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+      "category": "news"
+    },
+    {
+      "summary": "The Israeli company has nearly $2 billion in total assets under management since 2014. The post Venture Firm Team8 Secures Additional $365 Million appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/venture-firm-team8-secures-additional-365-million/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "Venture Firm Team8 Secures Additional $365 Million",
+      "category": "news"
+    },
+    {
+      "summary": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance. The post Fortinet Patches Authentication Flaws in FortiWeb and FortiManager appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
+      "category": "news"
+    },
+    {
+      "summary": "Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements. The post White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/"
+        }
+      ],
+      "date": "Aug 14, 2026",
+      "title": "White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs",
+      "category": "news"
+    },
+    {
+      "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -198,7 +287,7 @@
     },
     {
       "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure. The extensions, published across at least 40 Chrome Web Store developer accounts,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -211,7 +300,7 @@
     },
     {
       "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -224,7 +313,7 @@
     },
     {
       "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories. That key is how a user, or a Linux distribution packaging the browser, confirms a downloaded Firefox tarball...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -233,110 +322,6 @@
       ],
       "date": "Aug 14, 2026",
       "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
-      "category": "news"
-    },
-    {
-      "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording. The onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html"
-        }
-      ],
-      "date": "Aug 14, 2026",
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "category": "news"
-    },
-    {
-      "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path can be triggered over Remote Desktop without physical hardware when...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html"
-        }
-      ],
-      "date": "Aug 14, 2026",
-      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-      "category": "news"
-    },
-    {
-      "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
-        }
-      ],
-      "date": "Aug 14, 2026",
-      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
-      "category": "news"
-    },
-    {
-      "summary": "Significant cybersecurity M&A deals announced by Barracuda, CrowdStrike, Cyera, Okta, Palo Alto Networks, and Qualcomm. The post Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cybersecurity-ma-roundup-21-deals-announced-in-july-2026/"
-        }
-      ],
-      "date": "Aug 14, 2026",
-      "title": "Cybersecurity M&A Roundup: 21 Deals Announced in July 2026",
-      "category": "news"
-    },
-    {
-      "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "category": "news"
-    },
-    {
-      "summary": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection evasion services. None of the tools' claims about defeating the text watermark can be verified, as Anthropic has not...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-      "category": "news"
-    },
-    {
-      "summary": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they enter the development pipeline. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "title": "Who Vets AI\u2019s Code? The Scale Challenge Facing Open Source Ingestion",
-      "category": "news"
-    },
-    {
-      "summary": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cybercrime organizations. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/"
-        }
-      ],
-      "date": "Aug 13, 2026",
-      "title": "White House taps security firms for offensive hack-back operations",
       "category": "news"
     }
   ],
@@ -561,7 +546,7 @@
   "patch": [
     {
       "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -575,7 +560,7 @@
     },
     {
       "summary": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges. The post Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018ShieldBreak\u2019 appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -589,7 +574,7 @@
     },
     {
       "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -605,7 +590,7 @@
   "ransomware": [
     {
       "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -621,44 +606,89 @@
   ],
   "sector": [
     {
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "org": "BleepingComputer",
+      "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+      "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
-      "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-      "age": 1,
-      "date": "Aug 13, 2026",
+      "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm...",
+      "age": 0,
+      "date": "Aug 14, 2026",
       "sources": [
         {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/"
-        }
-      ]
-    },
-    {
-      "title": "Who Vets AI\u2019s Code? The Scale Challenge Facing Open Source Ingestion",
-      "org": "BleepingComputer",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they enter the development pipeline. [...]",
-      "age": 1,
-      "date": "Aug 13, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/"
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html"
         }
       ]
     }
   ],
   "awareness": [
     {
+      "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "The Rust-based macOS infostealer harvests users\u2019 passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
+      "date": "Aug 14, 2026",
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/"
+        }
+      ]
+    },
+    {
+      "title": "WhatsApp rolls out new feature that flags potential scam messages",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Aug 14, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/"
+        }
+      ]
+    },
+    {
+      "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Aug 14, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/"
+        }
+      ]
+    },
+    {
+      "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance. The post Fortinet Patches Authentication Flaws in FortiWeb and FortiManager appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
+      "date": "Aug 14, 2026",
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/"
+        }
+      ]
+    },
+    {
       "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
       "topic": "AWARENESS",
       "severity": "Medium",
       "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Aug 14, 2026",
       "sources": [
         {
@@ -673,27 +703,12 @@
       "severity": "Medium",
       "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Aug 14, 2026",
       "sources": [
         {
           "label": "The Hacker News",
           "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html"
-        }
-      ]
-    },
-    {
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Aug 13, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/"
         }
       ]
     }
