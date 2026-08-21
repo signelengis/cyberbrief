@@ -1,8 +1,22 @@
 {
   "breach": [
     {
+      "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "org": "SickKids data breach exposes employee and job applicant info",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
       "summary": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications. \"Manic sits at the...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -31,8 +45,56 @@
   ],
   "cve": [
     {
+      "summary": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or delete publicly accessible GitLab...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "cve_id": "CVE-2026-19478",
+      "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+      "product": "GitLab",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "cve_id": "CVE-2026-69836",
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "product": "Microsoft",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Most of the fixes resolve code execution, privilege escalation, and information disclosure vulnerabilities. The post Microsoft Rolls Out 22 Fresh Security Patches appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "cve_id": "",
+      "title": "Microsoft Rolls Out 22 Fresh Security Patches",
+      "product": "Microsoft",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
       "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -48,7 +110,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -64,7 +126,7 @@
     },
     {
       "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -80,7 +142,7 @@
     },
     {
       "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -96,7 +158,7 @@
     },
     {
       "summary": "Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland\u2019s CERT Polska. The post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -112,7 +174,7 @@
     },
     {
       "summary": "The flaws could be exploited to execute arbitrary code, access sensitive information, and elevate privileges. The post Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -128,7 +190,7 @@
     },
     {
       "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -144,7 +206,7 @@
     },
     {
       "summary": "Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction. The post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -160,7 +222,7 @@
     },
     {
       "summary": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data. The post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -173,28 +235,51 @@
       "product": "GitLab",
       "vendor": "SecurityWeek",
       "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html"
-        }
-      ],
-      "date": "Aug 20, 2026",
-      "cve_id": "CVE-2026-32475",
-      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
+      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "actor": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "severity": "High"
+    },
+    {
+      "summary": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat Research team, the extensions are part of a broader set of 77 browser add-ons that share source code and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "actor": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
+      "severity": "High"
+    },
+    {
+      "summary": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "actor": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
+      "severity": "High"
+    },
+    {
+      "summary": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -207,7 +292,7 @@
     },
     {
       "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10,...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -220,7 +305,7 @@
     },
     {
       "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -233,7 +318,7 @@
     },
     {
       "summary": "A lot of this week\u2019s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -246,7 +331,7 @@
     },
     {
       "summary": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm,...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -259,7 +344,7 @@
     },
     {
       "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -272,7 +357,7 @@
     },
     {
       "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -285,7 +370,7 @@
     },
     {
       "summary": "Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks. The post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -298,7 +383,7 @@
     },
     {
       "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -308,51 +393,116 @@
       "date": "Aug 20, 2026",
       "actor": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
       "severity": "High"
-    },
-    {
-      "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign"
-        }
-      ],
-      "date": "Aug 20, 2026",
-      "actor": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
-      "severity": "High"
-    },
-    {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
-      "age": 3,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
-        }
-      ],
-      "date": "Aug 20, 2026",
-      "actor": "CISA warns of hackers exploiting critical MLflow vulnerability",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally. Zimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html"
-        }
-      ],
-      "date": "Aug 20, 2026",
-      "actor": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
+      "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "How MSPs can catch phishing attacks email filters miss",
+      "category": "news"
+    },
+    {
+      "summary": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
+      "category": "news"
+    },
+    {
+      "summary": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
+      "category": "news"
+    },
+    {
+      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "category": "news"
+    },
+    {
+      "summary": "Hackers pushed a poisoned arrayref version that added a dependency to fetch a malicious payload from a remote server. The post Rust Supply Chain Attack Linked to North Korean Hackers appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "Rust Supply Chain Attack Linked to North Korean Hackers",
+      "category": "news"
+    },
+    {
+      "summary": "Two industry surveys released this week by Kiteworks and CyberSheath paint a consistent picture of the defense industrial base. The post Contractors\u2019 CMMC Confidence Rises as Ability to Prove It Falls Behind appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/contractors-cmmc-confidence-rises-as-ability-to-prove-it-falls-behind/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "Contractors\u2019 CMMC Confidence Rises as Ability to Prove It Falls Behind",
+      "category": "news"
+    },
+    {
+      "summary": "Government agencies with smaller budgets need support \u2014 and here's how you can help.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "Calling on Cyber Pros to Help Defend City Hall",
+      "category": "news"
+    },
+    {
+      "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -365,7 +515,7 @@
     },
     {
       "summary": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -378,7 +528,7 @@
     },
     {
       "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI security company,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -391,7 +541,7 @@
     },
     {
       "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card's...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -400,110 +550,6 @@
       ],
       "date": "Aug 21, 2026",
       "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-      "category": "news"
-    },
-    {
-      "summary": "In March 2026, an internal AI agent at Meta triggered a \u201cSev 1\u201d incident after sensitive company and user data was exposed to employees who weren\u2019t authorized to access it. The incident began when a Meta employee posted a technical question on an internal forum. An engineer used an approved AI agent to analyze it,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server. The attacks,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-      "category": "news"
-    },
-    {
-      "summary": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus. The chain, tracked as...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-      "category": "news"
-    },
-    {
-      "summary": "Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-      "category": "news"
-    },
-    {
-      "summary": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident. \"As models become more capable, the risks...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-      "category": "news"
-    },
-    {
-      "summary": "We all know they\u2019re watching us. But we don\u2019t know who they are, nor why nor how they are doing it. The post Surveillance \u2013 Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "Surveillance \u2013 Everything You Wanted to Know, But Were Afraid to Ask",
-      "category": "news"
-    },
-    {
-      "summary": "The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/"
-        }
-      ],
-      "date": "Aug 21, 2026",
-      "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
       "category": "news"
     }
   ],
@@ -727,8 +773,36 @@
   ],
   "patch": [
     {
+      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
+        }
+      ],
+      "date": "Aug 21, 2026",
+      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
       "summary": "The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -742,7 +816,7 @@
     },
     {
       "summary": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -758,12 +832,27 @@
   "ransomware": [],
   "sector": [
     {
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "org": "BleepingComputer",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
+      "age": 0,
+      "date": "Aug 21, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/"
+        }
+      ]
+    },
+    {
       "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
       "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications. \"Manic sits at the...",
-      "age": 2,
+      "age": 3,
       "date": "Aug 20, 2026",
       "sources": [
         {
@@ -778,7 +867,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "Critical",
       "summary": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "date": "Aug 20, 2026",
       "sources": [
         {
@@ -788,12 +877,27 @@
       ]
     },
     {
+      "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
+      "org": "SecurityWeek",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek.",
+      "age": 0,
+      "date": "Aug 21, 2026",
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/"
+        }
+      ]
+    },
+    {
       "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
       "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include...",
-      "age": 1,
+      "age": 2,
       "date": "Aug 21, 2026",
       "sources": [
         {
@@ -808,7 +912,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
-      "age": 2,
+      "age": 3,
       "date": "Aug 20, 2026",
       "sources": [
         {
@@ -818,17 +922,47 @@
       ]
     },
     {
-      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-      "org": "BleepingComputer",
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
-      "severity": "Critical",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
-      "age": 3,
-      "date": "Aug 20, 2026",
+      "severity": "High",
+      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has...",
+      "age": 0,
+      "date": "Aug 21, 2026",
       "sources": [
         {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
+        }
+      ]
+    },
+    {
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability...",
+      "age": 0,
+      "date": "Aug 21, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
+        }
+      ]
+    },
+    {
+      "title": "Calling on Cyber Pros to Help Defend City Hall",
+      "org": "Dark Reading",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "Government agencies with smaller budgets need support \u2014 and here's how you can help.",
+      "age": 0,
+      "date": "Aug 21, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall"
         }
       ]
     },
@@ -838,7 +972,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card's...",
-      "age": 0,
+      "age": 1,
       "date": "Aug 21, 2026",
       "sources": [
         {
@@ -855,7 +989,7 @@
       "severity": "High",
       "summary": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Aug 21, 2026",
       "sources": [
         {
@@ -870,7 +1004,7 @@
       "severity": "High",
       "summary": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm,...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Aug 21, 2026",
       "sources": [
         {
@@ -885,7 +1019,7 @@
       "severity": "High",
       "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
       "source": "Dark Reading",
-      "age": 1,
+      "age": 2,
       "date": "Aug 21, 2026",
       "sources": [
         {
@@ -895,47 +1029,17 @@
       ]
     },
     {
-      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally. Zimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting...",
-      "source": "The Hacker News",
-      "age": 3,
-      "date": "Aug 20, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html"
-        }
-      ]
-    },
-    {
-      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
+      "title": "How MSPs can catch phishing attacks email filters miss",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a...",
-      "source": "The Hacker News",
+      "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
+      "source": "BleepingComputer",
       "age": 0,
       "date": "Aug 21, 2026",
       "sources": [
         {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html"
-        }
-      ]
-    },
-    {
-      "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "age": 1,
-      "date": "Aug 21, 2026",
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/"
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/"
         }
       ]
     }
