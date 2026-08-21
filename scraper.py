@@ -42,12 +42,26 @@ FEEDS = [
 # CISA Known Exploited Vulnerabilities catalog (authoritative, JSON)
 KEV_FEED = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 
+# Podcast + video feeds (episodes/talks, refreshed fresh each run)
+MEDIA_FEEDS = [
+    ("SANS StormCast",   "https://isc.sans.edu/dailypodcast.xml",                                          "podcast"),
+    ("Risky Business",   "https://risky.biz/feeds/risky-business/",                                        "podcast"),
+    ("Darknet Diaries",  "https://feeds.megaphone.fm/darknetdiaries",                                      "podcast"),
+    ("Malicious Life",   "https://feeds.megaphone.fm/malicious-life",                                      "podcast"),
+    ("Smashing Security","https://www.smashingsecurity.com/rss",                                           "podcast"),
+    ("Security Now",     "https://feeds.twit.tv/sn.xml",                                                   "podcast"),
+    ("Black Hat",        "https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6q9Ie29ajGqKApbLqfBOg",   "video"),
+    ("DEF CON",          "https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw",   "video"),
+]
+MAX_MEDIA        = 12         # episodes/talks to surface
+MAX_PER_MEDIA    = 2          # most-recent per media source
+
 # Primary sections that are scraped, deduped, aged and archived
 PRIMARY = ['breach', 'cve', 'patch', 'threat', 'ransomware', 'news']
 # KEV is rebuilt fresh from CISA every run (never aged, never archived, never deduped)
 # Derived views rebuilt from the active set each run (not aged, not archived)
 DERIVED = ['sector', 'awareness']
-SECTIONS = ['kev'] + PRIMARY + DERIVED
+SECTIONS = ['kev'] + PRIMARY + DERIVED + ['media']
 
 MAX_PER_SECTION = 12          # cap active items per section
 MAX_NEW_PER_RUN = 8           # cap new items pulled per section per run
@@ -68,7 +82,7 @@ class CyberBriefScraper:
     def __init__(self):
         self.data_file = 'data.json'
         self.archive_file = 'archive.json'
-        self.max_age = 4       # archive after 4 refreshes (~2 days at 2x daily)
+        self.max_age = 8       # archive after 8 refreshes (~2 days at 4x daily)
 
     # ---- file IO -----------------------------------------------------------
     def _blank(self):
@@ -90,6 +104,10 @@ class CyberBriefScraper:
     def load_archive(self): return self._load(self.archive_file)
 
     def save_data(self, data):
+        data['_meta'] = {
+            'generated': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+            'max_age': self.max_age,
+        }
         with open(self.data_file, 'w') as f:
             json.dump(data, f, indent=2)
 
@@ -264,6 +282,36 @@ class CyberBriefScraper:
         logger.info(f"New items pulled: {total}")
         return new
 
+    # ---- media (podcasts + video) -----------------------------------------
+    def fetch_media(self):
+        items = []
+        for source_name, url, kind in MEDIA_FEEDS:
+            try:
+                logger.info(f"Fetching media {source_name} ...")
+                parsed = feedparser.parse(url)
+                for entry in parsed.entries[:MAX_PER_MEDIA]:
+                    title = self.clean(entry.get('title', ''))
+                    link = entry.get('link', '')
+                    if not title or not link:
+                        continue
+                    summary = self.clean(entry.get('summary', '') or entry.get('description', ''))
+                    if len(summary) > 260:
+                        summary = summary[:257] + '...'
+                    items.append({
+                        "title": title,
+                        "show": source_name,
+                        "kind": kind,
+                        "severity": "info",
+                        "summary": summary or title,
+                        "date": datetime.now().strftime('%b %d, %Y'),
+                        "age": 0,
+                        "sources": [{"label": source_name, "url": link}],
+                    })
+            except Exception as e:
+                logger.warning(f"  failed media {source_name}: {e}")
+        logger.info(f"Media items: {len(items)}")
+        return items[:MAX_MEDIA]
+
     # ---- aging (primary sections only) ------------------------------------
     def age_items(self, data, archive):
         for section in PRIMARY:
@@ -352,6 +400,7 @@ class CyberBriefScraper:
                 data[section] = (new.get(section, []) + data.get(section, []))[:MAX_PER_SECTION]
 
             data['kev'] = self.fetch_kev()        # fresh full CISA snapshot
+            data['media'] = self.fetch_media()    # fresh podcast + video episodes
             data = self.rebuild_views(data)   # sector + awareness
 
             self.save_data(data)
