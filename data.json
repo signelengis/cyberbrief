@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -18,7 +18,7 @@
   "cve": [
     {
       "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -35,8 +35,47 @@
   ],
   "threat": [
     {
-      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+      "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "actor": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+      "severity": "High"
+    },
+    {
+      "summary": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "actor": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
+      "severity": "High"
+    },
+    {
+      "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "actor": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
+      "severity": "High"
+    },
+    {
+      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -49,7 +88,7 @@
     },
     {
       "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -62,7 +101,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per Seqrite Labs. The...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -75,7 +114,7 @@
     },
     {
       "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -88,7 +127,7 @@
     },
     {
       "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -101,7 +140,7 @@
     },
     {
       "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -114,7 +153,7 @@
     },
     {
       "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -127,7 +166,7 @@
     },
     {
       "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -140,7 +179,7 @@
     },
     {
       "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -150,51 +189,116 @@
       "date": "Aug 24, 2026",
       "actor": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
       "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0. \"When the module loads, it locates the bundled binary, marks it...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "actor": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "severity": "High"
-    },
-    {
-      "summary": "A lot of this week\u2019s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "actor": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-      "severity": "High"
-    },
-    {
-      "summary": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "actor": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
+      "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (COPPA). [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "TikTok reaches $400M settlement with US over COPPA violations",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "Microsoft Teams now lets admins block external bots from meetings",
+      "category": "news"
+    },
+    {
+      "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept separate from the data they protect. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "South Korean startup platform breach exposes key management failures",
+      "category": "news"
+    },
+    {
+      "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
+      "category": "news"
+    },
+    {
+      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the impact of breaches, spam, and identity theft. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+      "category": "news"
+    },
+    {
+      "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
+      "category": "news"
+    },
+    {
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -207,7 +311,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -220,7 +324,7 @@
     },
     {
       "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work. The harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -233,7 +337,7 @@
     },
     {
       "summary": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters who are quietly hardcoding unvetted tools into critical business operations....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -242,110 +346,6 @@
       ],
       "date": "Aug 24, 2026",
       "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-      "category": "news"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-      "category": "news"
-    },
-    {
-      "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software flaw exploited and no driver imported...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "category": "news"
-    },
-    {
-      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Wazuh and AI For Enhanced SOC Workflows",
-      "category": "news"
-    },
-    {
-      "summary": "More than 200 vulnerabilities have been patched to date this year, compared to only 16 in 2025 and 22 in 2024. The post 91 Vulnerabilities Patched in Spring Application Framework appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "91 Vulnerabilities Patched in Spring Application Framework",
-      "category": "news"
-    },
-    {
-      "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the settlement, the social media platform will pay $300 million immediately, and an additional $100...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-      "category": "news"
-    },
-    {
-      "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI security company,...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
       "category": "news"
     }
   ],
@@ -569,8 +569,22 @@
   ],
   "patch": [
     {
-      "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+      "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -583,15 +597,61 @@
       "severity": "High"
     }
   ],
-  "ransomware": [],
+  "ransomware": [
+    {
+      "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "group": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    },
+    {
+      "summary": "An advanced, multilingual malware family brings back a trick from yesteryear \u2014 screen hijacking \u2014 for effective password theft, along with a slew of novel features.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware"
+        }
+      ],
+      "date": "Aug 24, 2026",
+      "group": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    }
+  ],
   "sector": [
+    {
+      "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
+      "org": "Dark Reading",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
+      "age": 0,
+      "date": "Aug 24, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks"
+        }
+      ]
+    },
     {
       "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
       "org": "The Hacker News",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per Seqrite Labs. The...",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -606,7 +666,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include...",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -616,17 +676,17 @@
       ]
     },
     {
-      "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
-      "org": "SecurityWeek",
+      "title": "South Korean startup platform breach exposes key management failures",
+      "org": "BleepingComputer",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
-      "summary": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek.",
-      "age": 1,
+      "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept separate from the data they protect. [...]",
+      "age": 0,
       "date": "Aug 24, 2026",
       "sources": [
         {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/"
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/"
         }
       ]
     },
@@ -636,7 +696,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -651,57 +711,12 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/"
-        }
-      ]
-    },
-    {
-      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-      "org": "The Hacker News",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam....",
-      "age": 0,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
-        }
-      ]
-    },
-    {
-      "title": "Wazuh and AI For Enhanced SOC Workflows",
-      "org": "The Hacker News",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has...",
-      "age": 0,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
-        }
-      ]
-    },
-    {
-      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-      "org": "The Hacker News",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability...",
-      "age": 1,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
         }
       ]
     }
@@ -713,7 +728,7 @@
       "severity": "Critical",
       "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -723,12 +738,27 @@
       ]
     },
     {
+      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Aug 24, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html"
+        }
+      ]
+    },
+    {
       "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -743,7 +773,7 @@
       "severity": "High",
       "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
       "source": "BleepingComputer",
-      "age": 1,
+      "age": 2,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -758,12 +788,57 @@
       "severity": "High",
       "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
       "source": "BleepingComputer",
-      "age": 1,
+      "age": 2,
       "date": "Aug 24, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/"
+        }
+      ]
+    },
+    {
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Aug 24, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
+        }
+      ]
+    },
+    {
+      "title": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "An advanced, multilingual malware family brings back a trick from yesteryear \u2014 screen hijacking \u2014 for effective password theft, along with a slew of novel features.",
+      "source": "Dark Reading",
+      "age": 0,
+      "date": "Aug 24, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware"
+        }
+      ]
+    },
+    {
+      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Aug 24, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
         }
       ]
     }
@@ -920,6 +995,21 @@
       ]
     },
     {
+      "title": "Black Hat Asia 2026 | Practical Attacks Against Smartphone Boot ROMs",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Boot ROMs are an immutable component of any hardware platform, and vulnerabilities in them can compromise the entire boot chain. This talk aims to outline the impact of vulnerabilities in the USB interface of smartphone Boot ROMs at a low level, demonstrati...",
+      "date": "Aug 24, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/watch?v=0hItwQVp8a4"
+        }
+      ]
+    },
+    {
       "title": "Black Hat Asia 2026 | Subverting Screen Trust via State Disruption and ONE-WAY Flooding",
       "show": "Black Hat",
       "kind": "video",
@@ -933,25 +1023,10 @@
           "url": "https://www.youtube.com/watch?v=sYoeYDSBjrI"
         }
       ]
-    },
-    {
-      "title": "Black Hat Asia 2026 | Systematically Exploring and Exploiting DNS Silent Vulnerabilities",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "Domain names function as human-readable identifiers on the Internet, with characters serving as their essential building blocks. However, since the initial specification of domain names in 1983, the security implications of handling special characters withi...",
-      "date": "Aug 24, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/watch?v=2Euva5ZT-cA"
-        }
-      ]
     }
   ],
   "_meta": {
-    "generated": "2026-08-24T12:23:23Z",
+    "generated": "2026-08-24T18:22:48Z",
     "max_age": 8
   }
 }
