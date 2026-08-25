@@ -56,26 +56,47 @@ MEDIA_FEEDS = [
 MAX_MEDIA        = 12         # episodes/talks to surface
 MAX_PER_MEDIA    = 2          # most-recent per media source
 
+# Government advisory feeds (CISA + MS-ISAC / SLTT), refreshed fresh each run
+ADVISORY_FEEDS = [
+    ("CISA",     "https://www.cisa.gov/cybersecurity-advisories/all.xml",  "CISA"),
+    ("CISA ICS", "https://www.cisa.gov/cybersecurity-advisories/ics.xml",  "CISA ICS"),
+    ("MS-ISAC",  "https://www.cisecurity.org/feed/advisories",             "MS-ISAC / SLTT"),
+]
+MAX_ADVISORY     = 14         # advisories to surface
+MAX_PER_ADVISORY = 6          # most-recent per advisory source
+
 # Primary sections that are scraped, deduped, aged and archived
 PRIMARY = ['breach', 'cve', 'patch', 'threat', 'ransomware', 'news']
 # KEV is rebuilt fresh from CISA every run (never aged, never archived, never deduped)
 # Derived views rebuilt from the active set each run (not aged, not archived)
 DERIVED = ['sector', 'awareness']
-SECTIONS = ['kev'] + PRIMARY + DERIVED + ['media']
+SECTIONS = ['kev'] + PRIMARY + DERIVED + ['media', 'advisory']
+DEDUPE_ORDER = ['breach', 'ransomware', 'cve', 'threat', 'patch', 'news']  # priority when merging duplicate coverage of the same story
 
 MAX_PER_SECTION = 12          # cap active items per section
 MAX_NEW_PER_RUN = 8           # cap new items pulled per section per run
 MAX_KEV          = 12         # most-recent KEV entries to surface
 
 # Keyword banks for the two cross-cutting views ------------------------------
-SECTOR_KW = ['government', 'county', 'municipal', 'city of', 'state of',
-             'public sector', 'federal', 'agency', 'school', 'university',
-             'k-12', 'education', 'election', 'healthcare', 'hospital',
-             'health system', 'patient', 'utility', 'water system',
-             'power grid', 'court', 'police', 'sheriff', 'sled', 'cisa']
+SECTOR_BUCKETS = [
+    ('EDUCATION', ['school district', 'k-12', 'university', 'college', 'student records', 'higher education']),
+    ('HEALTHCARE', ['hospital', 'health system', 'healthcare provider', 'patient data', 'patient records', 'medical center', 'clinic']),
+    ('UTILITIES / ICS', ['water system', 'power grid', 'scada', 'substation', 'pipeline', 'electric utility', 'electric cooperative']),
+    ('FINANCE', ['credit union', 'regional bank', 'insurance carrier']),
+    ('GOVERNMENT', ['county government', 'municipal', 'city of ', 'state government', 'federal agency', 'u.s. government', 'election system', 'court system', 'police department', 'sheriff', 'government services', 'government network', 'public sector']),
+]
 AWARE_KW  = ['phishing', 'scam', 'smishing', 'vishing', 'mfa', 'multi-factor',
              'passkey', 'password', 'social engineering', 'impersonat',
              'credential', '2fa', 'fraud', 'fake login', 'malicious email']
+
+# News sub-classification (feeds the item 'category' -> shown via sevLabel)
+NEWS_POLICY_KW = ['settlement', 'lawsuit', 'fine', 'sanction', 'indict', 'arrest',
+                  'sentenc', 'plead', 'doj', 'ftc', 'coppa', 'gdpr', 'regulation',
+                  'compliance', 'convict']
+NEWS_INCIDENT_KW = ['attack', 'breach', 'ddos', 'outage', 'disrupt', 'hijack',
+                    'exploited', 'compromise', 'stolen', 'leak']
+NEWS_PRODUCT_KW = ['adds ', 'update adds', 'rolls out', 'launches', 'introduces',
+                   'new feature', 'now lets', 'now supports']
 
 
 class CyberBriefScraper:
@@ -165,6 +186,17 @@ class CyberBriefScraper:
         return 'High'
 
     @staticmethod
+    def news_category(title, summary):
+        text = f"{title} {summary}".lower()
+        if any(k in text for k in NEWS_POLICY_KW):
+            return 'Policy/Legal'
+        if any(k in text for k in NEWS_INCIDENT_KW):
+            return 'Incident'
+        if any(k in text for k in NEWS_PRODUCT_KW):
+            return 'Product Update'
+        return 'Research'
+
+    @staticmethod
     def clean(text):
         text = re.sub(r'<[^>]+>', '', text or '')      # strip HTML tags
         text = html.unescape(text).strip()
@@ -195,7 +227,7 @@ class CyberBriefScraper:
         if section == 'ransomware':
             return {**base, "group": title, "victim": "", "sector": "",
                     "severity": sev}
-        return {**base, "title": title, "category": "news"}
+        return {**base, "title": title, "category": self.news_category(title, summary)}
 
     # vendor/product guess from the headline for the CVE tracker label
     _VENDORS = ['Microsoft', 'Windows', 'Oracle', 'Adobe', 'SAP', 'Cisco',
@@ -242,7 +274,10 @@ class CyberBriefScraper:
                     "summary": self.clean(v.get('shortDescription', '')),
                     "age": 0,
                     "date": datetime.now().strftime('%b %d, %Y'),
-                    "sources": [{"label": "CISA KEV", "url": url}],
+                    "sources": [
+                        {"label": "CISA KEV Catalog", "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"},
+                        {"label": "NVD · " + cid, "url": url},
+                    ],
                 })
             logger.info(f"  KEV: {len(items)} entries")
         except Exception as e:
@@ -312,6 +347,43 @@ class CyberBriefScraper:
         logger.info(f"Media items: {len(items)}")
         return items[:MAX_MEDIA]
 
+    # ---- government advisories (CISA + MS-ISAC / SLTT) --------------------
+    def fetch_advisories(self):
+        items = []
+        for source_name, url, agency in ADVISORY_FEEDS:
+            try:
+                logger.info(f"Fetching advisories {source_name} ...")
+                parsed = feedparser.parse(url)
+                for entry in parsed.entries[:MAX_PER_ADVISORY]:
+                    title = self.clean(entry.get('title', ''))
+                    link = entry.get('link', '')
+                    if not title or not link:
+                        continue
+                    summary = self.clean(entry.get('summary', '') or entry.get('description', ''))
+                    if len(summary) > 280:
+                        summary = summary[:277] + '...'
+                    low = (title + ' ' + summary).lower()
+                    if 'critical' in low:
+                        sev = 'Critical'
+                    elif any(k in low for k in ['ics', 'scada', 'medical', 'infrastructure']):
+                        sev = 'High'
+                    else:
+                        sev = 'Medium'
+                    items.append({
+                        "title": title,
+                        "source": agency,
+                        "agency": agency,
+                        "severity": sev,
+                        "summary": summary or title,
+                        "date": datetime.now().strftime('%b %d, %Y'),
+                        "age": 0,
+                        "sources": [{"label": source_name, "url": link}],
+                    })
+            except Exception as e:
+                logger.warning(f"  failed advisories {source_name}: {e}")
+        logger.info(f"Advisory items: {len(items)}")
+        return items[:MAX_ADVISORY]
+
     # ---- aging (primary sections only) ------------------------------------
     def age_items(self, data, archive):
         for section in PRIMARY:
@@ -346,11 +418,12 @@ class CyberBriefScraper:
         sector, aware = [], []
         for section, it in pool:
             text = self._text_of(it)
-            if any(k in text for k in SECTOR_KW) and len(sector) < MAX_PER_SECTION:
+            bucket = next((name for name, kws in SECTOR_BUCKETS if any(k in text for k in kws)), None)
+            if bucket and len(sector) < MAX_PER_SECTION:
                 sector.append({
                     "title": name_of(it),
                     "org": it.get('vendor') or (it.get('sources', [{}])[0].get('label', '')),
-                    "sector": "PUBLIC SECTOR",
+                    "sector": bucket,
                     "severity": it.get('severity', 'High'),
                     "summary": it.get('summary', ''),
                     "age": it.get('age', 0),
@@ -371,6 +444,70 @@ class CyberBriefScraper:
         data['sector'] = sector
         data['awareness'] = aware
         return data
+
+    # ---- cross-section dedupe ----------------------------------------------
+    @staticmethod
+    def _fp(it):
+        cid = (it.get('cve_id') or '').strip().upper()
+        if cid:
+            return 'cve:' + cid
+        t = (it.get('title') or it.get('org') or it.get('group') or it.get('actor') or '').lower()
+        words = sorted(set(w for w in re.findall(r'[a-z0-9]+', t) if len(w) > 3))[:6]
+        return ('tx:' + ' '.join(words)) if words else None
+
+    def dedupe_cross(self, merged):
+        """Collapse the same story covered by multiple outlets (shared CVE ID or
+        near-identical headline) into one item, merging their sources."""
+        seen = {}
+        for section in DEDUPE_ORDER:
+            kept = []
+            for it in merged.get(section, []):
+                fp = self._fp(it)
+                if fp and fp in seen:
+                    prev = seen[fp]
+                    urls = {s.get('url') for s in prev.get('sources', [])}
+                    for s in it.get('sources', []):
+                        if s.get('url') not in urls:
+                            prev.setdefault('sources', []).append(s)
+                            urls.add(s.get('url'))
+                    continue
+                if fp:
+                    seen[fp] = it
+                kept.append(it)
+            merged[section] = kept
+        return merged
+
+    # ---- RSS output (subscribe in Outlook/Slack/etc.) ----------------------
+    def write_rss(self, data):
+        import xml.sax.saxutils as sx
+        pool = []
+        for section in ['kev'] + PRIMARY:
+            for it in data.get(section, []):
+                name = it.get('title') or it.get('org') or it.get('cve_id') or it.get('actor') or it.get('group') or ''
+                src = (it.get('sources') or [{}])[0]
+                if not src.get('url'):
+                    continue
+                pool.append({
+                    "title": name, "link": src.get('url', ''),
+                    "summary": it.get('summary', ''), "age": it.get('age', 0),
+                })
+        pool.sort(key=lambda x: x['age'])
+        pool = pool[:40]
+        now_rfc822 = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')
+        rss_items = ''.join(
+            '<item><title>' + sx.escape(p['title']) + '</title>'
+            '<link>' + sx.escape(p['link']) + '</link>'
+            '<guid>' + sx.escape(p['link']) + '</guid>'
+            '<description>' + sx.escape(p['summary']) + '</description>'
+            '<pubDate>' + now_rfc822 + '</pubDate></item>'
+            for p in pool
+        )
+        rss = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+               '<title>CyberBrief Daily Intelligence</title>'
+               '<link>https://signelengis.github.io/Mod/index.html</link>'
+               '<description>Daily cybersecurity intel feed</description>' + rss_items + '</channel></rss>')
+        with open('rss.xml', 'w') as f:
+            f.write(rss)
 
     @staticmethod
     def existing_keys(data, archive):
@@ -396,12 +533,16 @@ class CyberBriefScraper:
             keys = self.existing_keys(data, archive)
             new = self.fetch_new(keys)
 
+            merged = {section: (new.get(section, []) + data.get(section, [])) for section in PRIMARY}
+            merged = self.dedupe_cross(merged)
             for section in PRIMARY:
-                data[section] = (new.get(section, []) + data.get(section, []))[:MAX_PER_SECTION]
+                data[section] = merged[section][:MAX_PER_SECTION]
 
             data['kev'] = self.fetch_kev()        # fresh full CISA snapshot
             data['media'] = self.fetch_media()    # fresh podcast + video episodes
+            data['advisory'] = self.fetch_advisories()  # fresh CISA + MS-ISAC advisories
             data = self.rebuild_views(data)   # sector + awareness
+            self.write_rss(data)              # rss.xml for feed readers
 
             self.save_data(data)
             self.save_archive(archive)
