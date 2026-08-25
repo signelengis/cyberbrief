@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -17,8 +17,40 @@
   ],
   "cve": [
     {
+      "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "cve_id": "",
+      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+      "product": "",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "cve_id": "CVE-2026-73570",
+      "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+      "product": "Zimbra",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
       "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -35,8 +67,60 @@
   ],
   "threat": [
     {
-      "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation...",
+      "summary": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "actor": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 4.0. \"When the module loads, it locates the bundled binary, marks it...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "actor": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+      "severity": "High"
+    },
+    {
+      "summary": "A lot of this week\u2019s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "actor": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+      "severity": "High"
+    },
+    {
+      "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "actor": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -49,7 +133,7 @@
     },
     {
       "summary": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -62,7 +146,7 @@
     },
     {
       "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -75,7 +159,7 @@
     },
     {
       "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -88,7 +172,7 @@
     },
     {
       "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -101,7 +185,7 @@
     },
     {
       "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per Seqrite Labs. The...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -114,7 +198,7 @@
     },
     {
       "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10,...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -127,7 +211,7 @@
     },
     {
       "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -137,64 +221,116 @@
       "date": "Aug 24, 2026",
       "actor": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
       "severity": "High"
-    },
-    {
-      "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "actor": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
-      "severity": "High"
-    },
-    {
-      "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "actor": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
-      "severity": "High"
-    },
-    {
-      "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "actor": "Hackers infect Android car head units with proxy botnet malware",
-      "severity": "High"
-    },
-    {
-      "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "actor": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (COPPA). [...]",
+      "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can expose local network devices to the public internet. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+      "category": "news"
+    },
+    {
+      "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+      "category": "news"
+    },
+    {
+      "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That\u2019s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder than they actually...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "\u26a1 Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+      "category": "news"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the settlement, the social media platform will pay $300 million immediately, and an additional $100...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+      "category": "news"
+    },
+    {
+      "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software flaw exploited and no driver imported...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+      "category": "news"
+    },
+    {
+      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
+        }
+      ],
+      "date": "Aug 25, 2026",
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "category": "news"
+    },
+    {
+      "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (COPPA). [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -207,7 +343,7 @@
     },
     {
       "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -220,7 +356,7 @@
     },
     {
       "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -233,7 +369,7 @@
     },
     {
       "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept separate from the data they protect. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -243,113 +379,27 @@
       "date": "Aug 24, 2026",
       "title": "South Korean startup platform breach exposes key management failures",
       "category": "news"
-    },
-    {
-      "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
-      "category": "news"
-    },
-    {
-      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the impact of breaches, spam, and identity theft. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "category": "news"
-    },
-    {
-      "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
-      "category": "news"
-    },
-    {
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
-      "category": "news"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
-      "category": "news"
-    },
-    {
-      "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work. The harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-      "category": "news"
-    },
-    {
-      "summary": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters who are quietly hardcoding unvetted tools into critical business operations....",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html"
-        }
-      ],
-      "date": "Aug 24, 2026",
-      "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-      "category": "news"
     }
   ],
   "kev": [
+    {
+      "cve_id": "CVE-2026-21962",
+      "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "vendor": "Oracle",
+      "severity": "Critical",
+      "date_added": "2026-08-24",
+      "due_date": "Aug 27, 2026",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "summary": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in accessible data.",
+      "age": 0,
+      "date": "Aug 25, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962"
+        }
+      ]
+    },
     {
       "cve_id": "CVE-2026-73570",
       "product": "Zimbra Collaboration Suite (ZCS)",
@@ -360,7 +410,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -378,7 +428,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary code on the host system.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -396,7 +446,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -414,7 +464,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -432,7 +482,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -450,7 +500,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -468,7 +518,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -486,7 +536,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -504,7 +554,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Firefox and Safari.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -522,7 +572,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
@@ -540,29 +590,11 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
       "age": 0,
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "sources": [
         {
           "label": "CISA KEV",
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-72898",
-      "product": "Metabase",
-      "vendor": "Metabase",
-      "severity": "Critical",
-      "date_added": "2026-08-11",
-      "due_date": "Aug 14, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data.",
-      "age": 0,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898"
         }
       ]
     }
@@ -570,7 +602,7 @@
   "patch": [
     {
       "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -584,7 +616,7 @@
     },
     {
       "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -600,7 +632,7 @@
   "ransomware": [
     {
       "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -615,7 +647,7 @@
     },
     {
       "summary": "An advanced, multilingual malware family brings back a trick from yesteryear \u2014 screen hijacking \u2014 for effective password theft, along with a slew of novel features.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -631,12 +663,27 @@
   ],
   "sector": [
     {
+      "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+      "org": "Dark Reading",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
+      "age": 0,
+      "date": "Aug 25, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch"
+        }
+      ]
+    },
+    {
       "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
       "org": "Dark Reading",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -651,7 +698,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per Seqrite Labs. The...",
-      "age": 1,
+      "age": 2,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -666,7 +713,7 @@
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include...",
-      "age": 1,
+      "age": 2,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -676,47 +723,62 @@
       ]
     },
     {
+      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam....",
+      "age": 0,
+      "date": "Aug 25, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
+        }
+      ]
+    },
+    {
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has...",
+      "age": 0,
+      "date": "Aug 25, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
+        }
+      ]
+    },
+    {
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "org": "The Hacker News",
+      "sector": "PUBLIC SECTOR",
+      "severity": "High",
+      "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability...",
+      "age": 0,
+      "date": "Aug 25, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
+        }
+      ]
+    },
+    {
       "title": "South Korean startup platform breach exposes key management failures",
       "org": "BleepingComputer",
       "sector": "PUBLIC SECTOR",
       "severity": "High",
       "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept separate from the data they protect. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/"
-        }
-      ]
-    },
-    {
-      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
-      "org": "BleepingComputer",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
-      "age": 1,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/"
-        }
-      ]
-    },
-    {
-      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
-      "org": "BleepingComputer",
-      "sector": "PUBLIC SECTOR",
-      "severity": "High",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
-      "age": 1,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/"
         }
       ]
     }
@@ -728,7 +790,7 @@
       "severity": "Critical",
       "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -743,7 +805,7 @@
       "severity": "High",
       "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat in June 2026, said the end goal of the malware is to serve a multi-stage downloader to enable ad fraud and creation...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -753,57 +815,12 @@
       ]
     },
     {
-      "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
-      "source": "Dark Reading",
-      "age": 1,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats"
-        }
-      ]
-    },
-    {
-      "title": "Hackers infect Android car head units with proxy botnet malware",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-      "source": "BleepingComputer",
-      "age": 2,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
-        }
-      ]
-    },
-    {
-      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-      "source": "BleepingComputer",
-      "age": 2,
-      "date": "Aug 24, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/"
-        }
-      ]
-    },
-    {
       "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -818,7 +835,7 @@
       "severity": "High",
       "summary": "An advanced, multilingual malware family brings back a trick from yesteryear \u2014 screen hijacking \u2014 for effective password theft, along with a slew of novel features.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -833,7 +850,7 @@
       "severity": "Medium",
       "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Aug 24, 2026",
       "sources": [
         {
@@ -850,7 +867,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Who Got Missed in the MFA Rollout? More Powershell + Graph + Entra scripting! https://isc.sans.edu/diary/Who%20Got%20Missed%20in%20the%20MFA%20Rollout%3F%20More%20Powershell%20%2B%20Graph%20%2B%20Entra%20scripting!/33272 Even MOAR Powershell, looking at Ent...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -865,7 +882,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Friday, August 21st, 2026: Microsoft Graph and Powershell; Keycloak Vuln; Cryptographic Context Injection; N-Able Password...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -880,7 +897,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by guest co-host Dmitri Alperovitch to talk through the week\u2019s news, including: Trump\u2019s memo authorising the private sector to release the cyber hounds is fine, don\u2019t worry! OpenAI finally decides...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -895,7 +912,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "In this Soap Box edition of the Risky Business podcast host Patrick Gray chats with Adam Pointon, CEO of Knocknoc, about the failure of Zero Trust as a comprehensive architecture. Most networks look like they were designed in 1999, and most Zero Trust produ...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -910,7 +927,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "After 8 years, LOW is finally here. A story about the weight of being and the wreckage of waking up. Five episodes. Five descents. LOW is an audio journey into the unlit corners of human experience. Choices we made in the dark, the silences we carry, and wh...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -925,7 +942,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Nickolas Sharp worked for Ubiquiti, a company that makes networking equipment. He noticed that there were some security problems at work. He tried to point them out, but didn't feel like he was being listened to enough. What do you do when the company you w...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -940,7 +957,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "At Black Hat this month, a group of security researchers took a $9,000 robot dog, plugged Google's AI into its brain, and jailbroke it by telling it - with a completely straight face - that it was a Pokemon. What followed involved a wall, a blue ice chest, ...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -955,7 +972,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Would you like access to Anthropic's Claude at 90% off the normal price? All you have to do is redirect your traffic to a mysterious service called \"Poison Claude\". Only problem is that it's run by fraudsters...Meanwhile, a phishing-as-a-service platform ca...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -970,7 +987,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "From autocorrect to full-fledged conversationalists, discover how a few tweaks transformed language models\u2014and why understanding this shift exposes urgent questions about AI safety and control. Trusting an open source AI proxy might bite you. France's under...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -985,7 +1002,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "AI agents are breaking free from their test environments, outsmarting their creators and breaching real-world networks in ways that no one predicted. Discover how these agentic models are changing the game for both cyber offense and defense. Anthropic's age...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -995,12 +1012,27 @@
       ]
     },
     {
+      "title": "Black Hat Asia 2026 | Cast Attack: A New Threat Posed by Ghost Bits in Java",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "In modern security defense systems, input validation and data integrity checks are the core to preventing attacks. However, a commonly overlooked source of vulnerabilities has long lurked in the code, not due to complex logic errors, but because of \"ghost b...",
+      "date": "Aug 25, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/watch?v=HhbLr4LKIl0"
+        }
+      ]
+    },
+    {
       "title": "Black Hat Asia 2026 | Practical Attacks Against Smartphone Boot ROMs",
       "show": "Black Hat",
       "kind": "video",
       "severity": "info",
       "summary": "Boot ROMs are an immutable component of any hardware platform, and vulnerabilities in them can compromise the entire boot chain. This talk aims to outline the impact of vulnerabilities in the USB interface of smartphone Boot ROMs at a low level, demonstrati...",
-      "date": "Aug 24, 2026",
+      "date": "Aug 25, 2026",
       "age": 0,
       "sources": [
         {
@@ -1008,25 +1040,10 @@
           "url": "https://www.youtube.com/watch?v=0hItwQVp8a4"
         }
       ]
-    },
-    {
-      "title": "Black Hat Asia 2026 | Subverting Screen Trust via State Disruption and ONE-WAY Flooding",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "As core components of graphics and input architecture, SurfaceFlinger and InputDispatcher share critical responsibilities in physical screen handling. Although they are tightly integrated in the system architecture and interact frequently via the Binder dri...",
-      "date": "Aug 24, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/watch?v=sYoeYDSBjrI"
-        }
-      ]
     }
   ],
   "_meta": {
-    "generated": "2026-08-24T18:22:48Z",
+    "generated": "2026-08-25T00:35:30Z",
     "max_age": 8
   }
 }
