@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers accessed the Vietnam-linked system through a cloud-based path using default...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "Online dating app Grindr has opted to pay \u00a326 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K....",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -86,7 +86,7 @@
     },
     {
       "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "The Hacker News",
@@ -100,7 +100,7 @@
     },
     {
       "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on. Elsewhere, a trusted software source delivered code...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "The Hacker News",
@@ -115,8 +115,72 @@
   ],
   "cve": [
     {
-      "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
+      "summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "CVE-2026-87491",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "product": "Google",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "CVE-2026-69414",
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "product": "Microsoft",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by September 11, 2026. The vulnerability...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "",
+      "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "The Chrome update includes 230 security fixes, and users are advised to update their browsers as soon as possible. The post Chrome 153 Patches Seventh Zero-Day of 2026 appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/chrome-153-patches-seventh-zero-day-of-2026/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "cve_id": "",
+      "title": "Chrome 153 Patches Seventh Zero-Day of 2026",
+      "product": "Chrome",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -132,7 +196,7 @@
     },
     {
       "summary": "Tracked as CVE-2026-75650, the exploited defect allows unauthenticated attackers to execute arbitrary code. The post Adobe Patches Over 170 Vulnerabilities, Including Commerce Zero-Day appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -156,7 +220,7 @@
     },
     {
       "summary": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -172,7 +236,7 @@
     },
     {
       "summary": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -188,7 +252,7 @@
     },
     {
       "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 \u2013 an authentication bypass and remote code...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -204,7 +268,7 @@
     },
     {
       "summary": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -220,7 +284,7 @@
     },
     {
       "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution \u2014 but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild....",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -236,7 +300,7 @@
     },
     {
       "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -249,76 +313,77 @@
       "product": "",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges. The post Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits appeared first on SecurityWeek.",
-      "age": 3,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "",
-      "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
-      "product": "",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The StyleSmuggler zero-day allows attackers to execute code and deploy a stealthy backdoor on Adobe Commerce and Magento stores. The post Adobe Commerce Zero-Day Exploited to Backdoor Online Stores appeared first on SecurityWeek.",
-      "age": 3,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "",
-      "title": "Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-      "product": "Adobe",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...]",
-      "age": 4,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "",
-      "title": "N-able patches max severity N-central flaw amid ongoing attacks",
-      "product": "",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Every on-premises N-central build below 2026.3.1.14 \u2014 including servers updated to Hotfix 3 a day earlier \u2014 needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its fourth hotfix in five weeks for the N-central remote...",
-      "age": 4,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "cve_id": "",
-      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are protected with javascript-obfuscator, using multiple techniques including RC4-protected strings, control-flow...",
+      "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intelligence Group (GTIG)...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "Large Enterprises Targeted in Fake Merger & Acquisition Scams",
+      "severity": "High"
+    },
+    {
+      "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "actor": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are protected with javascript-obfuscator, using multiple techniques including RC4-protected strings, control-flow...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -331,7 +396,7 @@
     },
     {
       "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -344,7 +409,7 @@
     },
     {
       "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -357,7 +422,7 @@
     },
     {
       "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated malware.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -370,7 +435,7 @@
     },
     {
       "summary": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -383,7 +448,7 @@
     },
     {
       "summary": "The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -396,7 +461,7 @@
     },
     {
       "summary": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider. \"The adversary demonstrates deep operational...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -406,77 +471,116 @@
       "date": "Sep 08, 2026",
       "actor": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
       "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles,...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-      "severity": "High"
-    },
-    {
-      "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
-      "severity": "High"
-    },
-    {
-      "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "AI Gives Cybercriminals a Dangerous Time Advantage",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
-      "severity": "High"
-    },
-    {
-      "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "actor": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
+      "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+      "category": "Incident"
+    },
+    {
+      "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC. The network is still paused, so holders...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
+      "category": "Research"
+    },
+    {
+      "summary": "Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's connected Gmail account...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "category": "Incident"
+    },
+    {
+      "summary": "Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default. The post This Key Will Self-Destruct: An Open Standard for Revocable API Keys appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/this-key-will-self-destruct-an-open-standard-for-revocable-api-keys/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "This Key Will Self-Destruct: An Open Standard for Revocable API Keys",
+      "category": "Incident"
+    },
+    {
+      "summary": "Attackers are using trusted Microsoft services and blob URLs to generate stealthy phishing pages that leave defenders with no static website to detect or block. The post New Phishing Attack Creates Malicious Pages Inside the Victim\u2019s Browser appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "New Phishing Attack Creates Malicious Pages Inside the Victim\u2019s Browser",
+      "category": "Incident"
+    },
+    {
+      "summary": "Malicious prompts concealed in documents, metadata, emails, images and code can manipulate autonomous agents into taking dangerous actions. The post The Hidden Instructions That Can Hijack AI Agents appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/the-hidden-instructions-that-can-hijack-ai-agents/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "The Hidden Instructions That Can Hijack AI Agents",
+      "category": "Incident"
+    },
+    {
+      "summary": "The startup founded by Palo Alto Networks\u2019 Nir Zuk has raised $290 million to build an AI-native security platform for highly regulated organizations that cannot rely on the public cloud. The post Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta",
+      "category": "Research"
+    },
+    {
+      "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -489,7 +593,7 @@
     },
     {
       "summary": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -502,7 +606,7 @@
     },
     {
       "summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -515,7 +619,7 @@
     },
     {
       "summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -525,110 +629,6 @@
       "date": "Sep 09, 2026",
       "title": "What It Took to Reach 1 Billion Build Manifests",
       "category": "Research"
-    },
-    {
-      "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system that determines who may log in across a Linux domain and maintains all identities in a 389 Directory Server database...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-      "category": "Research"
-    },
-    {
-      "summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across providers have almost nothing in...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-      "category": "Research"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
-      "category": "Research"
-    },
-    {
-      "summary": "Alleged \u2018white-hat\u2019 hackers drained $320 million from Liquid\u2019s federation wallet, demanding a bug fix. The post Hackers Return $263 Million Stolen From Liquid Network appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/hackers-return-263-million-stolen-from-liquid-network/"
-        }
-      ],
-      "date": "Sep 09, 2026",
-      "title": "Hackers Return $263 Million Stolen From Liquid Network",
-      "category": "Incident"
-    },
-    {
-      "summary": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be critical to meeting the new...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-      "category": "Incident"
-    },
-    {
-      "summary": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-      "category": "Incident"
-    },
-    {
-      "summary": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
-      "category": "Product Update"
-    },
-    {
-      "summary": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "OpenAI says ChatGPT outage causes image generation errors",
-      "category": "Incident"
     }
   ],
   "kev": [
@@ -899,8 +899,78 @@
   ],
   "patch": [
     {
-      "summary": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
+      "summary": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user. cPanel published the advisory on...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application The vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0),...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild. These include 723 flaws in Windows, 111 in Office and Office 2016, 62 in SQL, and 22 in Developer Tools....",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html"
+        }
+      ],
+      "date": "Sep 09, 2026",
+      "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -914,7 +984,7 @@
     },
     {
       "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -928,7 +998,7 @@
     },
     {
       "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -942,7 +1012,7 @@
     },
     {
       "summary": "The record-breaking September security update fixes two exploited privilege-escalation zero-days and 20 potentially wormable vulnerabilities. The post Microsoft Patches Record 974 Vulnerabilities, Including Two Exploited Zero-Days appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -956,7 +1026,7 @@
     },
     {
       "summary": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -970,7 +1040,7 @@
     },
     {
       "summary": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -984,7 +1054,7 @@
     },
     {
       "summary": "Affecting the SAP kernel code, the flaw allows unauthenticated, remote attackers to run arbitrary commands, recover secrets, and modify data. The post SAP Patches Critical Extended Passport Processing Vulnerability appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -993,34 +1063,6 @@
       ],
       "date": "Sep 08, 2026",
       "title": "SAP Patches Critical Extended Passport Processing Vulnerability",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices. The post MikroTik Patches Critical Flaws Chained to Hack Routers appeared first on SecurityWeek.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "MikroTik Patches Critical Flaws Chained to Hack Routers",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Administrators are advised to check their deployments for newly created user accounts they don\u2019t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/"
-        }
-      ],
-      "date": "Sep 08, 2026",
-      "title": "N-able Patches Critical Zero-Day in N-central",
       "vendor": "SecurityWeek",
       "severity": "Critical"
     }
@@ -1034,7 +1076,7 @@
       "severity": "High",
       "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The...",
       "source": "The Hacker News",
-      "age": 6,
+      "age": 7,
       "date": "Sep 07, 2026",
       "sources": [
         {
@@ -1049,7 +1091,7 @@
       "severity": "High",
       "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 \u2013 an authentication bypass and remote code...",
       "source": "The Hacker News",
-      "age": 2,
+      "age": 3,
       "date": "Sep 08, 2026",
       "sources": [
         {
@@ -1059,12 +1101,57 @@
       ]
     },
     {
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intelligence Group (GTIG)...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Sep 09, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html"
+        }
+      ]
+    },
+    {
+      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Sep 09, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html"
+        }
+      ]
+    },
+    {
+      "title": "Large Enterprises Targeted in Fake Merger & Acquisition Scams",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
+      "source": "Dark Reading",
+      "age": 0,
+      "date": "Sep 09, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams"
+        }
+      ]
+    },
+    {
       "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are protected with javascript-obfuscator, using multiple techniques including RC4-protected strings, control-flow...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Sep 09, 2026",
       "sources": [
         {
@@ -1079,7 +1166,7 @@
       "severity": "High",
       "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Sep 09, 2026",
       "sources": [
         {
@@ -1094,7 +1181,7 @@
       "severity": "High",
       "summary": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Sep 09, 2026",
       "sources": [
         {
@@ -1104,32 +1191,32 @@
       ]
     },
     {
-      "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
+      "title": "This Key Will Self-Destruct: An Open Standard for Revocable API Keys",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-      "source": "Dark Reading",
-      "age": 1,
-      "date": "Sep 08, 2026",
+      "severity": "Medium",
+      "summary": "Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default. The post This Key Will Self-Destruct: An Open Standard for Revocable API Keys appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
+      "date": "Sep 09, 2026",
       "sources": [
         {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access"
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/this-key-will-self-destruct-an-open-standard-for-revocable-api-keys/"
         }
       ]
     },
     {
-      "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+      "title": "New Phishing Attack Creates Malicious Pages Inside the Victim\u2019s Browser",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-      "source": "Dark Reading",
-      "age": 1,
-      "date": "Sep 08, 2026",
+      "severity": "Medium",
+      "summary": "Attackers are using trusted Microsoft services and blob URLs to generate stealthy phishing pages that leave defenders with no static website to detect or block. The post New Phishing Attack Creates Malicious Pages Inside the Victim\u2019s Browser appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
+      "date": "Sep 09, 2026",
       "sources": [
         {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency"
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/"
         }
       ]
     },
@@ -1139,7 +1226,7 @@
       "severity": "Medium",
       "summary": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Sep 09, 2026",
       "sources": [
         {
@@ -1147,30 +1234,30 @@
           "url": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/"
         }
       ]
-    },
-    {
-      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system that determines who may log in across a Linux domain and maintains all identities in a 389 Directory Server database...",
-      "source": "The Hacker News",
-      "age": 0,
-      "date": "Sep 09, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html"
-        }
-      ]
     }
   ],
   "media": [
+    {
+      "title": "SANS Stormcast Wednesday, September 9th, 2026: Microsoft, Adobe, Ivanti, Fortinet Patch Tuesday",
+      "show": "SANS StormCast",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "September 2026 Microsoft Patch Tuesday https://isc.sans.edu/diary/September%202026%20Microsoft%20Patch%20Tuesday/33320 Adobe Security Bulletins https://helpx.adobe.com/security/security-bulletin.html Security Advisory Ivanti Neurons for ITSM https://hub.iva...",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SANS StormCast",
+          "url": "https://isc.sans.edu/podcastdetail/10086"
+        }
+      ]
+    },
     {
       "title": "SANS Stormcast Tuesday, September 8th, 2026: numbat; MicroTik and Magento (Adobe Commerce) 0-Day",
       "show": "SANS StormCast",
       "kind": "podcast",
       "severity": "info",
-      "summary": "numbat - AI agent observability https://isc.sans.edu/diary/numbat%20-%20AI%20agent%20observability/33312 MicroTik SSH 0-Day Exploited https://mikrotik.com/supportsec/september-2026-vulnerability/ https://cert.pl/en/posts/2026/09/vulnerabilities-in-mikrotik-...",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Tuesday, September 8th, 2026: numbat; MicroTik and Magento (Adobe Commerce) 0-Day",
       "date": "Sep 09, 2026",
       "age": 0,
       "sources": [
@@ -1181,17 +1268,17 @@
       ]
     },
     {
-      "title": "SANS Stormcast Friday, September 4th, 2026: AV Exploits; Plex Update; Cisco Patches; Sangoma Switchvox Exploited",
-      "show": "SANS StormCast",
+      "title": "Risky Business #852 -- Cyber Command wants to buy shells",
+      "show": "Risky Business",
       "kind": "podcast",
       "severity": "info",
-      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Friday, September 4th, 2026: AV Exploits; Plex Update; Cisco Patches; Sangoma Switchvox Exploited",
+      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by guest co-host Robby Winchester from SpecterOps to talk through the week\u2019s news, including: ID verification company IDScan was breached and 153m driver licenses wound up for sale online. Cue the...",
       "date": "Sep 09, 2026",
       "age": 0,
       "sources": [
         {
-          "label": "SANS StormCast",
-          "url": "https://isc.sans.edu/podcastdetail/10082"
+          "label": "Risky Business",
+          "url": "https://risky.biz/RB852/"
         }
       ]
     },
@@ -1207,21 +1294,6 @@
         {
           "label": "Risky Business",
           "url": "https://risky.biz/RB851/"
-        }
-      ]
-    },
-    {
-      "title": "Risky Business #850 -- Widespread AI-enabled attacks target Siemens PLCs",
-      "show": "Risky Business",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by guest co-host Ollie Whitehouse, the CTO of the UK\u2019s NCSC, to talk through the week\u2019s news, including: Iranian hackers take down a small-scale power generator in the UK Siemens PLCs in critical ...",
-      "date": "Sep 09, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Risky Business",
-          "url": "https://risky.biz/RB850/"
         }
       ]
     },
@@ -1286,6 +1358,21 @@
       ]
     },
     {
+      "title": "SN 1095: AI-Driven Expertise Loss - Gemini, Hugging Face, and the AI Arms Race",
+      "show": "Security Now",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "OpenAI's latest advances have the rumor mill buzzing about \"hidden thoughts\" and unsupervisable models, but are AI safety experts panicking over the wrong threat? Get the clear-headed take behind the headlines. We start out with a classic old school hack ag...",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Security Now",
+          "url": "https://twit.tv/shows/security-now/episodes/1095"
+        }
+      ]
+    },
+    {
       "title": "SN 1094: AI Patching Shortcomings - Should You Trust AI-Generated Code?",
       "show": "Security Now",
       "kind": "podcast",
@@ -1297,21 +1384,6 @@
         {
           "label": "Security Now",
           "url": "https://twit.tv/shows/security-now/episodes/1094"
-        }
-      ]
-    },
-    {
-      "title": "SN 1093: Tokens in the Stream - Why LLMs are inherently insecure and prompt injection will persist",
-      "show": "Security Now",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "Turns out, every chatbot conversation runs on a messy hack at the heart of language models, making prompt injection an unsolved\u2014and possibly unsolvable\u2014security threat. Steve and Leo unravel the research that explains why \"roles\" in AI aren't what you think...",
-      "date": "Sep 09, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Security Now",
-          "url": "https://twit.tv/shows/security-now/episodes/1093"
         }
       ]
     },
@@ -1347,8 +1419,99 @@
     }
   ],
   "_meta": {
-    "generated": "2026-09-09T01:58:18Z",
+    "generated": "2026-09-09T10:18:20Z",
     "max_age": 8
   },
-  "advisory": []
+  "advisory": [
+    {
+      "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution.Adobe Experience Manager (AEM) is an enterprise-grade digital experience platform that combines content management, digital asset management, and ...",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2026-091"
+        }
+      ]
+    },
+    {
+      "title": "Critical Patches Issued for Microsoft Products, September 8, 2026",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Critical",
+      "summary": "Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution. Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged-on use...",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-september-8-2026_2026-090"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in DellSecure Connect Gateway Could Allow for Arbitrary Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "High",
+      "summary": "Multiple vulnerabilities have been discovered in Dell Secure Connect Gateway, the most severe of which could allow for arbitrary code execution. Dell Secure Connect Gateway is an enterprise monitoring and connection software for Dell infrastructure. Successful exploitation of ...",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-dellsecure-connect-gateway-could-allow-for-arbitrary-code-execution_2026-089"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user....",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-088"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in SonicWall SMA1000 Series Appliances Could Allow for Remote Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple Vulnerabilities have been discovered in SonicWall SMA1000 Series Appliances, which when chained together could allow for remote code execution, potentially leading to full system compromise. SonicWall Secure Mobile Access (SMA) 1000 Series appliances are enterprise-gr...",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sma1000-series-appliances-could-allow-for-remote-code-execution_2026-087"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in PaperCut Products Could Allow for Remote Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in PaperCut products, the most severe of which could allow for remote code execution. PaperCut products are software tools used to track, control, secure, and manage printing, copying, and scanning across office and school printer ...",
+      "date": "Sep 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-papercut-products-could-allow-for-remote-code-execution_2026-086"
+        }
+      ]
+    }
+  ]
 }
