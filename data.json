@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Hackers exploited a vulnerability in a VPN product to steal the personal information of roughly 240,000 people. The post 240,000 Hit by Data Breach at Japan\u2019s Digital Agency appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12. In Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export...",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "The Hacker News",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "The company unintentionally disclosed users\u2019 information to a third party impersonating a government agency. The post Personal, Financial Info Exposed in Revolut Data Breach appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "The Dubai-based threat detection startup uses artificial intelligence tools to scan billions of IP addresses to find exposed assets, leaked data, and zero-day vulnerabilities.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "Dark Reading",
@@ -86,7 +86,7 @@
     },
     {
       "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -101,8 +101,76 @@
   ],
   "cve": [
     {
-      "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
+      "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "cve_id": "",
+      "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+      "product": "Google",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\"...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "cve_id": "",
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
+        },
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/enterprises-warned-of-attacks-exploiting-wso2-vulnerability/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "cve_id": "CVE-2026-5430",
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "CVE-2026-87886 is a high-severity insecure file permissions flaw that can lead to local privilege escalation. The post Acronis Patches Exploited Vulnerability in cPanel Backup Plugin appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "cve_id": "CVE-2026-87886",
+      "title": "Acronis Patches Exploited Vulnerability in cPanel Backup Plugin",
+      "product": "",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -118,7 +186,7 @@
     },
     {
       "summary": "The 'Breaking' News: The OpenAI\u2013Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, and alignment....",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -134,7 +202,7 @@
     },
     {
       "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -150,7 +218,7 @@
     },
     {
       "summary": "The hackers staged numerous scripts for reconnaissance and CVE probing, along with brute-force utilities and privilege escalation tools. The post Thai Broadband Provider Hacked via Fortinet Vulnerability appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -166,7 +234,7 @@
     },
     {
       "summary": "The updates resolve kernel vulnerabilities that could lead to memory corruption, privilege escalation, system termination, and information leaks. The post Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -182,7 +250,7 @@
     },
     {
       "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -198,7 +266,7 @@
     },
     {
       "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -218,7 +286,7 @@
     },
     {
       "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -231,60 +299,77 @@
       "product": "Microsoft",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign. \"Red Heron scanned 1,386 Gitea instances across seven countries and maintained a...",
-      "age": 5,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html"
-        }
-      ],
-      "date": "Sep 14, 2026",
-      "cve_id": "",
-      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
-      "age": 5,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk"
-        }
-      ],
-      "date": "Sep 14, 2026",
-      "cve_id": "CVE-2026-85706",
-      "title": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
-      "product": "GitLab",
-      "vendor": "Dark Reading",
-      "severity": "High"
-    },
-    {
-      "summary": "The Chinese-language input method editor for Windows can allow attackers to execute arbitrary code remotely. The post Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution appeared first on SecurityWeek.",
-      "age": 6,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/"
-        }
-      ],
-      "date": "Sep 14, 2026",
-      "cve_id": "",
-      "title": "Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution",
-      "product": "Windows",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by the cloud...",
+      "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "actor": "BambooToken malware controls Windows and Linux systems via MQTT",
+      "severity": "High"
+    },
+    {
+      "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "actor": "Hackers target WordPress sites via third-party WooCommerce plugin",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "actor": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+      "severity": "High"
+    },
+    {
+      "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "actor": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "actor": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+      "severity": "High"
+    },
+    {
+      "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by the cloud...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -297,7 +382,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -310,7 +395,7 @@
     },
     {
       "summary": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -323,7 +408,7 @@
     },
     {
       "summary": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -336,7 +421,7 @@
     },
     {
       "summary": "Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -349,7 +434,7 @@
     },
     {
       "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -362,7 +447,7 @@
     },
     {
       "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -372,77 +457,116 @@
       "date": "Sep 16, 2026",
       "actor": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
       "severity": "High"
-    },
-    {
-      "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden user account. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "actor": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-      "severity": "High"
-    },
-    {
-      "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "actor": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN. Elastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "actor": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world. The malware is controlled via the Telegram messaging app and can copy a target's...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "actor": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-      "severity": "High"
-    },
-    {
-      "summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said. The company uncovered the intrusion by examining a server the attacker...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "actor": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering charges. [...]",
+      "summary": "Microsoft has reminded customers that Windows Server 2022 will reach the end of mainstream support next month and enter extended support until October 2031. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "Windows Server 2022 reaches end of mainstream support next month",
+      "category": "Research"
+    },
+    {
+      "summary": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+      "category": "Research"
+    },
+    {
+      "summary": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+      "category": "Incident"
+    },
+    {
+      "summary": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current. The attack requires an attacker who already controls...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "category": "Incident"
+    },
+    {
+      "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself is a legitimate training method. It refers to a machine learning...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "category": "Incident"
+    },
+    {
+      "summary": "Microsoft agreed to adopt guardrails and privacy standards for its AI in schools, as negotiated with the American Federation of Teachers. The post Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow? appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?",
+      "category": "Research"
+    },
+    {
+      "summary": "Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today. The post \u201cWe Think the Security Control Is Working\u201d Is No Longer Good Enough appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "\u201cWe Think the Security Control Is Working\u201d Is No Longer Good Enough",
+      "category": "Research"
+    },
+    {
+      "summary": "AI-assisted researchers flooded Vercel with reports, forcing the company to automate vulnerability triage. The post $1 Million Sandbox Challenge Uncovers Linux Kernel Flaws appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "$1 Million Sandbox Challenge Uncovers Linux Kernel Flaws",
+      "category": "Research"
+    },
+    {
+      "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering charges. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -455,7 +579,7 @@
     },
     {
       "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14. On such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -468,7 +592,7 @@
     },
     {
       "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -481,7 +605,7 @@
     },
     {
       "summary": "The cybersecurity startup is building a proprietary foundation model and plans to accelerate global expansion. The post Exein Secures $270M at $1.7B Valuation for Physical AI Security appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -491,110 +615,6 @@
       "date": "Sep 16, 2026",
       "title": "Exein Secures $270M at $1.7B Valuation for Physical AI Security",
       "category": "Research"
-    },
-    {
-      "summary": "A hacker claims to have stolen 7.5 million customer records after breaching the company\u2019s systems. The post Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/"
-        }
-      ],
-      "date": "Sep 16, 2026",
-      "title": "Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data",
-      "category": "Incident"
-    },
-    {
-      "summary": "The incident occurred in May, when RubyGems maintainers suspended new account registrations due to what appeared like malicious activity. The post OpenAI Investigates Report Linking AI Agents to RubyGems Attack appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/"
-        }
-      ],
-      "date": "Sep 16, 2026",
-      "title": "OpenAI Investigates Report Linking AI Agents to RubyGems Attack",
-      "category": "Incident"
-    },
-    {
-      "summary": "The Humanist AI Code of Conduct draws a line between defensive cyber research and operational attack capability. The post Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/"
-        }
-      ],
-      "date": "Sep 16, 2026",
-      "title": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
-      "category": "Incident"
-    },
-    {
-      "summary": "Dario Amodei says it's time to slow the pace of frontier AI improvements so that security and risk prevention efforts can catch up. What does this mean for enterprises?",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai"
-        }
-      ],
-      "date": "Sep 16, 2026",
-      "title": "Anthropic CEO: Time to Shift From Improving to Controlling AI",
-      "category": "Research"
-    },
-    {
-      "summary": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved. \"New plugins are reviewed before they enter the directory, but...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
-      "category": "Product Update"
-    },
-    {
-      "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains, exposed systems,...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "title": "\u26a1 Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-      "category": "Incident"
-    },
-    {
-      "summary": "There's a lot of noise around AI and cybersecurity right now. What\u2019s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually deserve their action. In the first half...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-      "category": "Research"
-    },
-    {
-      "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer | JeetBot,\" lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
-        }
-      ],
-      "date": "Sep 15, 2026",
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "category": "Incident"
     }
   ],
   "kev": [
@@ -865,8 +885,22 @@
   ],
   "patch": [
     {
+      "summary": "The security updates resolve over 800 vulnerabilities across 17 product families, including over 100 critical-severity flaws. The post Oracle Patches 800+ Vulnerabilities in September 2026 Security Update appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/oracle-patches-800-vulnerabilities-in-september-2026-security-update/"
+        }
+      ],
+      "date": "Sep 16, 2026",
+      "title": "Oracle Patches 800+ Vulnerabilities in September 2026 Security Update",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
       "summary": "You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -880,7 +914,7 @@
     },
     {
       "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -894,7 +928,7 @@
     },
     {
       "summary": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -908,7 +942,7 @@
     },
     {
       "summary": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -922,7 +956,7 @@
     },
     {
       "summary": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -938,7 +972,7 @@
   "ransomware": [
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -953,7 +987,7 @@
     },
     {
       "summary": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "Dark Reading",
@@ -975,7 +1009,7 @@
       "severity": "High",
       "summary": "The company unintentionally disclosed users\u2019 information to a third party impersonating a government agency. The post Personal, Financial Info Exposed in Revolut Data Breach appeared first on SecurityWeek.",
       "source": "SecurityWeek",
-      "age": 6,
+      "age": 7,
       "date": "Sep 14, 2026",
       "sources": [
         {
@@ -990,7 +1024,7 @@
       "severity": "High",
       "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
       "source": "BleepingComputer",
-      "age": 7,
+      "age": 8,
       "date": "Sep 14, 2026",
       "sources": [
         {
@@ -1005,7 +1039,7 @@
       "severity": "Critical",
       "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity...",
       "source": "The Hacker News",
-      "age": 3,
+      "age": 4,
       "date": "Sep 15, 2026",
       "sources": [
         {
@@ -1015,12 +1049,27 @@
       ]
     },
     {
+      "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
+      "source": "Dark Reading",
+      "age": 0,
+      "date": "Sep 16, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days"
+        }
+      ]
+    },
+    {
       "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Sep 16, 2026",
       "sources": [
         {
@@ -1035,7 +1084,7 @@
       "severity": "High",
       "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Sep 16, 2026",
       "sources": [
         {
@@ -1050,7 +1099,7 @@
       "severity": "High",
       "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Sep 16, 2026",
       "sources": [
         {
@@ -1060,32 +1109,17 @@
       ]
     },
     {
-      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN. Elastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen...",
+      "severity": "Medium",
+      "summary": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than...",
       "source": "The Hacker News",
-      "age": 1,
-      "date": "Sep 15, 2026",
+      "age": 0,
+      "date": "Sep 16, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html"
-        }
-      ]
-    },
-    {
-      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said. The company uncovered the intrusion by examining a server the attacker...",
-      "source": "The Hacker News",
-      "age": 1,
-      "date": "Sep 15, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html"
+          "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html"
         }
       ]
     },
@@ -1095,7 +1129,7 @@
       "severity": "Medium",
       "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering charges. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Sep 16, 2026",
       "sources": [
         {
@@ -1137,6 +1171,21 @@
       ]
     },
     {
+      "title": "Risky Business #853 -- We're all gonna die, apparently",
+      "show": "Risky Business",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by former US Cyber Command executive director turned PwC\u2019s Cyber, Data & Technology Risk leader Morgan Adamski to talk through the week\u2019s news, including: More tech guys penned more open letters a...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Risky Business",
+          "url": "https://risky.biz/RB853/"
+        }
+      ]
+    },
+    {
       "title": "Snake Oilers: watchTowr, XBOW and CoreView",
       "show": "Risky Business",
       "kind": "podcast",
@@ -1148,21 +1197,6 @@
         {
           "label": "Risky Business",
           "url": "https://risky.biz/SNAKEOILERS24PT1/"
-        }
-      ]
-    },
-    {
-      "title": "Risky Business #852 -- Cyber Command wants to buy shells",
-      "show": "Risky Business",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by guest co-host Robby Winchester from SpecterOps to talk through the week\u2019s news, including: ID verification company IDScan was breached and 153m driver licenses wound up for sale online. Cue the...",
-      "date": "Sep 16, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Risky Business",
-          "url": "https://risky.biz/RB852/"
         }
       ]
     },
@@ -1227,6 +1261,21 @@
       ]
     },
     {
+      "title": "SN 1096: Are we the Krell? - 153 Million Driver's Licenses Leaked",
+      "show": "Security Now",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "Are we charging toward a Krell-style catastrophe with AI, arming ourselves with incomprehensible power while missing the real risks lurking beneath the code? Worried Anthropic researchers warn that AI 'could kill all humans' Anthropic Researchers Raise Alar...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Security Now",
+          "url": "https://twit.tv/shows/security-now/episodes/1096"
+        }
+      ]
+    },
+    {
       "title": "SN 1095: AI-Driven Expertise Loss - Gemini, Hugging Face, and the AI Arms Race",
       "show": "Security Now",
       "kind": "podcast",
@@ -1238,21 +1287,6 @@
         {
           "label": "Security Now",
           "url": "https://twit.tv/shows/security-now/episodes/1095"
-        }
-      ]
-    },
-    {
-      "title": "SN 1094: AI Patching Shortcomings - Should You Trust AI-Generated Code?",
-      "show": "Security Now",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "AI-generated code is flooding the industry, but researchers reveal that almost half of it contains critical vulnerabilities. This week, we unpack what happens when the race for automation outpaces security best practices. A possible means for preventing pro...",
-      "date": "Sep 16, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Security Now",
-          "url": "https://twit.tv/shows/security-now/episodes/1094"
         }
       ]
     },
@@ -1288,8 +1322,99 @@
     }
   ],
   "_meta": {
-    "generated": "2026-09-16T02:09:56Z",
+    "generated": "2026-09-16T10:26:07Z",
     "max_age": 8
   },
-  "advisory": []
+  "advisory": [
+    {
+      "title": "Multiple Vulnerabilities in Cisco Secure Email Products Could Allow for Remote Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in Cisco Secure Email products, the most severe of which could allow for remote code execution.Cisco Secure Email Gateway (formerly ESA) is an email security appliance that filters spam, malware, and other threats at the mail gatew...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-secure-email-products-could-allow-for-remote-code-execution_2026-096"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in Mikrotik Routers Could Allow for Admin Hijacking",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in MikroTik Routers, the most severe of which could allow for admin hijacking. MikroTik routers are network devices that use the RouterOS operating system to provide advanced routing, firewall, wireless, VPN, bandwidth management, ...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mikrotik-routers-could-allow-for-admin-hijacking_2026-095"
+        }
+      ]
+    },
+    {
+      "title": "A Vulnerability in GitLab Could Allow for Disclosure of Sensitive Data",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "A vulnerability has been discovered in GitLab, which could allow disclosure of sensitive data. GitLab GitLab is a DevOps platform that provides source code management, CI/CD pipelines, issue tracking, and collaboration tools in a single application for software development tea...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-gitlab-could-allow-for-disclosure-of-sensitive-data_2026-094"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in Ivanti Products Could Allow for Arbitrary Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in Ivanti products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the system.Ivanti...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-products-could-allow-for-arbitrary-code-execution_2026-093"
+        }
+      ]
+    },
+    {
+      "title": "A Vulnerability in SAP Extended Passport (EPP) Processing Could Allow for Remote Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "A vulnerability has been discovered in SAP Extended Passport (EPP) Processing that could allow for remote code execution. SAP Extended Passport (EPP) Processing is a core system data structure and tracing mechanism within SAP Kernel code used to track, log, and monitor end-to-...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-sap-extended-passport-epp-processing-could-allow-for-remote-code-execution_2026-092"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution.Adobe Experience Manager (AEM) is an enterprise-grade digital experience platform that combines content management, digital asset management, and ...",
+      "date": "Sep 16, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2026-091"
+        }
+      ]
+    }
+  ]
 }
