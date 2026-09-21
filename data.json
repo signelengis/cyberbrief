@@ -1,8 +1,22 @@
 {
   "breach": [
     {
-      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi...",
+      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "org": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack. The post CrowdSec Confirms Source Code Stolen in Supply Chain Attack appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies. The post Google Confirms Gemini AI Breached Three Firms appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -41,27 +55,117 @@
       "org": "Google Confirms Gemini AI Breached Three Firms",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM,...",
-      "age": 8,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
-        }
-      ],
-      "date": "Sep 19, 2026",
-      "org": "Identity Visibility in 2026: The Foundation of Identity Security",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [],
   "threat": [
     {
-      "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
+      "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cryptocurrency to North Korea. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+      "severity": "High"
+    },
+    {
+      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "severity": "High"
+    },
+    {
+      "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. \"Distributed primarily via targeted smishing (SMS/text phishing) and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "severity": "High"
+    },
+    {
+      "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
+      "severity": "High"
+    },
+    {
+      "summary": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
+      "severity": "High"
+    },
+    {
+      "summary": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "Cyber Op Targets South Korean Media & Automotive Sectors",
+      "severity": "High"
+    },
+    {
+      "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "actor": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
+      "severity": "High"
+    },
+    {
+      "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -74,7 +178,7 @@
     },
     {
       "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -87,7 +191,7 @@
     },
     {
       "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -100,7 +204,7 @@
     },
     {
       "summary": "The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware. The post Fake LastPass Installers Push Kernel-Level EDR Killer, \u2018Rapuncel\u2019 Stealer appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -110,116 +214,116 @@
       "date": "Sep 21, 2026",
       "actor": "Fake LastPass Installers Push Kernel-Level EDR Killer, \u2018Rapuncel\u2019 Stealer",
       "severity": "High"
-    },
-    {
-      "summary": "The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion. The post RatHat Android Trojan Uses AI for Automation appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "RatHat Android Trojan Uses AI for Automation",
-      "severity": "High"
-    },
-    {
-      "summary": "It\u2019s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea. The post Rust Team Members and Popular Crate Owners Targeted via Video Calls appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-      "severity": "High"
-    },
-    {
-      "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "New RatHat Android malware uses AI to automate device control",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-      "severity": "High"
-    },
-    {
-      "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-      "severity": "High"
-    },
-    {
-      "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "severity": "High"
-    },
-    {
-      "summary": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "actor": "China's FamousSparrow APT Spies on US Politics in Latin America",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Ireland's Data Protection Commission (DPC) has fined Google \u20ac403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "category": "Research"
+    },
+    {
+      "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+      "category": "Research"
+    },
+    {
+      "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+      "category": "Research"
+    },
+    {
+      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+      "category": "Incident"
+    },
+    {
+      "summary": "Google has been fined \u20ac403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "Google Fined \u20ac403 Million Over GDPR Violations Tied to Location Data",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "category": "Research"
+    },
+    {
+      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "category": "Incident"
+    },
+    {
+      "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "category": "Research"
+    },
+    {
+      "summary": "Ireland's Data Protection Commission (DPC) has fined Google \u20ac403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -232,7 +336,7 @@
     },
     {
       "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -245,7 +349,7 @@
     },
     {
       "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -258,7 +362,7 @@
     },
     {
       "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how centralized access governance and owner-driven reviews can help identify and remove unnecessary...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -268,113 +372,31 @@
       "date": "Sep 21, 2026",
       "title": "Secure enterprise sharing with access reviews for Microsoft 365",
       "category": "Research"
-    },
-    {
-      "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "Microsoft Teams will let admins block custom file extensions",
-      "category": "Research"
-    },
-    {
-      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "\u26a1 Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "category": "Incident"
-    },
-    {
-      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-      "category": "Incident"
-    },
-    {
-      "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-      "category": "Incident"
-    },
-    {
-      "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during calls, and shuts down permanently on September 27. We tried it and read the fine print. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-      "category": "Policy/Legal"
-    },
-    {
-      "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal. The incidents occurred in May 2026 as part of a test run conducted by Israeli...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-      "category": "Research"
-    },
-    {
-      "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine. Kernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-      "category": "Research"
-    },
-    {
-      "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install. The security firm pwn.ai, whose researchers...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html"
-        }
-      ],
-      "date": "Sep 21, 2026",
-      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-      "category": "Research"
     }
   ],
   "kev": [
+    {
+      "cve_id": "CVE-2026-7273",
+      "product": "GS1900 Series Switches",
+      "vendor": "Zyxel",
+      "severity": "Critical",
+      "date_added": "2026-09-21",
+      "due_date": "Sep 24, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+      "age": 0,
+      "date": "Sep 21, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV Catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "label": "NVD \u00b7 CVE-2026-7273",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273"
+        }
+      ]
+    },
     {
       "cve_id": "CVE-2025-39964",
       "product": "Kernel",
@@ -616,34 +638,26 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706"
         }
       ]
-    },
-    {
-      "cve_id": "CVE-2026-86060",
-      "product": "RouterOS",
-      "vendor": "MikroTik",
-      "severity": "Critical",
-      "date_added": "2026-09-10",
-      "due_date": "Sep 13, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
-      "age": 0,
-      "date": "Sep 21, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV Catalog",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "label": "NVD \u00b7 CVE-2026-86060",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060"
-        }
-      ]
     }
   ],
   "patch": [
     {
-      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html"
+        }
+      ],
+      "date": "Sep 21, 2026",
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -657,7 +671,7 @@
     },
     {
       "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -671,7 +685,7 @@
     },
     {
       "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -682,34 +696,20 @@
       "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
       "vendor": "BleepingComputer",
       "severity": "High"
-    },
-    {
-      "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue...",
-      "age": 8,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
-        }
-      ],
-      "date": "Sep 19, 2026",
-      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "ransomware": [
     {
-      "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "age": 8,
+      "summary": "ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
+      "age": 0,
       "sources": [
         {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims"
         }
       ],
-      "date": "Sep 19, 2026",
-      "group": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+      "date": "Sep 21, 2026",
+      "group": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
       "victim": "",
       "sector": "",
       "severity": "High"
@@ -718,12 +718,27 @@
   "sector": [],
   "awareness": [
     {
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Sep 21, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/"
+        }
+      ]
+    },
+    {
       "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Sep 21, 2026",
       "sources": [
         {
@@ -733,17 +748,47 @@
       ]
     },
     {
-      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
       "topic": "AWARENESS",
       "severity": "High",
-      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM,...",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign...",
       "source": "The Hacker News",
-      "age": 8,
-      "date": "Sep 19, 2026",
+      "age": 0,
+      "date": "Sep 21, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
+          "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html"
+        }
+      ]
+    },
+    {
+      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Sep 21, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html"
+        }
+      ]
+    },
+    {
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. \"Distributed primarily via targeted smishing (SMS/text phishing) and...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Sep 21, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
         }
       ]
     },
@@ -753,7 +798,7 @@
       "severity": "High",
       "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Sep 21, 2026",
       "sources": [
         {
@@ -768,7 +813,7 @@
       "severity": "High",
       "summary": "The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware. The post Fake LastPass Installers Push Kernel-Level EDR Killer, \u2018Rapuncel\u2019 Stealer appeared first on SecurityWeek.",
       "source": "SecurityWeek",
-      "age": 0,
+      "age": 1,
       "date": "Sep 21, 2026",
       "sources": [
         {
@@ -778,27 +823,12 @@
       ]
     },
     {
-      "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
-      "source": "Dark Reading",
-      "age": 0,
-      "date": "Sep 21, 2026",
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days"
-        }
-      ]
-    },
-    {
       "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
       "topic": "AWARENESS",
       "severity": "Medium",
       "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Sep 21, 2026",
       "sources": [
         {
@@ -813,27 +843,12 @@
       "severity": "Medium",
       "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Sep 21, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/"
-        }
-      ]
-    },
-    {
-      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix...",
-      "source": "The Hacker News",
-      "age": 0,
-      "date": "Sep 21, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html"
         }
       ]
     }
@@ -1021,7 +1036,7 @@
     }
   ],
   "_meta": {
-    "generated": "2026-09-21T17:20:03Z",
+    "generated": "2026-09-21T21:20:14Z",
     "max_age": 8
   },
   "advisory": [
