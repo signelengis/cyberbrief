@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security numbers. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -18,7 +18,7 @@
   "cve": [
     {
       "summary": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "Dark Reading",
@@ -31,44 +31,77 @@
       "product": "Citrix",
       "vendor": "Dark Reading",
       "severity": "Critical"
-    },
-    {
-      "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
-      "age": 8,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/"
-        }
-      ],
-      "date": "Oct 02, 2026",
-      "cve_id": "",
-      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
-      "product": "GitLab",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.",
-      "age": 8,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce"
-        }
-      ],
-      "date": "Oct 02, 2026",
-      "cve_id": "",
-      "title": "SWIFT Banking & Government Middleware Enables RCE",
-      "product": "",
-      "vendor": "Dark Reading",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a...",
+      "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "actor": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams struggle to keep pace. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "actor": "Microsoft says threat actors are ahead in the early AI race",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue's Threat Hunt Operations & Research (THOR) team, which analyzed the exploitation activity...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "actor": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "actor": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "actor": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
+      "severity": "High"
+    },
+    {
+      "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -81,7 +114,7 @@
     },
     {
       "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -94,7 +127,7 @@
     },
     {
       "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. \"Once executed, the legitimate MSP360 installer, distributed...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -107,7 +140,7 @@
     },
     {
       "summary": "The China-based hacking group has been exploiting SharePoint vulnerabilities since July 2025. The post Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -120,7 +153,7 @@
     },
     {
       "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -133,7 +166,7 @@
     },
     {
       "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -146,7 +179,7 @@
     },
     {
       "summary": "The dropper \u201ccarries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime. The post macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -156,77 +189,116 @@
       "date": "Oct 04, 2026",
       "actor": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
       "severity": "High"
-    },
-    {
-      "summary": "A trio of newly discovered backdoors walk and quack like legitimate edge solutions, so it's hard to tell they're not.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "Malicious Linux Implants Mimic Asian Mail Security Products",
-      "severity": "High"
-    },
-    {
-      "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
-      "severity": "High"
-    },
-    {
-      "summary": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
-      "severity": "High"
-    },
-    {
-      "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-      "severity": "High"
-    },
-    {
-      "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
+      "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "Google Gemini could soon get full access to your Mac\u2019s files, apps and the web",
+      "category": "Research"
+    },
+    {
+      "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dollars in ATM jackpotting attacks across the United States. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+      "category": "Incident"
+    },
+    {
+      "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said the \"primary purpose of the China...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "MI5 Says China\u2019s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "category": "Research"
+    },
+    {
+      "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+      "category": "Research"
+    },
+    {
+      "summary": "Noteworthy stories that might have slipped under the radar: Kiteworks patches over 100 vulnerabilities, Microsoft publishes 2026 Digital Defense Report, AI finds 24 Android app flaws. The post In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats appeared first on...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats",
+      "category": "Research"
+    },
+    {
+      "summary": "Hackers used the account, which has 13 million followers, to amplify a Clippy-themed cryptocurrency account. The post Crypto Scammers Hijack Microsoft\u2019s Official X Account appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "Crypto Scammers Hijack Microsoft\u2019s Official X Account",
+      "category": "Incident"
+    },
+    {
+      "summary": "Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad. The post In Rare Move, Alleged Iranian State Hacker Extradited to US appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/"
+        }
+      ],
+      "date": "Oct 04, 2026",
+      "title": "In Rare Move, Alleged Iranian State Hacker Extradited to US",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -239,7 +311,7 @@
     },
     {
       "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" a spokesperson for...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -252,7 +324,7 @@
     },
     {
       "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides. Then a board...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -265,7 +337,7 @@
     },
     {
       "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -275,113 +347,31 @@
       "date": "Oct 04, 2026",
       "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
       "category": "Research"
-    },
-    {
-      "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-      "category": "Product Update"
-    },
-    {
-      "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors,\" the software cryptocurrency wallet maker said. \"At...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-      "category": "Research"
-    },
-    {
-      "summary": "The announcement comes after Trump hosted top executives of AI companies at the White House last week. The post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
-      "category": "Research"
-    },
-    {
-      "summary": "doxx.net\u2019s new ADN platform prevents agentic misadventure while the agent is operating under the user\u2019s authority. The post doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
-      "category": "Research"
-    },
-    {
-      "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "Anthropic asks Claude users to share voice data for AI model training",
-      "category": "Research"
-    },
-    {
-      "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "Danish university DTU breach exposes data of up to 200,000 people",
-      "category": "Incident"
-    },
-    {
-      "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-      "category": "Research"
-    },
-    {
-      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif \u200cal-Din Khader, is said to have been brought into custody on...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-      "category": "Research"
     }
   ],
   "kev": [
+    {
+      "cve_id": "CVE-2026-88779",
+      "product": "NetScaler",
+      "vendor": "Citrix",
+      "severity": "Critical",
+      "date_added": "2026-10-04",
+      "due_date": "Oct 07, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+      "age": 0,
+      "date": "Oct 04, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV Catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "label": "NVD \u00b7 CVE-2026-88779",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779"
+        }
+      ]
+    },
     {
       "cve_id": "CVE-2026-102490",
       "product": "Zammad",
@@ -623,34 +613,12 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430"
         }
       ]
-    },
-    {
-      "cve_id": "CVE-2026-71362",
-      "product": "Commerce and Magento ",
-      "vendor": "Adobe",
-      "severity": "Critical",
-      "date_added": "2026-09-24",
-      "due_date": "Sep 27, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction.",
-      "age": 0,
-      "date": "Oct 04, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV Catalog",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "label": "NVD \u00b7 CVE-2026-71362",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362"
-        }
-      ]
     }
   ],
   "patch": [
     {
       "summary": "The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek.",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -664,7 +632,7 @@
     },
     {
       "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act....",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "The Hacker News",
@@ -678,7 +646,7 @@
     },
     {
       "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function...",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "The Hacker News",
@@ -689,26 +657,12 @@
       "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes environments. [...]",
-      "age": 8,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/"
-        }
-      ],
-      "date": "Oct 02, 2026",
-      "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
-      "vendor": "BleepingComputer",
-      "severity": "High"
     }
   ],
   "ransomware": [
     {
       "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -723,7 +677,7 @@
     },
     {
       "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -744,7 +698,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security numbers. [...]",
-      "age": 7,
+      "age": 8,
       "date": "Oct 02, 2026",
       "sources": [
         {
@@ -759,7 +713,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-      "age": 7,
+      "age": 8,
       "date": "Oct 02, 2026",
       "sources": [
         {
@@ -767,36 +721,21 @@
           "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/"
         }
       ]
-    },
-    {
-      "title": "Danish university DTU breach exposes data of up to 200,000 people",
-      "org": "BleepingComputer",
-      "sector": "EDUCATION",
-      "severity": "High",
-      "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-      "age": 1,
-      "date": "Oct 04, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/"
-        }
-      ]
     }
   ],
   "awareness": [
     {
-      "title": "SWIFT Banking & Government Middleware Enables RCE",
+      "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
       "topic": "AWARENESS",
       "severity": "High",
-      "summary": "Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.",
+      "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
       "source": "Dark Reading",
-      "age": 8,
-      "date": "Oct 02, 2026",
+      "age": 0,
+      "date": "Oct 04, 2026",
       "sources": [
         {
           "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce"
+          "url": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net"
         }
       ]
     },
@@ -806,7 +745,7 @@
       "severity": "High",
       "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. \"Once executed, the legitimate MSP360 installer, distributed...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Oct 04, 2026",
       "sources": [
         {
@@ -821,7 +760,7 @@
       "severity": "High",
       "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Oct 04, 2026",
       "sources": [
         {
@@ -836,7 +775,7 @@
       "severity": "High",
       "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Oct 04, 2026",
       "sources": [
         {
@@ -846,17 +785,17 @@
       ]
     },
     {
-      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+      "title": "Crypto Scammers Hijack Microsoft\u2019s Official X Account",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech...",
-      "source": "The Hacker News",
-      "age": 2,
+      "severity": "Medium",
+      "summary": "Hackers used the account, which has 13 million followers, to amplify a Clippy-themed cryptocurrency account. The post Crypto Scammers Hijack Microsoft\u2019s Official X Account appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
       "date": "Oct 04, 2026",
       "sources": [
         {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html"
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/"
         }
       ]
     }
@@ -1044,7 +983,7 @@
     }
   ],
   "_meta": {
-    "generated": "2026-10-04T16:06:03Z",
+    "generated": "2026-10-04T20:36:21Z",
     "max_age": 8
   },
   "advisory": [
