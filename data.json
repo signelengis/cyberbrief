@@ -1,10 +1,49 @@
 {
-  "breach": [],
-  "cve": [
+  "breach": [
     {
-      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
+      "summary": "Hackers stole patient information from Clover Health Investments and AngMar Management Services in July. The post 250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms appeared first on SecurityWeek.",
       "age": 0,
       "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "org": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms",
+      "severity": "High",
+      "records": "See source"
+    }
+  ],
+  "cve": [
+    {
+      "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+        },
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "cve_id": "CVE-2026-61500",
+      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched. The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/"
+        },
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/"
@@ -12,16 +51,55 @@
       ],
       "date": "Oct 05, 2026",
       "cve_id": "CVE-2026-88779",
-      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
       "product": "Citrix",
-      "vendor": "BleepingComputer",
+      "vendor": "SecurityWeek",
       "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech...",
+      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "actor": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "severity": "High"
+    },
+    {
+      "summary": "The dropper \u201ccarries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime. The post macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "actor": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
+      "severity": "High"
+    },
+    {
+      "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "actor": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+      "severity": "High"
+    },
+    {
+      "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -34,7 +112,7 @@
     },
     {
       "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -47,7 +125,7 @@
     },
     {
       "summary": "A trio of newly discovered backdoors walk and quack like legitimate edge solutions, so it's hard to tell they're not.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -60,7 +138,7 @@
     },
     {
       "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -73,7 +151,7 @@
     },
     {
       "summary": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -86,7 +164,7 @@
     },
     {
       "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -99,7 +177,7 @@
     },
     {
       "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams struggle to keep pace. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -112,7 +190,7 @@
     },
     {
       "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue's Threat Hunt Operations & Research (THOR) team, which analyzed the exploitation activity...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -125,7 +203,7 @@
     },
     {
       "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -135,51 +213,116 @@
       "date": "Oct 04, 2026",
       "actor": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
       "severity": "High"
-    },
-    {
-      "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
-      "severity": "High"
-    },
-    {
-      "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content....",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "actor": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
+      "summary": "OpenAI is expanding ads in ChatGPT, and one of the first new formats will show visual ads while you're generating images. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "OpenAI will show visual ads in ChatGPT while you generate images",
+      "category": "Research"
+    },
+    {
+      "summary": "Microsoft confirmed over the weekend that some games and applications using AC-3 (Dolby Digital) audio decoding will crash after installing the September 2026 KB5124010 Windows 11 preview update. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "Microsoft: Windows KB5124010 update crashes some games and apps",
+      "category": "Research"
+    },
+    {
+      "summary": "Google has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "Google halts open-source bug bounty program amid AI spam surge",
+      "category": "Research"
+    },
+    {
+      "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "Microsoft\u2019s X account hacked in crypto pump-and-dump scheme",
+      "category": "Incident"
+    },
+    {
+      "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. \"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems\u2014including...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+      "category": "Research"
+    },
+    {
+      "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+      "category": "Research"
+    },
+    {
+      "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" a spokesperson for...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+      "category": "Incident"
+    },
+    {
+      "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides. Then a board...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+      "category": "Research"
+    },
+    {
+      "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -192,7 +335,7 @@
     },
     {
       "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -205,7 +348,7 @@
     },
     {
       "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -218,7 +361,7 @@
     },
     {
       "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif \u200cal-Din Khader, is said to have been brought into custody on...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -227,110 +370,6 @@
       ],
       "date": "Oct 05, 2026",
       "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-      "category": "Research"
-    },
-    {
-      "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-      "category": "Product Update"
-    },
-    {
-      "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors,\" the software cryptocurrency wallet maker said. \"At...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-      "category": "Research"
-    },
-    {
-      "summary": "The announcement comes after Trump hosted top executives of AI companies at the White House last week. The post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
-      "category": "Research"
-    },
-    {
-      "summary": "doxx.net\u2019s new ADN platform prevents agentic misadventure while the agent is operating under the user\u2019s authority. The post doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/"
-        }
-      ],
-      "date": "Oct 05, 2026",
-      "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
-      "category": "Research"
-    },
-    {
-      "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "Google Gemini could soon get full access to your Mac\u2019s files, apps and the web",
-      "category": "Research"
-    },
-    {
-      "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dollars in ATM jackpotting attacks across the United States. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
-      "category": "Policy/Legal"
-    },
-    {
-      "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
-      "category": "Incident"
-    },
-    {
-      "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said the \"primary purpose of the China...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html"
-        }
-      ],
-      "date": "Oct 04, 2026",
-      "title": "MI5 Says China\u2019s MSS Funded Research Involving 100+ U.K.-Linked Academics",
       "category": "Research"
     }
   ],
@@ -602,8 +641,22 @@
   ],
   "patch": [
     {
+      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
+        }
+      ],
+      "date": "Oct 05, 2026",
+      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
       "summary": "The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -619,7 +672,7 @@
   "ransomware": [
     {
       "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "The Hacker News",
@@ -640,7 +693,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Oct 05, 2026",
       "sources": [
         {
@@ -652,12 +705,42 @@
   ],
   "awareness": [
     {
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Oct 05, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html"
+        }
+      ]
+    },
+    {
+      "title": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
+      "source": "Dark Reading",
+      "age": 0,
+      "date": "Oct 05, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack"
+        }
+      ]
+    },
+    {
       "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Oct 05, 2026",
       "sources": [
         {
@@ -672,7 +755,7 @@
       "severity": "High",
       "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
       "source": "Dark Reading",
-      "age": 1,
+      "age": 2,
       "date": "Oct 04, 2026",
       "sources": [
         {
@@ -832,10 +915,40 @@
           "url": "https://twit.tv/shows/security-now/episodes/1097"
         }
       ]
+    },
+    {
+      "title": "Black Hat Stories | Connections That Last",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Lynn shares how Black Hat brings the cybersecurity community together year after year, creating lasting connections and bringing the community to life.",
+      "date": "Oct 05, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/shorts/FGSAf8vzCB8"
+        }
+      ]
+    },
+    {
+      "title": "Black Hat Stories | Tony Lee, Black Hat Review Board Member",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Black Hat Stories | Tony Lee, Black Hat Review Board Member",
+      "date": "Oct 05, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/shorts/TjZ4WK8QKiw"
+        }
+      ]
     }
   ],
   "_meta": {
-    "generated": "2026-10-05T02:50:24Z",
+    "generated": "2026-10-05T12:55:10Z",
     "max_age": 8
   },
   "advisory": [
