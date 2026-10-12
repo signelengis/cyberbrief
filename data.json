@@ -1,10 +1,96 @@
 {
-  "breach": [],
-  "cve": [],
+  "breach": [
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "org": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "severity": "Critical",
+      "records": "See source"
+    },
+    {
+      "summary": "Hackers stole patients\u2019 personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "org": "iRhythm Data Breach Impacts at Least 360,000 People",
+      "severity": "High",
+      "records": "See source"
+    }
+  ],
+  "cve": [
+    {
+      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "cve_id": "",
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "product": "GitLab",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+        },
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "cve_id": "CVE-2026-102255",
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "product": "SonicWall",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html"
+        },
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "cve_id": "CVE-2026-85097",
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    }
+  ],
   "threat": [
     {
       "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -17,7 +103,7 @@
     },
     {
       "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -30,7 +116,7 @@
     },
     {
       "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -43,7 +129,7 @@
     },
     {
       "summary": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -56,7 +142,7 @@
     },
     {
       "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -69,7 +155,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -82,7 +168,7 @@
     },
     {
       "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -95,7 +181,7 @@
     },
     {
       "summary": "Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry. The post In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years appeared first on SecurityWeek.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -108,7 +194,7 @@
     },
     {
       "summary": "The first cybercriminal to ever make the FBI's \"10 Most Wanted Fugitives\" list allegedly infused Tren de Aragua's violent criminal operations with cash.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "Dark Reading",
@@ -121,7 +207,7 @@
     },
     {
       "summary": "Cyber-espionage actor UAC-0099 has been steadily refining its flagship dropper in campaigns targeting Ukrainian organizations.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "Dark Reading",
@@ -134,7 +220,7 @@
     },
     {
       "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -147,7 +233,7 @@
     },
     {
       "summary": "Midnight Mimosa is the name given to a malware campaign primarily running preinstalled on low-cost Android devices. The post Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -161,8 +247,112 @@
   ],
   "news": [
     {
-      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "category": "Research"
+    },
+    {
+      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "category": "Incident"
+    },
+    {
+      "summary": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is from China. TP-Link denies the claims and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "category": "Research"
+    },
+    {
+      "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that join will...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "category": "Product Update"
+    },
+    {
+      "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical \u201cvelocity paradox,\u201d in which organizations invest in AI-speed...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "category": "Research"
+    },
+    {
+      "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over. Searchlight Cyber, which disclosed the flaw on October 8, says an attacker who recovers the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+      "category": "Incident"
+    },
+    {
+      "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal. The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+      "category": "Incident"
+    },
+    {
+      "summary": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US. The post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -175,7 +365,7 @@
     },
     {
       "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -188,7 +378,7 @@
     },
     {
       "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -201,7 +391,7 @@
     },
     {
       "summary": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -211,110 +401,6 @@
       "date": "Oct 12, 2026",
       "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
       "category": "Policy/Legal"
-    },
-    {
-      "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
-        }
-      ],
-      "date": "Oct 12, 2026",
-      "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-      "category": "Research"
-    },
-    {
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html"
-        }
-      ],
-      "date": "Oct 12, 2026",
-      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-      "category": "Policy/Legal"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html"
-        }
-      ],
-      "date": "Oct 12, 2026",
-      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-      "category": "Research"
-    },
-    {
-      "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM. The reward is for information leading to his identification...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html"
-        }
-      ],
-      "date": "Oct 12, 2026",
-      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-      "category": "Incident"
-    },
-    {
-      "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "title": "How to keep AI agents within their permissions",
-      "category": "Research"
-    },
-    {
-      "summary": "\u200bA Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "title": "Man admits to running network of 15,000 money mules for cybercriminals",
-      "category": "Policy/Legal"
-    },
-    {
-      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "category": "Research"
-    },
-    {
-      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "category": "Research"
     }
   ],
   "kev": [
@@ -583,19 +669,34 @@
       ]
     }
   ],
-  "patch": [],
-  "ransomware": [
+  "patch": [
     {
-      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
-      "age": 8,
+      "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
+      "age": 0,
       "sources": [
         {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/"
         }
       ],
-      "date": "Oct 10, 2026",
-      "group": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "date": "Oct 12, 2026",
+      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    }
+  ],
+  "ransomware": [
+    {
+      "summary": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/"
+        }
+      ],
+      "date": "Oct 12, 2026",
+      "group": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
       "victim": "",
       "sector": "",
       "severity": "High"
@@ -609,27 +710,12 @@
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker...",
       "source": "The Hacker News",
-      "age": 4,
+      "age": 5,
       "date": "Oct 11, 2026",
       "sources": [
         {
           "label": "The Hacker News",
           "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html"
-        }
-      ]
-    },
-    {
-      "title": "How to keep AI agents within their permissions",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Oct 11, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/"
         }
       ]
     }
@@ -784,13 +870,88 @@
           "url": "https://twit.tv/shows/security-now/episodes/1098"
         }
       ]
+    },
+    {
+      "title": "Black Hat Stories | The Black Hat Experience",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Taylor Margot shares why Black Hat is more than an event. From the breathtaking scale of the cybersecurity community to the perspectives gained along the way, discover what makes the Black Hat experience truly unforgettable.",
+      "date": "Oct 12, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/shorts/Mp4tU7qqJpI"
+        }
+      ]
+    },
+    {
+      "title": "Black Hat Asia 2026 Highlights",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Relive the biggest moments from Black Hat Asia 2026, where the cybersecurity community came together to share research, exchange ideas, and build new connections. From technical Briefings and hands-on learning opportunities to conversations with industry pe...",
+      "date": "Oct 12, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/watch?v=lCUZoZomkq8"
+        }
+      ]
     }
   ],
   "_meta": {
-    "generated": "2026-10-12T03:05:14Z",
+    "generated": "2026-10-12T13:47:20Z",
     "max_age": 8
   },
   "advisory": [
+    {
+      "title": "A Vulnerability in Atlassian Data Center Products Could Allow for Arbitrary File Access",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "A vulnerability in Atlassian Data Center products could allow for arbitrary file access. Atlassian Data Center products are self-managed, enterprise-grade editions of Atlassian tools such as Jira, Confluence, Bitbucket, and Jira Service Management, which organizations host on ...",
+      "date": "Oct 12, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-atlassian-data-center-products-could-allow-for-arbitrary-file-access_2026-112"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in SonicWall SMA1000 Series Appliances Could Allow for Remote Code Execution.",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in SonicWall SMA1000 Series Appliances, the most severe of which could allow for remote code execution. SonicWall Secure Mobile Access (SMA) 1000 Series appliances are enterprise-grade secure access and SSL VPN gateways. Successful...",
+      "date": "Oct 12, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sma1000-series-appliances-could-allow-for-remote-code-execution_2026-113"
+        }
+      ]
+    },
+    {
+      "title": "Multiple Vulnerabilities in Dell System Update Could Allow for Remote Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in Dell System Update (DSU), the most severe of which could allow for remote code execution. Dell System Update (DSU) is a free Dell utility for Windows that scans your Dell computer and automatically finds, downloads, and installs...",
+      "date": "Oct 12, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-dell-system-update-could-allow-for-remote-code-execution_2026-111"
+        }
+      ]
+    },
     {
       "title": "A Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway Could Allow for Remote Code Execution",
       "source": "MS-ISAC / SLTT",
@@ -833,51 +994,6 @@
         {
           "label": "MS-ISAC",
           "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-fortinet-fortimail-could-allow-for-arbitrary-code-execution_2026-108"
-        }
-      ]
-    },
-    {
-      "title": "A Vulnerability in Kiteworks EPG (Email Security Gateway) Could Allow for Arbitrary Code Execution",
-      "source": "MS-ISAC / SLTT",
-      "agency": "MS-ISAC / SLTT",
-      "severity": "Medium",
-      "summary": "A vulnerability has been discovered in Kiteworks EPG (Email Security Gateway) that could allow for arbitrary code execution. Kiteworks Email Protection Gateway (EPG) is a cloud-based security solution that automates end-to-end encryption, decryption, and policy enforcement for...",
-      "date": "Oct 12, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "MS-ISAC",
-          "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-kiteworks-epg-email-security-gateway-could-allow-for-arbitrary-code-execution_2026-107"
-        }
-      ]
-    },
-    {
-      "title": "A Vulnerability in WordPress Could Allow for Remote Code Execution",
-      "source": "MS-ISAC / SLTT",
-      "agency": "MS-ISAC / SLTT",
-      "severity": "Medium",
-      "summary": "A vulnerability has been discovered in WordPress that could allow arbitrary code on the web server. WordPress is a free, open-source content management system (CMS) that allows you to build and manage websites without needing to write code. Successful exploitation allows an un...",
-      "date": "Oct 12, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "MS-ISAC",
-          "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-wordpress-could-allow-for-remote-code-execution_2026-106"
-        }
-      ]
-    },
-    {
-      "title": "A Vulnerability in Cisco Catalyst SD-WAN Manager Could Allow for Authentication Bypass",
-      "source": "MS-ISAC / SLTT",
-      "agency": "MS-ISAC / SLTT",
-      "severity": "Medium",
-      "summary": "A vulnerability has been discovered in Cisco Catalyst SD-WAN Manager (formerly SD-WAN vManage) that could allow for authentication bypass. Cisco Catalyst SD-WAN Manager is the centralized dashboard used to monitor and manage SD-WAN fabric devices, in some deployments up to sev...",
-      "date": "Oct 12, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "MS-ISAC",
-          "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-catalyst-sd-wan-manager-could-allow-for-authentication-bypass_2026-105"
         }
       ]
     }
