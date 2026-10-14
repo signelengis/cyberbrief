@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "The Hacker News",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Hackers stole patients\u2019 personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -31,8 +31,56 @@
   ],
   "cve": [
     {
-      "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as...",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "product": "Ivanti",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "product": "Ivanti",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "cve_id": "",
+      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -48,7 +96,7 @@
     },
     {
       "summary": "Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks. The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -64,7 +112,7 @@
     },
     {
       "summary": "The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild. The post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -80,7 +128,7 @@
     },
     {
       "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -96,7 +144,7 @@
     },
     {
       "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -112,7 +160,7 @@
     },
     {
       "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -128,7 +176,7 @@
     },
     {
       "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -144,7 +192,7 @@
     },
     {
       "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next. With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -160,7 +208,7 @@
     },
     {
       "summary": "CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. The post Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -173,64 +221,51 @@
       "product": "Ivanti",
       "vendor": "SecurityWeek",
       "severity": "Critical"
-    },
-    {
-      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html"
-        }
-      ],
-      "date": "Oct 13, 2026",
-      "cve_id": "",
-      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-      "product": "GitLab",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
-      "age": 6,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
-        }
-      ],
-      "date": "Oct 12, 2026",
-      "cve_id": "",
-      "title": "GitLab warns of max severity code execution vulnerability",
-      "product": "GitLab",
-      "vendor": "BleepingComputer",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that...",
-      "age": 6,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
-        },
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/"
-        }
-      ],
-      "date": "Oct 12, 2026",
-      "cve_id": "CVE-2026-102255",
-      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-      "product": "SonicWall",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
+      "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "actor": "Hirudo Android malware replaces banking apps to evade security checks",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud. Dutch mobile security company...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "actor": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "severity": "High"
+    },
+    {
+      "summary": "Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location. The post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "actor": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
+      "severity": "High"
+    },
+    {
       "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -243,7 +278,7 @@
     },
     {
       "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -256,7 +291,7 @@
     },
     {
       "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -269,7 +304,7 @@
     },
     {
       "summary": "Expanded plugin count allows the malware to monitor users\u2019 location, stream live audio, and interact with authenticated browser sessions. The post XWorm RAT Evolves Into Surveillance Platform appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -282,7 +317,7 @@
     },
     {
       "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -295,7 +330,7 @@
     },
     {
       "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "Dark Reading",
@@ -305,25 +340,116 @@
       "date": "Oct 12, 2026",
       "actor": "Writing the Next Chapter",
       "severity": "High"
-    },
-    {
-      "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
-      "age": 8,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes"
-        }
-      ],
-      "date": "Oct 11, 2026",
-      "actor": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+      "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+      "category": "Incident"
+    },
+    {
+      "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Global takedown hits network behind 1 billion phishing messages",
+      "category": "Incident"
+    },
+    {
+      "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+      "category": "Research"
+    },
+    {
+      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+      "category": "Research"
+    },
+    {
+      "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "UK Housing Ombudsman Service investigates 'security incident'",
+      "category": "Research"
+    },
+    {
+      "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+      "category": "Incident"
+    },
+    {
+      "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact knowledge of its...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "category": "Research"
+    },
+    {
+      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "category": "Research"
+    },
+    {
+      "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -336,7 +462,7 @@
     },
     {
       "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -349,7 +475,7 @@
     },
     {
       "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -362,7 +488,7 @@
     },
     {
       "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -372,110 +498,6 @@
       "date": "Oct 14, 2026",
       "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
       "category": "Policy/Legal"
-    },
-    {
-      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. \"Your configuration becomes validated and exempt...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-      "category": "Incident"
-    },
-    {
-      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to an advisory published by SSD Secure Disclosure on October 12. The chain was tested on two TV models,...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "category": "Incident"
-    },
-    {
-      "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding assistant as an editor extension, and nothing shows up in the installed programs list. Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "category": "Product Update"
-    },
-    {
-      "summary": "Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements. The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
-      "category": "Policy/Legal"
-    },
-    {
-      "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
-      "category": "Policy/Legal"
-    },
-    {
-      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, \u20ac8.6 million ($9.62 million) for illegally relaying \u200bGrindr users' sensitive data to advertisers. The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "Xandr Fined a Record \u20ac8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-      "category": "Policy/Legal"
-    },
-    {
-      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "Attackers Heat French Supermarket Fridges Up to 50\u00b0C by Hijacking Danfoss Controllers",
-      "category": "Incident"
-    },
-    {
-      "summary": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says. Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html"
-        }
-      ],
-      "date": "Oct 14, 2026",
-      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-      "category": "Research"
     }
   ],
   "kev": [
@@ -746,8 +768,36 @@
   ],
   "patch": [
     {
-      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these,...",
+      "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "Microsoft fixes VPN issues caused by September Windows updates",
+      "vendor": "BleepingComputer",
+      "severity": "High"
+    },
+    {
+      "summary": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. The post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
+      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these,...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -761,7 +811,7 @@
     },
     {
       "summary": "The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system. The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -775,7 +825,7 @@
     },
     {
       "summary": "The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -789,7 +839,7 @@
     },
     {
       "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -803,7 +853,7 @@
     },
     {
       "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -817,7 +867,7 @@
     },
     {
       "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -831,7 +881,7 @@
     },
     {
       "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -845,7 +895,7 @@
     },
     {
       "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that converts a personal account into an...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -859,7 +909,7 @@
     },
     {
       "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -873,7 +923,7 @@
     },
     {
       "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -888,8 +938,23 @@
   ],
   "ransomware": [
     {
-      "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
+        }
+      ],
+      "date": "Oct 14, 2026",
+      "group": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "victim": "",
+      "sector": "",
+      "severity": "High"
+    },
+    {
+      "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -904,7 +969,7 @@
     },
     {
       "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe...",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "The Hacker News",
@@ -919,7 +984,7 @@
     },
     {
       "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "Dark Reading",
@@ -934,7 +999,7 @@
     },
     {
       "summary": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -956,7 +1021,7 @@
       "severity": "Critical",
       "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
       "source": "BleepingComputer",
-      "age": 2,
+      "age": 3,
       "date": "Oct 13, 2026",
       "sources": [
         {
@@ -971,7 +1036,7 @@
       "severity": "Critical",
       "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP...",
       "source": "The Hacker News",
-      "age": 2,
+      "age": 3,
       "date": "Oct 13, 2026",
       "sources": [
         {
@@ -981,12 +1046,42 @@
       ]
     },
     {
+      "title": "Hirudo Android malware replaces banking apps to evade security checks",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Oct 14, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/"
+        }
+      ]
+    },
+    {
+      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud. Dutch mobile security company...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Oct 14, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+        }
+      ]
+    },
+    {
       "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being...",
       "source": "The Hacker News",
-      "age": 3,
+      "age": 4,
       "date": "Oct 13, 2026",
       "sources": [
         {
@@ -996,32 +1091,62 @@
       ]
     },
     {
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+      "source": "Krebs on Security",
+      "age": 0,
+      "date": "Oct 14, 2026",
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
+        }
+      ]
+    },
+    {
+      "title": "Global takedown hits network behind 1 billion phishing messages",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Oct 14, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/"
+        }
+      ]
+    },
+    {
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Oct 14, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html"
+        }
+      ]
+    },
+    {
       "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
       "topic": "AWARENESS",
       "severity": "Medium",
       "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Oct 14, 2026",
       "sources": [
         {
           "label": "The Hacker News",
           "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html"
-        }
-      ]
-    },
-    {
-      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. \"Your configuration becomes validated and exempt...",
-      "source": "The Hacker News",
-      "age": 0,
-      "date": "Oct 14, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html"
         }
       ]
     }
@@ -1209,10 +1334,25 @@
     }
   ],
   "_meta": {
-    "generated": "2026-10-14T10:47:34Z",
+    "generated": "2026-10-14T16:06:47Z",
     "max_age": 8
   },
   "advisory": [
+    {
+      "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+      "source": "MS-ISAC / SLTT",
+      "agency": "MS-ISAC / SLTT",
+      "severity": "Medium",
+      "summary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user....",
+      "date": "Oct 14, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "MS-ISAC",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-116"
+        }
+      ]
+    },
     {
       "title": "A Vulnerability in Ivanti Connect Secure Could Allow for Arbitrary Code Execution",
       "source": "MS-ISAC / SLTT",
@@ -1285,21 +1425,6 @@
         {
           "label": "MS-ISAC",
           "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-dell-system-update-could-allow-for-remote-code-execution_2026-111"
-        }
-      ]
-    },
-    {
-      "title": "A Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway Could Allow for Remote Code Execution",
-      "source": "MS-ISAC / SLTT",
-      "agency": "MS-ISAC / SLTT",
-      "severity": "Medium",
-      "summary": "A vulnerability has been discovered in Citrix NetScaler Application Delivery Controller (ADC) and Citrix NetScaler Gateway that could allow for remote code execution. Citrix NetScaler ADC (Application Delivery Controller) is an enterprise networking platform and traffic manage...",
-      "date": "Oct 14, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "MS-ISAC",
-          "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-citrix-netscaler-adc-and-citrix-netscaler-gateway-could-allow-for-remote-code-execution_2026-110"
         }
       ]
     }
