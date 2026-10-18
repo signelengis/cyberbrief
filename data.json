@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack. The post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit appeared first on SecurityWeek.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -31,8 +31,40 @@
   ],
   "cve": [
     {
-      "summary": "Successful exploitation of some of these issues could lead to remote code execution and full device takeover. The post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "cve_id": "",
+      "title": "BeyondTrust patches zero-day exploited in attacks since August",
+      "product": "",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "cve_id": "CVE-2025-61624",
+      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+      "product": "Fortinet",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Successful exploitation of some of these issues could lead to remote code execution and full device takeover. The post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -48,7 +80,7 @@
     },
     {
       "summary": "In addition to RCE flaws, Microsoft fixed multiple information disclosure bugs and a security bypass issue in Office. The post Microsoft Patches Two Dozen RCE Flaws in Office appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -64,7 +96,7 @@
     },
     {
       "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -80,7 +112,7 @@
     },
     {
       "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -96,7 +128,7 @@
     },
     {
       "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -112,7 +144,7 @@
     },
     {
       "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -128,7 +160,7 @@
     },
     {
       "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -144,7 +176,7 @@
     },
     {
       "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -160,7 +192,7 @@
     },
     {
       "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -176,7 +208,7 @@
     },
     {
       "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws,...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -189,48 +221,64 @@
       "product": "",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as...",
-      "age": 5,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html"
-        }
-      ],
-      "date": "Oct 16, 2026",
-      "cve_id": "",
-      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-      "product": "Ivanti",
-      "vendor": "The Hacker News",
-      "severity": "Critical"
-    },
-    {
-      "summary": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts. The post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek.",
-      "age": 5,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
-        },
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
-        }
-      ],
-      "date": "Oct 16, 2026",
-      "cve_id": "CVE-2026-102764",
-      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
-      "product": "",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+      "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "actor": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+      "severity": "High"
+    },
+    {
+      "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "actor": "Fake Arch Linux packages push malware with root privileges",
+      "severity": "High"
+    },
+    {
+      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that\u2019s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "actor": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "severity": "High"
+    },
+    {
+      "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Citizen Lab said Thursday. The hidden attack code ran the moment an ad loaded on the screen, and in...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "actor": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+      "severity": "High"
+    },
+    {
+      "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -243,7 +291,7 @@
     },
     {
       "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor....",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -256,7 +304,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -269,7 +317,7 @@
     },
     {
       "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -282,7 +330,7 @@
     },
     {
       "summary": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -295,7 +343,7 @@
     },
     {
       "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -308,7 +356,7 @@
     },
     {
       "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -321,7 +369,7 @@
     },
     {
       "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026. The campaigns also increase operational pressure on MSSPs serving US businesses, which...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -331,64 +379,116 @@
       "date": "Oct 17, 2026",
       "actor": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
       "severity": "High"
-    },
-    {
-      "summary": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "actor": "Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel",
-      "severity": "High"
-    },
-    {
-      "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "actor": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "actor": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "severity": "High"
-    },
-    {
-      "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "actor": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "category": "Research"
+    },
+    {
+      "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "Android gets AI defenses against messaging scams, fake calls",
+      "category": "Research"
+    },
+    {
+      "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "category": "Research"
+    },
+    {
+      "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from unknown numbers and tackle spam or fraudulent calls. To that end,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+      "category": "Research"
+    },
+    {
+      "summary": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week. The post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
+      "category": "Research"
+    },
+    {
+      "summary": "Left without funds for a coding task, an OpenAI model spent test crypto from a stranger\u2019s wallet and left it out of its report. The post OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
+      "category": "Research"
+    },
+    {
+      "summary": "Contextual defense helps security teams connect the signals, anticipate what comes next, and stop threats before they escalate. The post Context Is King in the Fight Against Modern Cyberattacks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "Context Is King in the Fight Against Modern Cyberattacks",
+      "category": "Incident"
+    },
+    {
+      "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes"
+        }
+      ],
+      "date": "Oct 18, 2026",
+      "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
+      "category": "Research"
+    },
+    {
+      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -401,7 +501,7 @@
     },
     {
       "summary": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -414,7 +514,7 @@
     },
     {
       "summary": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both approaches and explains where AI agents can improve security testing. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -427,7 +527,7 @@
     },
     {
       "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -436,110 +536,6 @@
       ],
       "date": "Oct 17, 2026",
       "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
-      "category": "Research"
-    },
-    {
-      "summary": "The Thoma Bravo-owned Proofpoint will acquire Varonis in an all-cash transaction and Varonis will become a private company. The post Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis",
-      "category": "Research"
-    },
-    {
-      "summary": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Watch Now: Zero Trust Strategies Summit \u2013 All Sessions Available on Demand appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "Watch Now: Zero Trust Strategies Summit \u2013 All Sessions Available on Demand",
-      "category": "Research"
-    },
-    {
-      "summary": "The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
-      "category": "Product Update"
-    },
-    {
-      "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-      "category": "Research"
-    },
-    {
-      "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-      "category": "Research"
-    },
-    {
-      "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15. The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "category": "Research"
-    },
-    {
-      "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "category": "Research"
-    },
-    {
-      "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and validation standards in...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html"
-        }
-      ],
-      "date": "Oct 17, 2026",
-      "title": "Why AI Confidence Is Not Validation",
       "category": "Research"
     }
   ],
@@ -554,7 +550,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -576,7 +572,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -598,7 +594,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -620,7 +616,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component\u2019s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -642,7 +638,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -664,7 +660,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component\u2019s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -686,7 +682,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -708,7 +704,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -730,7 +726,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -752,7 +748,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -774,7 +770,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -796,7 +792,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution.",
       "age": 0,
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -812,7 +808,7 @@
   "patch": [
     {
       "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -826,7 +822,7 @@
     },
     {
       "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -842,7 +838,7 @@
   "ransomware": [
     {
       "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "Dark Reading",
@@ -857,7 +853,7 @@
     },
     {
       "summary": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "Dark Reading",
@@ -874,12 +870,27 @@
   "sector": [],
   "awareness": [
     {
+      "title": "Fake Arch Linux packages push malware with root privileges",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Oct 18, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/"
+        }
+      ]
+    },
+    {
       "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Oct 17, 2026",
       "sources": [
         {
@@ -894,7 +905,7 @@
       "severity": "High",
       "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026. The campaigns also increase operational pressure on MSSPs serving US businesses, which...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Oct 17, 2026",
       "sources": [
         {
@@ -904,57 +915,12 @@
       ]
     },
     {
-      "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
-      "source": "Dark Reading",
-      "age": 1,
-      "date": "Oct 17, 2026",
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk"
-        }
-      ]
-    },
-    {
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a...",
-      "source": "The Hacker News",
-      "age": 2,
-      "date": "Oct 17, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
-        }
-      ]
-    },
-    {
-      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to...",
-      "source": "The Hacker News",
-      "age": 2,
-      "date": "Oct 17, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html"
-        }
-      ]
-    },
-    {
       "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
       "source": "Dark Reading",
-      "age": 7,
+      "age": 8,
       "date": "Oct 16, 2026",
       "sources": [
         {
@@ -964,17 +930,32 @@
       ]
     },
     {
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+      "title": "Android gets AI defenses against messaging scams, fake calls",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates...",
+      "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Oct 18, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/"
+        }
+      ]
+    },
+    {
+      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from unknown numbers and tackle spam or fraudulent calls. To that end,...",
       "source": "The Hacker News",
-      "age": 1,
-      "date": "Oct 17, 2026",
+      "age": 0,
+      "date": "Oct 18, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html"
+          "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
         }
       ]
     }
@@ -986,7 +967,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Today's episode covers the Panchan crypto mining worm spreading over SSH, plus three actively exploited zero-day vulnerabilities: a root-level remote code execution flaw in Cisco Secure Email Gateway, an authenticated root RCE in Palo Alto Networks' managem...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1001,7 +982,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Thursday, October 15th, 2026: Orphaned VBA Macros in AutoCAD DWG Files; Ledger Wallet Hardware Implants; Docker Hub Token ...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1016,7 +997,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by special guest co-host Brad Arkin to talk through the week\u2019s cybersecurity news, including: Sacr\u00e9 bleu! Hackers turn up the heat at French supermarket freezers ShinyHunters enters \u201cfind out\u201d sta...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1031,7 +1012,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "In this sponsored Soap Box edition of the Risky Business podcast Patrick Gray chats with industry legend HD Moore about how his company runZero wound up being used heavily to discover OT devices in enterprise networks. They also talk about the vulnpocalypse...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1046,7 +1027,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "The word Conti struck fear in IT departments across the world. It's a type of ransomware that you hope to never come across. Like most ransomware gangs, the Conti group fell apart. But what's special about this story is how it fell apart. Because it fell ap...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1061,7 +1042,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "After 8 years, LOW is finally here. A story about the weight of being and the wreckage of waking up. Five episodes. Five descents. LOW is an audio journey into the unlit corners of human experience. Choices we made in the dark, the silences we carry, and wh...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1076,7 +1057,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang.Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What d...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1091,7 +1072,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Microsoft's Twitter account, with its 13 million followers, was hijacked by a paperclip. There was no ransomware or data theft, just Clippy, a dodgy crypto coin, and a corporate apology that wasn't from Microsoft either.Meanwhile, UK losses from hacked emai...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1106,7 +1087,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Hosts: Steve Gibson and Leo Laporte Think your open-source AI model is safe? This episode uncovers how LLMs can be secretly booby-trapped with undetectable backdoors, raising the stakes for anyone deploying AI in serious environments. Anthropic cuts live In...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1121,7 +1102,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "As AI becomes startlingly capable, top minds at OpenAI admit they can't always control what their own creations do\u2014or even fully understand how they think. This episode dives into the real-world tension between rapid progress and the growing challenge of ke...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1131,38 +1112,38 @@
       ]
     },
     {
-      "title": "Black Hat Stories | Learn From the Legends",
-      "show": "Black Hat",
+      "title": "DCSG1 - Pwn2Own Level Break of a Printer - SungJun Park, WonBeen Im",
+      "show": "DEF CON",
       "kind": "video",
       "severity": "info",
-      "summary": "Taylor shares how Black Hat is one of the few places where attendees can connect with some of cybersecurity's most influential figures and learn from their experiences.",
-      "date": "Oct 17, 2026",
+      "summary": "Modern printers remain one of the most overlooked yet highly privileged devices inside enterprise networks. Despite their deep integration with host systems, vendor services, and internal workflows, their proprietary communication protocols and complex firm...",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/shorts/xrfiOisaxtQ"
+          "label": "DEF CON",
+          "url": "https://www.youtube.com/watch?v=XyT00Hdld6c"
         }
       ]
     },
     {
-      "title": "Black Hat Stories | The Black Hat Experience",
-      "show": "Black Hat",
+      "title": "DCSG1 - Augmenting Apple's Source Code and OS Logs with AI Agents -Olivia Gallucci",
+      "show": "DEF CON",
       "kind": "video",
       "severity": "info",
-      "summary": "Taylor Margot shares why Black Hat is more than an event. From the breathtaking scale of the cybersecurity community to the perspectives gained along the way, discover what makes the Black Hat experience truly unforgettable.",
-      "date": "Oct 17, 2026",
+      "summary": "Have you ever wondered how macOS and iOS work under the hood? While Apple is known for its closed ecosystem, did you know that significant portions of macOS and iOS are open source, including security components? For researchers, learning how to analyze and...",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/shorts/Mp4tU7qqJpI"
+          "label": "DEF CON",
+          "url": "https://www.youtube.com/watch?v=YA5zrUSpxxI"
         }
       ]
     }
   ],
   "_meta": {
-    "generated": "2026-10-17T19:47:48Z",
+    "generated": "2026-10-18T01:56:31Z",
     "max_age": 8
   },
   "advisory": [
@@ -1172,7 +1153,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user....",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1187,7 +1168,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "High",
       "summary": "A vulnerability has been discovered in Ivanti Connect Secure (ICS) that could allow for arbitrary code execution. Ivanti Connect Secure is an enterprise-grade SSL VPN and zero-trust remote access gateway. Successful exploitation of this vulnerability could allow a remote unaut...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1202,7 +1183,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Critical",
       "summary": "Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution. Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged-on use...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1217,7 +1198,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "A vulnerability in Atlassian Data Center products could allow for arbitrary file access. Atlassian Data Center products are self-managed, enterprise-grade editions of Atlassian tools such as Jira, Confluence, Bitbucket, and Jira Service Management, which organizations host on ...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1232,7 +1213,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in SonicWall SMA1000 Series Appliances, the most severe of which could allow for remote code execution. SonicWall Secure Mobile Access (SMA) 1000 Series appliances are enterprise-grade secure access and SSL VPN gateways. Successful...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
@@ -1247,7 +1228,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Dell System Update (DSU), the most severe of which could allow for remote code execution. Dell System Update (DSU) is a free Dell utility for Windows that scans your Dell computer and automatically finds, downloads, and installs...",
-      "date": "Oct 17, 2026",
+      "date": "Oct 18, 2026",
       "age": 0,
       "sources": [
         {
