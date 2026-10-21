@@ -1,8 +1,36 @@
 {
   "breach": [
     {
-      "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
+      "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "org": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated October 21 that it \"has experienced...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "org": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +44,7 @@
     },
     {
       "summary": "Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals. The post 970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -30,7 +58,7 @@
     },
     {
       "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -45,8 +73,56 @@
   ],
   "cve": [
     {
+      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "cve_id": "",
+      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "cve_id": "CVE-2026-96652",
+      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Tracked as CVE-2026-109618 and CVE-2026-109619, the bugs could potentially lead to unauthenticated remote code execution. The post PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "cve_id": "CVE-2026-109618",
+      "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "product": "",
+      "vendor": "SecurityWeek",
+      "severity": "Critical"
+    },
+    {
       "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -62,7 +138,7 @@
     },
     {
       "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -78,7 +154,7 @@
     },
     {
       "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux...",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "The Hacker News",
@@ -94,7 +170,7 @@
     },
     {
       "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "The Hacker News",
@@ -110,7 +186,7 @@
     },
     {
       "summary": "Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules. The post Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -126,7 +202,7 @@
     },
     {
       "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "Dark Reading",
@@ -139,28 +215,103 @@
       "product": "Cisco",
       "vendor": "Dark Reading",
       "severity": "Critical"
-    },
-    {
-      "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
-      "age": 8,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching"
-        }
-      ],
-      "date": "Oct 19, 2026",
-      "cve_id": "CVE-2026-104935",
-      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
-      "product": "Ivanti",
-      "vendor": "Dark Reading",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker...",
+      "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "actor": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+      "severity": "High"
+    },
+    {
+      "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "actor": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+      "severity": "High"
+    },
+    {
+      "summary": "The iPhone of Vladan \u0110oki\u0107, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "actor": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "severity": "High"
+    },
+    {
+      "summary": "Researchers say the developer\u2019s account was compromised in March with a GlassWorm-linked loader. The post Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "actor": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
+      "severity": "High"
+    },
+    {
+      "summary": "Spyware vendors are exploiting targeted ad bidding in the digital ecosystem to identify and track individuals and organizations of interest.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "actor": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
+      "severity": "High"
+    },
+    {
+      "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "actor": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+      "severity": "High"
+    },
+    {
+      "summary": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "actor": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
+      "severity": "High"
+    },
+    {
+      "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -173,7 +324,7 @@
     },
     {
       "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -186,7 +337,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -199,7 +350,7 @@
     },
     {
       "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -212,7 +363,7 @@
     },
     {
       "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16. Any site that installed and...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -222,103 +373,116 @@
       "date": "Oct 21, 2026",
       "actor": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
       "severity": "High"
-    },
-    {
-      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "actor": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "severity": "High"
-    },
-    {
-      "summary": "Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework. The post AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "actor": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
-      "severity": "High"
-    },
-    {
-      "summary": "At least three threat actors have been abusing Cairn for persistent access and financial theft. The post AI Platform Cairn Abused to Hack Over 100 Organizations appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "actor": "AI Platform Cairn Abused to Hack Over 100 Organizations",
-      "severity": "High"
-    },
-    {
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "actor": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "severity": "High"
-    },
-    {
-      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below -...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "actor": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "actor": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "actor": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
+      "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "Microsoft says October updates didn\u2019t actually fix VPN issues",
+      "category": "Research"
+    },
+    {
+      "summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "DHS bans DeepSeek products across US federal civilian agencies",
+      "category": "Research"
+    },
+    {
+      "summary": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+      "category": "Incident"
+    },
+    {
+      "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+      "category": "Research"
+    },
+    {
+      "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+      "category": "Research"
+    },
+    {
+      "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "category": "Research"
+    },
+    {
+      "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -331,7 +495,7 @@
     },
     {
       "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -344,7 +508,7 @@
     },
     {
       "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -357,7 +521,7 @@
     },
     {
       "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat in the pages'...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -366,110 +530,6 @@
       ],
       "date": "Oct 21, 2026",
       "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-      "category": "Research"
-    },
-    {
-      "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team\u2019s daily routine. Across the same organization, employees are building...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "What Security Teams Can Do To Tame Wild Code",
-      "category": "Research"
-    },
-    {
-      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "category": "Incident"
-    },
-    {
-      "summary": "NIST, CISA and NSA share ten voluntary practices for preparing for, detecting, responding to, recovering from, and reporting rogue AI agent incidents. The post US Agencies Detail Incident Response Practices for Rogue AI Agents appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
-      "category": "Research"
-    },
-    {
-      "summary": "Where your developers sit on the AI adoption scale has a real impact on how you are addressing security risk. The post The Key to AI Software Security Isn\u2019t Speed, It\u2019s Maturity appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/"
-        }
-      ],
-      "date": "Oct 21, 2026",
-      "title": "The Key to AI Software Security Isn\u2019t Speed, It\u2019s Maturity",
-      "category": "Research"
-    },
-    {
-      "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "title": "Zeabur shutting down after second security breach in two months",
-      "category": "Incident"
-    },
-    {
-      "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-      "category": "Research"
-    },
-    {
-      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "category": "Incident"
-    },
-    {
-      "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys. Programs built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html"
-        }
-      ],
-      "date": "Oct 20, 2026",
-      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
       "category": "Research"
     }
   ],
@@ -742,7 +802,7 @@
   "patch": [
     {
       "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -756,7 +816,7 @@
     },
     {
       "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -770,7 +830,7 @@
     },
     {
       "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -785,8 +845,23 @@
   ],
   "ransomware": [
     {
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+        }
+      ],
+      "date": "Oct 21, 2026",
+      "group": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "victim": "",
+      "sector": "",
+      "severity": "Critical"
+    },
+    {
       "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -801,7 +876,7 @@
     },
     {
       "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -815,35 +890,51 @@
       "severity": "High"
     }
   ],
-  "sector": [],
-  "awareness": [
+  "sector": [
     {
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "topic": "AWARENESS",
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "org": "The Hacker News",
+      "sector": "EDUCATION",
       "severity": "High",
-      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that...",
-      "source": "The Hacker News",
+      "summary": "The iPhone of Vladan \u0110oki\u0107, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection...",
       "age": 0,
       "date": "Oct 21, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
+          "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html"
         }
       ]
     },
     {
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "topic": "AWARENESS",
+      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "org": "The Hacker News",
+      "sector": "GOVERNMENT",
       "severity": "High",
-      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a...",
-      "source": "The Hacker News",
-      "age": 1,
-      "date": "Oct 20, 2026",
+      "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman...",
+      "age": 0,
+      "date": "Oct 21, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
+          "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
+        }
+      ]
+    }
+  ],
+  "awareness": [
+    {
+      "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
+      "source": "Dark Reading",
+      "age": 0,
+      "date": "Oct 21, 2026",
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk"
         }
       ]
     },
@@ -853,7 +944,7 @@
       "severity": "High",
       "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Oct 20, 2026",
       "sources": [
         {
@@ -863,17 +954,47 @@
       ]
     },
     {
-      "title": "Zeabur shutting down after second security breach in two months",
+      "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
+      "summary": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",
       "source": "BleepingComputer",
-      "age": 1,
-      "date": "Oct 20, 2026",
+      "age": 0,
+      "date": "Oct 21, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/"
+          "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/"
+        }
+      ]
+    },
+    {
+      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
+      "source": "BleepingComputer",
+      "age": 0,
+      "date": "Oct 21, 2026",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/"
+        }
+      ]
+    },
+    {
+      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Oct 21, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
         }
       ]
     }
@@ -910,6 +1031,21 @@
       ]
     },
     {
+      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+      "show": "Risky Business",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week\u2019s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs\u2026 We...",
+      "date": "Oct 21, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Risky Business",
+          "url": "https://risky.biz/RB856/"
+        }
+      ]
+    },
+    {
       "title": "Risky Business #855 -- ShinyHunters done sowing, enters reaping phase",
       "show": "Risky Business",
       "kind": "podcast",
@@ -921,21 +1057,6 @@
         {
           "label": "Risky Business",
           "url": "https://risky.biz/RB855/"
-        }
-      ]
-    },
-    {
-      "title": "Soap Box: HD Moore talks OT security, frontier fearmongering and more",
-      "show": "Risky Business",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "In this sponsored Soap Box edition of the Risky Business podcast Patrick Gray chats with industry legend HD Moore about how his company runZero wound up being used heavily to discover OT devices in enterprise networks. They also talk about the vulnpocalypse...",
-      "date": "Oct 21, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Risky Business",
-          "url": "https://risky.biz/SOAPBOX111/"
         }
       ]
     },
@@ -1061,7 +1182,7 @@
     }
   ],
   "_meta": {
-    "generated": "2026-10-21T02:22:16Z",
+    "generated": "2026-10-21T10:46:20Z",
     "max_age": 8
   },
   "advisory": [
