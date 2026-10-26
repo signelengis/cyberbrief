@@ -2,8 +2,48 @@
   "breach": [],
   "cve": [
     {
-      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But...",
+      "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+        },
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
+        },
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "cve_id": "CVE-2026-109618",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "product": "",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "cve_id": "CVE-2026-111497",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "product": "Microsoft",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -18,28 +58,8 @@
       "severity": "Critical"
     },
     {
-      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
-        },
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "cve_id": "CVE-2026-109618",
-      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
       "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other,...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -55,7 +75,7 @@
     },
     {
       "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -71,7 +91,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -87,7 +107,7 @@
     },
     {
       "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -103,7 +123,7 @@
     },
     {
       "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -119,7 +139,7 @@
     },
     {
       "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -135,7 +155,7 @@
     },
     {
       "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -151,7 +171,7 @@
     },
     {
       "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -167,7 +187,7 @@
     },
     {
       "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator...",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "The Hacker News",
@@ -180,28 +200,116 @@
       "product": "",
       "vendor": "The Hacker News",
       "severity": "Critical"
-    },
-    {
-      "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek.",
-      "age": 5,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/"
-        }
-      ],
-      "date": "Oct 24, 2026",
-      "cve_id": "",
-      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
-      "product": "",
-      "vendor": "SecurityWeek",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "severity": "High"
+    },
+    {
+      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an analysis by cloud...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "severity": "High"
+    },
+    {
+      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "severity": "High"
+    },
+    {
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "severity": "High"
+    },
+    {
+      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "severity": "High"
+    },
+    {
+      "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "actor": "AI Tools Are Generating Massive Attacks for Little Cost",
+      "severity": "High"
+    },
+    {
+      "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -214,7 +322,7 @@
     },
     {
       "summary": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet. The post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -227,7 +335,7 @@
     },
     {
       "summary": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -240,7 +348,7 @@
     },
     {
       "summary": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -250,116 +358,116 @@
       "date": "Oct 26, 2026",
       "actor": "Decades-Old Windows Utility Powers Modern ClickFix Attack",
       "severity": "High"
-    },
-    {
-      "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "severity": "High"
-    },
-    {
-      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "severity": "High"
-    },
-    {
-      "summary": "After a three-month lull, Prince of Persia hid a Tornado C&C server on US shared hosting, its first US-based server since 2016. The post Iran\u2019s Prince of Persia APT Hosts C&C in US for First Time Since 2016 appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "Iran\u2019s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "Trust Is Not What It Seems \u2014 And Fraudsters Are Counting on It",
-      "severity": "High"
-    },
-    {
-      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "severity": "High"
-    },
-    {
-      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "severity": "High"
-    },
-    {
-      "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from busting up North Korea's stateside infrastructure in \"Operation Lonestar Justice\" to Staples' gift card bonanza.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "What We Missed: Feds Lasso Texas Laptop Farms",
-      "severity": "High"
-    },
-    {
-      "summary": "A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.",
-      "age": 2,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "actor": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+      "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "category": "Research"
+    },
+    {
+      "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "category": "Incident"
+    },
+    {
+      "summary": "An out-of-bounds write in Google\u2019s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+      "category": "Research"
+    },
+    {
+      "summary": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "category": "Incident"
+    },
+    {
+      "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+      "category": "Research"
+    },
+    {
+      "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound \u2014 not contain \u2014 the risk.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+      "category": "Product Update"
+    },
+    {
+      "summary": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+      "category": "Incident"
+    },
+    {
+      "summary": "Des centaines de magasins ont subi des pertes se chiffrant en millions d'euros parce qu'ils avaient fait appel \u00e0 des tiers pour g\u00e9rer le micrologiciel OT obsol\u00e8te qui pilotait leurs syst\u00e8mes de climatisation.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french"
+        }
+      ],
+      "date": "Oct 26, 2026",
+      "title": "Les supermarch\u00e9s de l'UE paient d'un firmware de r\u00e9frig\u00e9rateur non mis \u00e0 jour",
+      "category": "Research"
+    },
+    {
+      "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -372,7 +480,7 @@
     },
     {
       "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -385,7 +493,7 @@
     },
     {
       "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -398,7 +506,7 @@
     },
     {
       "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -407,110 +515,6 @@
       ],
       "date": "Oct 26, 2026",
       "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "category": "Research"
-    },
-    {
-      "summary": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/"
-        }
-      ],
-      "date": "Oct 26, 2026",
-      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
-      "category": "Research"
-    },
-    {
-      "summary": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/"
-        }
-      ],
-      "date": "Oct 26, 2026",
-      "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-      "category": "Incident"
-    },
-    {
-      "summary": "Fixing the critical PHP flaws is not as simple as clicking \"Update.\" Here's how to assess your risk, and what you can do to protect yourself.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice"
-        }
-      ],
-      "date": "Oct 26, 2026",
-      "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
-      "category": "Research"
-    },
-    {
-      "summary": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk"
-        }
-      ],
-      "date": "Oct 26, 2026",
-      "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-      "category": "Research"
-    },
-    {
-      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "category": "Incident"
-    },
-    {
-      "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "title": "You gave your AI agent access, but who is giving it orders?",
-      "category": "Research"
-    },
-    {
-      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-      "category": "Incident"
-    },
-    {
-      "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
-        }
-      ],
-      "date": "Oct 25, 2026",
-      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents\u2019 Token Balances",
       "category": "Research"
     }
   ],
@@ -789,39 +793,54 @@
       "sector": "UTILITIES / ICS",
       "severity": "High",
       "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
-      "age": 0,
+      "age": 1,
       "date": "Oct 26, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
-        }
-      ]
-    },
-    {
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "org": "The Hacker News",
-      "sector": "UTILITIES / ICS",
-      "severity": "High",
-      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public...",
-      "age": 2,
-      "date": "Oct 25, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
         }
       ]
     }
   ],
   "awareness": [
     {
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Oct 26, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html"
+        }
+      ]
+    },
+    {
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Oct 26, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+        }
+      ]
+    },
+    {
       "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Oct 26, 2026",
       "sources": [
         {
@@ -831,32 +850,17 @@
       ]
     },
     {
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would...",
-      "source": "The Hacker News",
-      "age": 1,
-      "date": "Oct 25, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
-        }
-      ]
-    },
-    {
-      "title": "Trust Is Not What It Seems \u2014 And Fraudsters Are Counting on It",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+      "severity": "Medium",
+      "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
       "source": "Dark Reading",
-      "age": 1,
-      "date": "Oct 25, 2026",
+      "age": 0,
+      "date": "Oct 26, 2026",
       "sources": [
         {
           "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it"
+          "url": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough"
         }
       ]
     },
@@ -866,7 +870,7 @@
       "severity": "Medium",
       "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Oct 26, 2026",
       "sources": [
         {
@@ -874,51 +878,36 @@
           "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/"
         }
       ]
-    },
-    {
-      "title": "You gave your AI agent access, but who is giving it orders?",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that...",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Oct 25, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/"
-        }
-      ]
     }
   ],
   "media": [
+    {
+      "title": "SANS Stormcast Monday, October 26th, 2026: PHP2Shell Exploit Reliability; Node.js Brotli Decoder RCE (CVE-2026-111497); Tailscale \"Tailworm\" Vulnerabilities; HPE ArubaOS 8/10 Patches 72 Flaws",
+      "show": "SANS StormCast",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "In this episode: why a reliable PHP2Shell exploit is still hard to build, a Node.js Brotli decoder remote code execution flaw, publicly disclosed Tailscale mesh VPN vulnerabilities, and an HPE update fixing 72 vulnerabilities in ArubaOS 8 and 10. Reliable P...",
+      "date": "Oct 26, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SANS StormCast",
+          "url": "https://isc.sans.edu/podcastdetail/10150"
+        }
+      ]
+    },
     {
       "title": "SANS Stormcast Friday, October 23rd, 2026: PHP2Shell Exploitation Update; Signal Call Hang-Up Flaw (CVE-2026-113380); Cisco Snort 3 Critical Vulnerabilities; Linux KSMBD RCE Reports Leaked",
       "show": "SANS StormCast",
       "kind": "podcast",
       "severity": "info",
-      "summary": "Today's episode covers an update on the PHP2Shell vulnerabilities, a Signal flaw that kept calls alive after hang-up, critical Cisco Snort 3 vulnerabilities, and Linux kernel KSMBD vulnerability reports that were accidentally posted to a public mailing list...",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Friday, October 23rd, 2026: PHP2Shell Exploitation Update; Signal Call Hang-Up Flaw (CVE-2026-113380); Cisco Snort 3 Criti...",
       "date": "Oct 26, 2026",
       "age": 0,
       "sources": [
         {
           "label": "SANS StormCast",
           "url": "https://isc.sans.edu/podcastdetail/10148"
-        }
-      ]
-    },
-    {
-      "title": "SANS Stormcast Thursday, October 22nd, 2026: Critical PHP RCE Vulnerabilities Exploited (CVE-2026-109618, CVE-2026-109619); Fortinet AI-Driven Security Hardening Release for FortiOS and More",
-      "show": "SANS StormCast",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Thursday, October 22nd, 2026: Critical PHP RCE Vulnerabilities Exploited (CVE-2026-109618, CVE-2026-109619); Fortinet AI-D...",
-      "date": "Oct 26, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SANS StormCast",
-          "url": "https://isc.sans.edu/podcastdetail/10146"
         }
       ]
     },
@@ -1041,10 +1030,40 @@
           "url": "https://twit.tv/shows/security-now/episodes/1100"
         }
       ]
+    },
+    {
+      "title": "Black Hat Stories | Island.io",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Hear Chris Gaun reflect on his experience as a first-time exhibitor at Black Hat. Ready to be part of the conversation? Become a Black Hat sponsor: https://messages.blackhat.com/request-info",
+      "date": "Oct 26, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/shorts/eO0FZm_xeSo"
+        }
+      ]
+    },
+    {
+      "title": "Black Hat Europe 2026 | Hear From Our Sponsors",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Black Hat Europe brings together cybersecurity innovators and leaders, creating opportunities to showcase solutions and build meaningful relationships. Hear directly from some of the brands that sponsored Black Hat Europe 2025. The connections they made, th...",
+      "date": "Oct 26, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/watch?v=Muk6elQ_qcs"
+        }
+      ]
     }
   ],
   "_meta": {
-    "generated": "2026-10-26T02:08:30Z",
+    "generated": "2026-10-26T11:46:51Z",
     "max_age": 8
   },
   "advisory": [
