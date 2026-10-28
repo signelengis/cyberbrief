@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -83,40 +83,28 @@
       "org": "Former pentester used ARTEX AI to steal 8.2 million data records",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
-      "age": 8,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/"
-        }
-      ],
-      "date": "Oct 26, 2026",
-      "org": "Chinese man extradited for role in $36 million cryptocurrency scam",
-      "severity": "High",
-      "records": "See source"
-    },
-    {
-      "summary": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek.",
-      "age": 8,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/"
-        }
-      ],
-      "date": "Oct 26, 2026",
-      "org": "Genesys Hack Exposes Customer Data From Internal Systems",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
-      "summary": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "cve_id": "",
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -132,7 +120,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -148,7 +136,7 @@
     },
     {
       "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business Suite. It was...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -168,7 +156,7 @@
     },
     {
       "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -184,7 +172,7 @@
     },
     {
       "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -200,7 +188,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -216,7 +204,7 @@
     },
     {
       "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -232,7 +220,7 @@
     },
     {
       "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -248,7 +236,7 @@
     },
     {
       "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -264,7 +252,7 @@
     },
     {
       "summary": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -280,7 +268,7 @@
     },
     {
       "summary": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek.",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -293,28 +281,51 @@
       "product": "Apple",
       "vendor": "SecurityWeek",
       "severity": "Critical"
-    },
-    {
-      "summary": "\u200bApple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "age": 5,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-        }
-      ],
-      "date": "Oct 27, 2026",
-      "cve_id": "",
-      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-      "product": "Apple",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
+      "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "actor": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "severity": "High"
+    },
+    {
+      "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords. They can also...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "actor": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "severity": "High"
+    },
+    {
+      "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "actor": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "severity": "High"
+    },
+    {
+      "summary": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -327,7 +338,7 @@
     },
     {
       "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -340,7 +351,7 @@
     },
     {
       "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -353,7 +364,7 @@
     },
     {
       "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -366,7 +377,7 @@
     },
     {
       "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -379,7 +390,7 @@
     },
     {
       "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -392,7 +403,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -405,7 +416,7 @@
     },
     {
       "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from busting up North Korea's stateside infrastructure in \"Operation Lonestar Justice\" to Staples' gift card bonanza.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -418,7 +429,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -428,51 +439,116 @@
       "date": "Oct 27, 2026",
       "actor": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
       "severity": "High"
-    },
-    {
-      "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users,...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
-        }
-      ],
-      "date": "Oct 27, 2026",
-      "actor": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "severity": "High"
-    },
-    {
-      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an analysis by cloud...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
-        }
-      ],
-      "date": "Oct 27, 2026",
-      "actor": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-      "severity": "High"
-    },
-    {
-      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code...",
-      "age": 3,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
-        }
-      ],
-      "date": "Oct 27, 2026",
-      "actor": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+      "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+      "category": "Research"
+    },
+    {
+      "summary": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "Discord to let search engines index public server messages",
+      "category": "Research"
+    },
+    {
+      "summary": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+      "category": "Research"
+    },
+    {
+      "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the Pwn2Own Berlin...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+      "category": "Research"
+    },
+    {
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "category": "Policy/Legal"
+    },
+    {
+      "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network connections, a job the Tailscale background process carries out...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "category": "Incident"
+    },
+    {
+      "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "category": "Research"
+    },
+    {
+      "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html"
+        }
+      ],
+      "date": "Oct 28, 2026",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "category": "Incident"
+    },
+    {
+      "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -485,7 +561,7 @@
     },
     {
       "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -498,7 +574,7 @@
     },
     {
       "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -511,7 +587,7 @@
     },
     {
       "summary": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -521,113 +597,53 @@
       "date": "Oct 28, 2026",
       "title": "Hackers now scanning systems for recently-patched Oracle flaw",
       "category": "Incident"
-    },
-    {
-      "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "Hackers hijack Convertr analytics script to steal payment card data",
-      "category": "Incident"
-    },
-    {
-      "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
-      "age": 0,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-      "category": "Incident"
-    },
-    {
-      "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network. UEFI firmware is the software that runs first when a computer is...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-      "category": "Incident"
-    },
-    {
-      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "Wazuh and AI for Enhanced SOC Workflows",
-      "category": "Research"
-    },
-    {
-      "summary": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-      "category": "Research"
-    },
-    {
-      "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-      "category": "Incident"
-    },
-    {
-      "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-      "category": "Incident"
-    },
-    {
-      "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html"
-        }
-      ],
-      "date": "Oct 28, 2026",
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "category": "Incident"
     }
   ],
   "kev": [
+    {
+      "cve_id": "CVE-2026-41709",
+      "product": "VMware ESX",
+      "vendor": "Broadcom",
+      "severity": "Critical",
+      "date_added": "2026-10-28",
+      "due_date": "Nov 11, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+      "age": 0,
+      "date": "Oct 28, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV Catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "label": "NVD \u00b7 CVE-2026-41709",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-46300",
+      "product": "Kernel",
+      "vendor": "Linux",
+      "severity": "Critical",
+      "date_added": "2026-10-28",
+      "due_date": "Oct 31, 2026",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+      "age": 0,
+      "date": "Oct 28, 2026",
+      "sources": [
+        {
+          "label": "CISA KEV Catalog",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "label": "NVD \u00b7 CVE-2026-46300",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
+        }
+      ]
+    },
     {
       "cve_id": "CVE-2026-48356",
       "product": "Commerce and Magento",
@@ -847,56 +863,12 @@
           "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
         }
       ]
-    },
-    {
-      "cve_id": "CVE-2026-96652",
-      "product": "Media Server",
-      "vendor": "Plex",
-      "severity": "Critical",
-      "date_added": "2026-10-20",
-      "due_date": "Nov 03, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.",
-      "age": 0,
-      "date": "Oct 28, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV Catalog",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "label": "NVD \u00b7 CVE-2026-96652",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
-        }
-      ]
-    },
-    {
-      "cve_id": "CVE-2026-110936",
-      "product": "Software Center",
-      "vendor": "Siemens",
-      "severity": "Critical",
-      "date_added": "2026-10-20",
-      "due_date": "Nov 03, 2026",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
-      "age": 0,
-      "date": "Oct 28, 2026",
-      "sources": [
-        {
-          "label": "CISA KEV Catalog",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-        },
-        {
-          "label": "NVD \u00b7 CVE-2026-110936",
-          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
-        }
-      ]
     }
   ],
   "patch": [
     {
       "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension...",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "The Hacker News",
@@ -907,26 +879,12 @@
       "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
       "vendor": "The Hacker News",
       "severity": "High"
-    },
-    {
-      "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
-      "age": 8,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/"
-        }
-      ],
-      "date": "Oct 26, 2026",
-      "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
     }
   ],
   "ransomware": [
     {
       "summary": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks. The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -945,7 +903,7 @@
     },
     {
       "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -960,7 +918,7 @@
     },
     {
       "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -975,7 +933,7 @@
     },
     {
       "summary": "Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -990,7 +948,7 @@
     },
     {
       "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has...",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "The Hacker News",
@@ -1011,7 +969,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-      "age": 6,
+      "age": 7,
       "date": "Oct 27, 2026",
       "sources": [
         {
@@ -1026,7 +984,7 @@
       "sector": "GOVERNMENT",
       "severity": "High",
       "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an...",
-      "age": 0,
+      "age": 1,
       "date": "Oct 28, 2026",
       "sources": [
         {
@@ -1041,7 +999,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-      "age": 2,
+      "age": 3,
       "date": "Oct 28, 2026",
       "sources": [
         {
@@ -1058,7 +1016,7 @@
       "severity": "High",
       "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
       "source": "Dark Reading",
-      "age": 0,
+      "age": 1,
       "date": "Oct 28, 2026",
       "sources": [
         {
@@ -1068,27 +1026,12 @@
       ]
     },
     {
-      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
-      "source": "BleepingComputer",
-      "age": 8,
-      "date": "Oct 26, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/"
-        }
-      ]
-    },
-    {
       "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
       "source": "BleepingComputer",
-      "age": 4,
+      "age": 5,
       "date": "Oct 27, 2026",
       "sources": [
         {
@@ -1098,12 +1041,27 @@
       ]
     },
     {
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords. They can also...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Oct 28, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
+        }
+      ]
+    },
+    {
       "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Oct 28, 2026",
       "sources": [
         {
@@ -1118,7 +1076,7 @@
       "severity": "High",
       "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
       "source": "Dark Reading",
-      "age": 1,
+      "age": 2,
       "date": "Oct 28, 2026",
       "sources": [
         {
@@ -1133,7 +1091,7 @@
       "severity": "High",
       "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own...",
       "source": "The Hacker News",
-      "age": 2,
+      "age": 3,
       "date": "Oct 28, 2026",
       "sources": [
         {
@@ -1148,7 +1106,7 @@
       "severity": "High",
       "summary": "Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
       "source": "Dark Reading",
-      "age": 3,
+      "age": 4,
       "date": "Oct 27, 2026",
       "sources": [
         {
@@ -1163,7 +1121,7 @@
       "severity": "High",
       "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has...",
       "source": "The Hacker News",
-      "age": 7,
+      "age": 8,
       "date": "Oct 26, 2026",
       "sources": [
         {
@@ -1178,7 +1136,7 @@
       "severity": "Medium",
       "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Oct 28, 2026",
       "sources": [
         {
@@ -1371,7 +1329,7 @@
     }
   ],
   "_meta": {
-    "generated": "2026-10-28T17:33:46Z",
+    "generated": "2026-10-28T21:58:38Z",
     "max_age": 8
   },
   "advisory": [
