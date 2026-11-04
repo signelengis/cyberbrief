@@ -1,8 +1,22 @@
 {
   "breach": [
     {
-      "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+      "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "org": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+      "severity": "High",
+      "records": "See source"
+    },
+    {
+      "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +30,7 @@
     },
     {
       "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +44,7 @@
     },
     {
       "summary": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -44,7 +58,7 @@
     },
     {
       "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +72,7 @@
     },
     {
       "summary": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data retention and how its mobile service reduces exposure by automatically deleting call records. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +86,7 @@
     },
     {
       "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -86,7 +100,7 @@
     },
     {
       "summary": "Hackers accessed its online shopping platform and stole customers\u2019 personal and payment card information. The post Revolve Data Breach Impacts at Least 180,000 People appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -100,7 +114,7 @@
     },
     {
       "summary": "The attackers used offensive agentic techniques to access the company\u2019s systems and internal tools. The post Chainalysis Discloses Data Breach Following AI-Driven Cyberattack appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -116,7 +130,7 @@
   "cve": [
     {
       "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -132,7 +146,7 @@
     },
     {
       "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -148,7 +162,7 @@
     },
     {
       "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -164,7 +178,7 @@
     },
     {
       "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -180,7 +194,7 @@
     },
     {
       "summary": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android\u2019s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -196,7 +210,7 @@
     },
     {
       "summary": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -212,7 +226,7 @@
     },
     {
       "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -228,7 +242,7 @@
     },
     {
       "summary": "CISA has added CVE-2026-111357 and CVE-2026-118527 to its KEV catalog after the Ivanti VPN flaws were chained in zero-day attacks. The post Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -248,7 +262,7 @@
     },
     {
       "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -265,8 +279,112 @@
   ],
   "threat": [
     {
-      "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+      "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+      "severity": "High"
+    },
+    {
+      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "\u26a1 Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "severity": "High"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+      "severity": "High"
+    },
+    {
+      "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+      "severity": "High"
+    },
+    {
+      "summary": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
+      "severity": "High"
+    },
+    {
+      "summary": "As artificial intelligence squeezes early-career learning opportunities, capture-the-flag contests could be one way to help pick up the slack.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "Why CTF Competitions May Be More Important Than Ever",
+      "severity": "High"
+    },
+    {
+      "summary": "The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "actor": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
+      "severity": "High"
+    },
+    {
+      "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -279,7 +397,7 @@
     },
     {
       "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -292,7 +410,7 @@
     },
     {
       "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -305,7 +423,7 @@
     },
     {
       "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -315,116 +433,116 @@
       "date": "Nov 03, 2026",
       "actor": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
       "severity": "High"
-    },
-    {
-      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-      "severity": "High"
-    },
-    {
-      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "severity": "High"
-    },
-    {
-      "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-      "severity": "High"
-    },
-    {
-      "summary": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
-      "severity": "High"
-    },
-    {
-      "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-      "severity": "High"
-    },
-    {
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "severity": "High"
-    },
-    {
-      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "severity": "High"
-    },
-    {
-      "summary": "The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology. The post Google Dismantles XCPE Botnet of 1.3 Million Android Devices appeared first on SecurityWeek.",
-      "age": 1,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "actor": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+      "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+      "category": "Incident"
+    },
+    {
+      "summary": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+      "category": "Incident"
+    },
+    {
+      "summary": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+      "category": "Research"
+    },
+    {
+      "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in a report that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+      "category": "Incident"
+    },
+    {
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "category": "Incident"
+    },
+    {
+      "summary": "Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells. The post Critical Node-RED Flaw Exploited in Attacks appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "Critical Node-RED Flaw Exploited in Attacks",
+      "category": "Incident"
+    },
+    {
+      "summary": "The U.K. will likely face AI cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity. The post UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028 appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+      "category": "Incident"
+    },
+    {
+      "summary": "The NATO CCDCOE exercise in Estonia introduces AI agents and OpenAI Daybreak into joint cyber and kinetic operations training. The post NATO\u2019s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/"
+        }
+      ],
+      "date": "Nov 04, 2026",
+      "title": "NATO\u2019s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+      "category": "Product Update"
+    },
+    {
+      "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -437,7 +555,7 @@
     },
     {
       "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -450,7 +568,7 @@
     },
     {
       "summary": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -463,7 +581,7 @@
     },
     {
       "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -473,110 +591,6 @@
       "date": "Nov 03, 2026",
       "title": "Police seizes over 100 servers in investment scam crackdown",
       "category": "Policy/Legal"
-    },
-    {
-      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-      "category": "Research"
-    },
-    {
-      "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "category": "Research"
-    },
-    {
-      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-      "category": "Incident"
-    },
-    {
-      "summary": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform. The post CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
-      "category": "Research"
-    },
-    {
-      "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-      "category": "Product Update"
-    },
-    {
-      "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You\u2019re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner\u00ae\u2019s report on exposure prioritization states that fewer than 10% of...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-      "category": "Incident"
-    },
-    {
-      "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targeted servers...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-      "category": "Incident"
-    },
-    {
-      "summary": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
-      "category": "Incident"
     }
   ],
   "kev": [
@@ -590,7 +604,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -612,7 +626,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -634,7 +648,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -656,7 +670,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -678,7 +692,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -700,7 +714,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -722,7 +736,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -744,7 +758,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -766,7 +780,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -788,7 +802,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -810,7 +824,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -832,7 +846,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -848,7 +862,7 @@
   "patch": [
     {
       "summary": "Microsoft has resolved a known issue that prevented some users from activating the Smart App Control security feature after installing the October 2026 KB5127648 Windows 11 security update. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -862,7 +876,7 @@
     },
     {
       "summary": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -878,7 +892,7 @@
   "ransomware": [
     {
       "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -893,7 +907,7 @@
     },
     {
       "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -908,7 +922,7 @@
     },
     {
       "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM....",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -923,7 +937,7 @@
     },
     {
       "summary": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -944,7 +958,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -959,7 +973,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
-      "age": 1,
+      "age": 2,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -976,7 +990,7 @@
       "severity": "High",
       "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -991,7 +1005,7 @@
       "severity": "High",
       "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from...",
       "source": "The Hacker News",
-      "age": 3,
+      "age": 4,
       "date": "Nov 02, 2026",
       "sources": [
         {
@@ -1006,7 +1020,7 @@
       "severity": "High",
       "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit...",
       "source": "The Hacker News",
-      "age": 1,
+      "age": 2,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -1021,7 +1035,7 @@
       "severity": "Critical",
       "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
       "source": "BleepingComputer",
-      "age": 5,
+      "age": 6,
       "date": "Nov 01, 2026",
       "sources": [
         {
@@ -1031,12 +1045,27 @@
       ]
     },
     {
+      "title": "\u26a1 Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "topic": "AWARENESS",
+      "severity": "Critical",
+      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices,...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Nov 04, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
+        }
+      ]
+    },
+    {
       "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -1051,7 +1080,7 @@
       "severity": "High",
       "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -1061,17 +1090,17 @@
       ]
     },
     {
-      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The...",
+      "severity": "Medium",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access...",
       "source": "The Hacker News",
       "age": 0,
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
+          "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
         }
       ]
     },
@@ -1081,7 +1110,7 @@
       "severity": "Medium",
       "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -1096,7 +1125,7 @@
       "severity": "Medium",
       "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -1104,31 +1133,31 @@
           "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/"
         }
       ]
-    },
-    {
-      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software....",
-      "source": "The Hacker News",
-      "age": 0,
-      "date": "Nov 03, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html"
-        }
-      ]
     }
   ],
   "media": [
+    {
+      "title": "SANS Stormcast Wednesday, November 4th, 2026: Refrigerator Defrost Attacks; Siemens SIMATIC Node-RED Exploited (CVE-2026-58115); cPGuard Update Channel Compromise; iPhone Lockdown Mode AirDrop Exploit",
+      "show": "SANS StormCast",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "Today's episode covers attacks that switch supermarket and military commissary freezers into defrost mode, active exploitation of the Node-RED flaw in Siemens SIMATIC IoT2050 devices, the compromised cPGuard anti-malware update channel, and Calif's iPhone e...",
+      "date": "Nov 04, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SANS StormCast",
+          "url": "https://isc.sans.edu/podcastdetail/10164"
+        }
+      ]
+    },
     {
       "title": "SANS Stormcast Tuesday, November 3rd, 2026: Multipath TCP (MPTCP) Detection; BTCPay Server 2.4.1 Hot Wallet Thefts; Barracuda ESG Flaws (CVE-2026-116606, CVE-2026-111560); Synology DSM Ransomware",
       "show": "SANS StormCast",
       "kind": "podcast",
       "severity": "info",
-      "summary": "Today's episode covers how to detect multipath TCP in your network, attacks stealing Bitcoin and Litecoin from outdated BTCPay Server installs, Barracuda patches for an authorization bypass and command injection in Email Security Gateway and other appliance...",
-      "date": "Nov 03, 2026",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Tuesday, November 3rd, 2026: Multipath TCP (MPTCP) Detection; BTCPay Server 2.4.1 Hot Wallet Thefts; Barracuda ESG Flaws (...",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1138,27 +1167,12 @@
       ]
     },
     {
-      "title": "SANS Stormcast Monday, November 2nd, 2026: OneNote Bulk Extraction; Trojanized Claude Code Extension in Cursor Marketplace; Ivanti Connect Secure Zero-Days (CVE-2026-111357); Android SMS of Death",
-      "show": "SANS StormCast",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Monday, November 2nd, 2026: OneNote Bulk Extraction; Trojanized Claude Code Extension in Cursor Marketplace; Ivanti Connec...",
-      "date": "Nov 03, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SANS StormCast",
-          "url": "https://isc.sans.edu/podcastdetail/10160"
-        }
-      ]
-    },
-    {
       "title": "Snake Oilers: Minimal.dev, Request Rocket and TRM Labs",
       "show": "Risky Business",
       "kind": "podcast",
       "severity": "info",
       "summary": "In this edition of the Snake Oilers podcast, three vendors drop by to pitch their products. Minimal.dev: A sandbox for AI agents! Co-Founder and CEO Jake King explains what the company is and how it works. Request Rocket: Runtime access control for AI agent...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1173,7 +1187,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by special guest co-host Alex Stamos to talk through the week\u2019s cybersecurity news, including: Everyone\u2019s still panicking about \u201cmisbehaving\u201d AI models that are pretty much just doing what they\u2019re...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1188,7 +1202,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "What if you got infected by a friend who wanted to spy on you? This is the story of how BlackShades spread to more than half a million machines, and 97 people got arrested.SponsorsSupport for this show comes from Drata. Drata is the trust management platfor...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1203,7 +1217,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Imagine driving down the road and your phone loses signal. Not just a lost signal, but it starts displaying SOS. Meaning no service configured at all. You can't make any calls, no data, no service. What goes through your head?In this episode we hear from Ri...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1218,7 +1232,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Dutch spies, Russian hackers and Jared Kushner\u2019s iPhone. It sounds like the ingredients for a thriller, but according to claims in a new book the US President's son-in-law may have been hacked twice. Is any of it true, and what does it tell us about the pho...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1233,7 +1247,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Imagine buying a brand new hardware wallet for your cryptocurrency with the shrink-wrap still on... what could possibly be hiding inside? We break out a Geiger counter and a cat to find out.Meanwhile, malicious ads are targeting journalists with zero-click ...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1243,12 +1257,27 @@
       ]
     },
     {
+      "title": "SN 1103: Exposing Bad Consumer Crypto - AI vs. Encrypted Drives",
+      "show": "Security Now",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "What happens when a 27-year-old gets handed the keys to completely refactor nearly all of Cisco's code? This week's episode dives into tech's strangest management bets and the friction brewing inside one of the industry's giants. Cisco gives a 27-year old t...",
+      "date": "Nov 04, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Security Now",
+          "url": "https://twit.tv/shows/security-now/episodes/1103"
+        }
+      ]
+    },
+    {
       "title": "SN 1102: A Strategic Plug Pull - Lessons From a Global Patch-and-Panic Fire Drill",
       "show": "Security Now",
       "kind": "podcast",
       "severity": "info",
       "summary": "A newly uncovered PHP vulnerability put nearly 70% of the internet at risk, sending governments and enterprises into a frenzy as AI-powered attackers raced to exploit a flaw that had lurked unnoticed for 14 years. Hear why this could be just the start of an...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1256,55 +1285,10 @@
           "url": "https://twit.tv/shows/security-now/episodes/1102"
         }
       ]
-    },
-    {
-      "title": "SN 1101: ECDSA's Curves Origins - When AI Becomes the Attacker",
-      "show": "Security Now",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "An unreleased AI solved a 26-year-old cryptographic secret in less than half an hour, exposing the origins of a widely used standard. Discover what this jaw-dropping breakthrough means for the future of trust and transparency in cybersecurity. Another recor...",
-      "date": "Nov 03, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Security Now",
-          "url": "https://twit.tv/shows/security-now/episodes/1101"
-        }
-      ]
-    },
-    {
-      "title": "Black Hat Podcasts: RE:BRIEF Trailer",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "Black Hat Podcasts: RE:BRIEF Trailer",
-      "date": "Nov 03, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/shorts/G01Xd9ogFOQ"
-        }
-      ]
-    },
-    {
-      "title": "SecTor 2026 | Using Claude or Codex? We Can Hack Your App?",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "Today, most code is actually vibe-coded by the same top AI code models, which often reuse the same implementation patterns, including vulnerability patterns. We found that an attacker can generate and inspect their own applications, discover vulnerabilities...",
-      "date": "Nov 03, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/watch?v=y_lw2P0393k"
-        }
-      ]
     }
   ],
   "_meta": {
-    "generated": "2026-11-03T22:39:43Z",
+    "generated": "2026-11-04T03:44:46Z",
     "max_age": 8
   },
   "advisory": [
@@ -1314,7 +1298,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "A vulnerability has been discovered in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software that could allow for denial of service (DoS). Cisco Secure Firewall ASA and FTD provide firewall, VPN, and threat def...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1329,7 +1313,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "A vulnerability has been discovered in GitLab that could allow for remote code execution. GitLab is a DevOps platform that provides source code management, CI/CD pipelines, issue tracking, and collaboration tools in a single application for software development teams. Successf...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1344,7 +1328,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user....",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1359,7 +1343,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "A vulnerability has been discovered in the Brotli library that could allow for remote code execution. Brotli is a compression algorithm developed by Google and commonly used to compress web content before it is sent over HTTP. Successful exploitation could allow an unauthentic...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1374,7 +1358,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution.iOS is a mobile operating system for mobile devices, including the iPhone and iPod touch.iPadOS is the operating system for iPad devices.macOS is ...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
@@ -1389,7 +1373,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow for remote code execution. PHP is a widely-used, open-source server-side scripting language designed primarily for web development. All PHP installations serving web requests, including ...",
-      "date": "Nov 03, 2026",
+      "date": "Nov 04, 2026",
       "age": 0,
       "sources": [
         {
