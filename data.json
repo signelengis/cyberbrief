@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "Dark Reading",
@@ -86,7 +86,7 @@
     },
     {
       "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -100,7 +100,7 @@
     },
     {
       "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to...",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "The Hacker News",
@@ -114,7 +114,7 @@
     },
     {
       "summary": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -125,26 +125,76 @@
       "org": "Frontline Education Data Breach Impacts Over 1.3 Million",
       "severity": "High",
       "records": "See source"
-    },
-    {
-      "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
-      "age": 8,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "org": "Harvard University data breach exposed info of 851,000 accounts",
-      "severity": "High",
-      "records": "See source"
     }
   ],
   "cve": [
     {
+      "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "cve_id": "",
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "product": "",
+      "vendor": "BleepingComputer",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "cve_id": "CVE-2026-83844",
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "product": "Microsoft",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606,...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "cve_id": "CVE-2026-116606",
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "product": "",
+      "vendor": "The Hacker News",
+      "severity": "High"
+    },
+    {
+      "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "cve_id": "",
+      "title": "OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass",
+      "product": "Linux",
+      "vendor": "SecurityWeek",
+      "severity": "High"
+    },
+    {
       "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -160,7 +210,7 @@
     },
     {
       "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -176,7 +226,7 @@
     },
     {
       "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -192,7 +242,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score:...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -208,7 +258,7 @@
     },
     {
       "summary": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won\u2019t Fix GMS Flaws appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -224,7 +274,7 @@
     },
     {
       "summary": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests. The post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared first on SecurityWeek.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -240,7 +290,7 @@
     },
     {
       "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability...",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "The Hacker News",
@@ -256,7 +306,7 @@
     },
     {
       "summary": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda\u2019s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek.",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -269,76 +319,103 @@
       "product": "",
       "vendor": "SecurityWeek",
       "severity": "High"
-    },
-    {
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-      "age": 5,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
-        }
-      ],
-      "date": "Nov 04, 2026",
-      "cve_id": "",
-      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-      "product": "",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
-    },
-    {
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check...",
-      "age": 5,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
-        }
-      ],
-      "date": "Nov 04, 2026",
-      "cve_id": "CVE-2026-119977",
-      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection...",
-      "age": 7,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "cve_id": "",
-      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-      "product": "",
-      "vendor": "The Hacker News",
-      "severity": "High"
-    },
-    {
-      "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as...",
-      "age": 8,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "cve_id": "",
-      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-      "product": "Linux",
-      "vendor": "The Hacker News",
-      "severity": "High"
     }
   ],
   "threat": [
     {
-      "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign,...",
+      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs....",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "actor": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "severity": "High"
+    },
+    {
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "actor": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs APT to retry...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "actor": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "severity": "High"
+    },
+    {
+      "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "actor": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "severity": "High"
+    },
+    {
+      "summary": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "actor": "APT29's Watering Holes Target Thousands of Mobile Users",
+      "severity": "High"
+    },
+    {
+      "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "actor": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+      "severity": "High"
+    },
+    {
+      "summary": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "actor": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
+      "severity": "High"
+    },
+    {
+      "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign,...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -351,7 +428,7 @@
     },
     {
       "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the Russian Federation...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -364,7 +441,7 @@
     },
     {
       "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -377,7 +454,7 @@
     },
     {
       "summary": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -390,7 +467,7 @@
     },
     {
       "summary": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Dark Reading",
@@ -400,103 +477,116 @@
       "date": "Nov 06, 2026",
       "actor": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
       "severity": "High"
-    },
-    {
-      "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "actor": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-      "severity": "High"
-    },
-    {
-      "summary": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Dark Reading",
-          "url": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "actor": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
-      "severity": "High"
-    },
-    {
-      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "actor": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-      "severity": "High"
-    },
-    {
-      "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "actor": "Hackers backdoor Linux servers using trojanized CWP web server",
-      "severity": "High"
-    },
-    {
-      "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "actor": "Vercel rolls out new protection against stolen session cookie attacks",
-      "severity": "High"
-    },
-    {
-      "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "actor": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "severity": "High"
-    },
-    {
-      "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers....",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "actor": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+      "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "category": "Incident"
+    },
+    {
+      "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "Closing the Identity Gap at the Service Desk",
+      "category": "Incident"
+    },
+    {
+      "summary": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+      "category": "Incident"
+    },
+    {
+      "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+      "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "category": "Incident"
+    },
+    {
+      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "category": "Incident"
+    },
+    {
+      "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "category": "Research"
+    },
+    {
+      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "category": "Incident"
+    },
+    {
+      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+        }
+      ],
+      "date": "Nov 06, 2026",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "category": "Incident"
+    },
+    {
+      "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -509,7 +599,7 @@
     },
     {
       "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -522,7 +612,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -535,7 +625,7 @@
     },
     {
       "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -544,110 +634,6 @@
       ],
       "date": "Nov 06, 2026",
       "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "category": "Incident"
-    },
-    {
-      "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-      "category": "Research"
-    },
-    {
-      "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "category": "Research"
-    },
-    {
-      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software....",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-      "category": "Research"
-    },
-    {
-      "summary": "The trio, who have nicknames that include \u201cRocky Balboa,\u201d \u201cSuperman Cash\u201d and \u201cFat Boy,\u201d often targeted the companies\u2019 accounting departments. The post 3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
-      "category": "Research"
-    },
-    {
-      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "category": "Incident"
-    },
-    {
-      "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
-      "category": "Research"
-    },
-    {
-      "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
-      "category": "Research"
-    },
-    {
-      "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/"
-        }
-      ],
-      "date": "Nov 05, 2026",
-      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
       "category": "Incident"
     }
   ],
@@ -920,7 +906,7 @@
   "patch": [
     {
       "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -934,7 +920,7 @@
     },
     {
       "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on...",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "The Hacker News",
@@ -950,7 +936,7 @@
   "ransomware": [
     {
       "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -965,7 +951,7 @@
     },
     {
       "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "Dark Reading",
@@ -974,21 +960,6 @@
       ],
       "date": "Nov 03, 2026",
       "group": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
-      "victim": "",
-      "sector": "",
-      "severity": "High"
-    },
-    {
-      "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM....",
-      "age": 8,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
-        }
-      ],
-      "date": "Nov 03, 2026",
-      "group": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
       "victim": "",
       "sector": "",
       "severity": "High"
@@ -1001,7 +972,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.",
-      "age": 7,
+      "age": 8,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -1011,27 +982,12 @@
       ]
     },
     {
-      "title": "Harvard University data breach exposed info of 851,000 accounts",
-      "org": "BleepingComputer",
-      "sector": "EDUCATION",
-      "severity": "High",
-      "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
-      "age": 8,
-      "date": "Nov 03, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/"
-        }
-      ]
-    },
-    {
       "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
       "org": "The Hacker News",
       "sector": "UTILITIES / ICS",
       "severity": "High",
       "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically...",
-      "age": 2,
+      "age": 3,
       "date": "Nov 05, 2026",
       "sources": [
         {
@@ -1048,7 +1004,7 @@
       "severity": "High",
       "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
       "source": "BleepingComputer",
-      "age": 4,
+      "age": 5,
       "date": "Nov 04, 2026",
       "sources": [
         {
@@ -1063,7 +1019,7 @@
       "severity": "High",
       "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
       "source": "BleepingComputer",
-      "age": 4,
+      "age": 5,
       "date": "Nov 04, 2026",
       "sources": [
         {
@@ -1078,7 +1034,7 @@
       "severity": "High",
       "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to...",
       "source": "The Hacker News",
-      "age": 7,
+      "age": 8,
       "date": "Nov 03, 2026",
       "sources": [
         {
@@ -1088,12 +1044,27 @@
       ]
     },
     {
+      "title": "OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
+      "date": "Nov 06, 2026",
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/"
+        }
+      ]
+    },
+    {
       "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
       "topic": "AWARENESS",
       "severity": "Critical",
       "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
       "source": "BleepingComputer",
-      "age": 4,
+      "age": 5,
       "date": "Nov 04, 2026",
       "sources": [
         {
@@ -1108,7 +1079,7 @@
       "severity": "High",
       "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Nov 06, 2026",
       "sources": [
         {
@@ -1118,107 +1089,47 @@
       ]
     },
     {
-      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "title": "Closing the Identity Gap at the Service Desk",
       "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
-      "source": "Krebs on Security",
+      "severity": "Medium",
+      "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social...",
+      "source": "BleepingComputer",
       "age": 0,
       "date": "Nov 06, 2026",
       "sources": [
         {
-          "label": "Krebs on Security",
-          "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
-        }
-      ]
-    },
-    {
-      "title": "Vercel rolls out new protection against stolen session cookie attacks",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Nov 05, 2026",
-      "sources": [
-        {
           "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/"
+          "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/"
         }
       ]
     },
     {
-      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Nov 05, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
-        }
-      ]
-    },
-    {
-      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "topic": "AWARENESS",
-      "severity": "High",
-      "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers....",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Nov 05, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/"
-        }
-      ]
-    },
-    {
-      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software....",
+      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time...",
       "source": "The Hacker News",
       "age": 0,
       "date": "Nov 06, 2026",
       "sources": [
         {
           "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html"
+          "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
         }
       ]
     },
     {
-      "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
       "topic": "AWARENESS",
       "severity": "Medium",
-      "summary": "The trio, who have nicknames that include \u201cRocky Balboa,\u201d \u201cSuperman Cash\u201d and \u201cFat Boy,\u201d often targeted the companies\u2019 accounting departments. The post 3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
+      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released...",
+      "source": "The Hacker News",
       "age": 0,
       "date": "Nov 06, 2026",
       "sources": [
         {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/"
-        }
-      ]
-    },
-    {
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Nov 05, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
         }
       ]
     }
@@ -1373,10 +1284,40 @@
           "url": "https://twit.tv/shows/security-now/episodes/1102"
         }
       ]
+    },
+    {
+      "title": "Fromage-Gate: Old-School Hacking Tactics vs. French Supermarkets",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Who You See: Daniel Cuthbert -LinkedIn: \u2060https://www.linkedin.com/in/daniel-cuthbert0x/ -X: \u2060https://x.com/dcuthbert\u2060 The Grugq -LinkedIn: \u2060https://www.linkedin.com/in/grugq/\u2060 -X: \u2060https://x.com/thegrugq\u2060 Show Notes: Grain of rice -Shorthand in the communit...",
+      "date": "Nov 06, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/watch?v=QH9Lh7wVZAg"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Blast Radius of a Cryptographic Change",
+      "show": "Black Hat",
+      "kind": "video",
+      "severity": "info",
+      "summary": "Updating cryptography can break systems no one touched \u2014 so weak algorithms stay in place longer than they should. Threat Point maps the full blast radius of a change before it ships, closing the gap between finding weak cryptography and safely replacing it...",
+      "date": "Nov 06, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Black Hat",
+          "url": "https://www.youtube.com/watch?v=7SCMgzQzsx8"
+        }
+      ]
     }
   ],
   "_meta": {
-    "generated": "2026-11-06T04:00:00Z",
+    "generated": "2026-11-06T13:23:56Z",
     "max_age": 8
   },
   "advisory": [
