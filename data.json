@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -60,7 +60,7 @@
   "cve": [
     {
       "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability...",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "The Hacker News",
@@ -76,7 +76,7 @@
     },
     {
       "summary": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -92,7 +92,7 @@
     },
     {
       "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "The Hacker News",
@@ -108,7 +108,7 @@
     },
     {
       "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -124,7 +124,7 @@
     },
     {
       "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an...",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "The Hacker News",
@@ -140,7 +140,7 @@
     },
     {
       "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606,...",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "The Hacker News",
@@ -156,7 +156,7 @@
     },
     {
       "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass appeared first on SecurityWeek.",
-      "age": 7,
+      "age": 8,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -173,8 +173,21 @@
   ],
   "threat": [
     {
-      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs APT to retry...",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "actor": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "severity": "Critical"
+    },
+    {
+      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs APT to retry...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -187,7 +200,7 @@
     },
     {
       "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -200,7 +213,7 @@
     },
     {
       "summary": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "Dark Reading",
@@ -213,7 +226,7 @@
     },
     {
       "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "Dark Reading",
@@ -226,7 +239,7 @@
     },
     {
       "summary": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
-      "age": 4,
+      "age": 5,
       "sources": [
         {
           "label": "Dark Reading",
@@ -239,7 +252,7 @@
     },
     {
       "summary": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "Dark Reading",
@@ -252,7 +265,7 @@
     },
     {
       "summary": "Android device manufacturer Videostrong allegedly ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "Dark Reading",
@@ -265,7 +278,7 @@
     },
     {
       "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -278,7 +291,7 @@
     },
     {
       "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -291,7 +304,7 @@
     },
     {
       "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "Dark Reading",
@@ -304,7 +317,7 @@
     },
     {
       "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -314,25 +327,116 @@
       "date": "Nov 06, 2026",
       "actor": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
       "severity": "High"
-    },
-    {
-      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs....",
-      "age": 7,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
-        }
-      ],
-      "date": "Nov 06, 2026",
-      "actor": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
       "age": 0,
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "category": "Incident"
+    },
+    {
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "category": "Research"
+    },
+    {
+      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "category": "Incident"
+    },
+    {
+      "summary": "OpenAI on Thursday unveiled GPT\u20116 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "category": "Product Update"
+    },
+    {
+      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "category": "Incident"
+    },
+    {
+      "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "category": "Research"
+    },
+    {
+      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "category": "Incident"
+    },
+    {
+      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html"
+        }
+      ],
+      "date": "Nov 09, 2026",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "category": "Research"
+    },
+    {
+      "summary": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -345,7 +449,7 @@
     },
     {
       "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -358,7 +462,7 @@
     },
     {
       "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -371,7 +475,7 @@
     },
     {
       "summary": "\u200bVeeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -381,110 +485,6 @@
       "date": "Nov 08, 2026",
       "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
       "category": "Research"
-    },
-    {
-      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-      "category": "Incident"
-    },
-    {
-      "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "category": "Incident"
-    },
-    {
-      "summary": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-      "category": "Incident"
-    },
-    {
-      "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "category": "Research"
-    },
-    {
-      "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "category": "Incident"
-    },
-    {
-      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "category": "Incident"
-    },
-    {
-      "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-      "category": "Incident"
-    },
-    {
-      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
-        }
-      ],
-      "date": "Nov 08, 2026",
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "category": "Incident"
     }
   ],
   "kev": [
@@ -498,7 +498,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -520,7 +520,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -542,7 +542,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -564,7 +564,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -586,7 +586,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -608,7 +608,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -630,7 +630,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -652,7 +652,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -674,7 +674,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -696,7 +696,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -718,7 +718,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -740,7 +740,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
       "age": 0,
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -756,7 +756,7 @@
   "patch": [
     {
       "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
-      "age": 5,
+      "age": 6,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -772,7 +772,7 @@
   "ransomware": [
     {
       "summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise \u2018hello\u2019 attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days appeared first on SecurityWeek.",
-      "age": 6,
+      "age": 7,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -794,7 +794,7 @@
       "severity": "High",
       "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised...",
       "source": "BleepingComputer",
-      "age": 3,
+      "age": 4,
       "date": "Nov 07, 2026",
       "sources": [
         {
@@ -809,7 +809,7 @@
       "severity": "High",
       "summary": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
       "source": "SecurityWeek",
-      "age": 4,
+      "age": 5,
       "date": "Nov 07, 2026",
       "sources": [
         {
@@ -824,7 +824,7 @@
       "severity": "High",
       "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run...",
       "source": "The Hacker News",
-      "age": 6,
+      "age": 7,
       "date": "Nov 06, 2026",
       "sources": [
         {
@@ -839,7 +839,7 @@
       "severity": "High",
       "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for \u2018SSHole\u2019 Authentication Bypass appeared first on SecurityWeek.",
       "source": "SecurityWeek",
-      "age": 7,
+      "age": 8,
       "date": "Nov 06, 2026",
       "sources": [
         {
@@ -854,7 +854,7 @@
       "severity": "High",
       "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
       "source": "BleepingComputer",
-      "age": 5,
+      "age": 6,
       "date": "Nov 07, 2026",
       "sources": [
         {
@@ -869,7 +869,7 @@
       "severity": "High",
       "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
       "source": "Krebs on Security",
-      "age": 6,
+      "age": 7,
       "date": "Nov 06, 2026",
       "sources": [
         {
@@ -879,12 +879,42 @@
       ]
     },
     {
+      "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Nov 09, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+        }
+      ]
+    },
+    {
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time...",
+      "source": "The Hacker News",
+      "age": 0,
+      "date": "Nov 09, 2026",
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+        }
+      ]
+    },
+    {
       "title": "Hackers pull off $133 million French bank heist via service provider",
       "topic": "AWARENESS",
       "severity": "Medium",
       "summary": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Nov 08, 2026",
       "sources": [
         {
@@ -892,61 +922,31 @@
           "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
         }
       ]
-    },
-    {
-      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released...",
-      "source": "The Hacker News",
-      "age": 0,
-      "date": "Nov 08, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
-        }
-      ]
-    },
-    {
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Nov 08, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/"
-        }
-      ]
-    },
-    {
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
-      "source": "BleepingComputer",
-      "age": 1,
-      "date": "Nov 08, 2026",
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
-        }
-      ]
     }
   ],
   "media": [
+    {
+      "title": "SANS Stormcast Monday, November 9th, 2026: sshole Scans (CVE-2026-123158); SonicWall SonicOS MFA Bypass (CVE-2026-19868); Entra Device Registration (CVE-2026-109469); Claude Code Secrets Leak",
+      "show": "SANS StormCast",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "ISC honeypots seeing sshole (CVE-2026-123158) exploitation attempts; SonicWall patches seven SonicOS flaws including an already-exploited SSL VPN MFA bypass; Microsoft cloud-fixed an Entra Device Registration elevation-of-privilege bug; Apiiro found Claude ...",
+      "date": "Nov 09, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SANS StormCast",
+          "url": "https://isc.sans.edu/podcastdetail/10170"
+        }
+      ]
+    },
     {
       "title": "SANS Stormcast Friday, November 6th, 2026: RootEvidence Cisco IOS Opt-Out Scans; OpenSSH musl sshhole (CVE-2026-123158); Refrigeration OT Hardening; Zyxel GS1900 OOB Write (CVE-2026-107441)",
       "show": "SANS StormCast",
       "kind": "podcast",
       "severity": "info",
-      "summary": "Today: RootEvidence Cisco IOS vulnerability scans with HTTP opt-out headers; a critical OpenSSH password bypass on musl (sshole / CVE-2026-123158); a U.S. government factsheet on hardening industrial refrigeration OT; and an actively exploited Zyxel GS1900 ...",
-      "date": "Nov 08, 2026",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Friday, November 6th, 2026: RootEvidence Cisco IOS Opt-Out Scans; OpenSSH musl sshhole (CVE-2026-123158); Refrigeration OT...",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -956,17 +956,17 @@
       ]
     },
     {
-      "title": "SANS Stormcast Thursday, November 5th, 2026: Email Test Scripts; runZero oobscan BMC/IPMI; apt Signature Bypass (CVE-2026-109518); SonicWall GMS EOL Unpatched Flaws",
-      "show": "SANS StormCast",
+      "title": "Soap Box: Security must be more browser-centric",
+      "show": "Risky Business",
       "kind": "podcast",
       "severity": "info",
-      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Thursday, November 5th, 2026: Email Test Scripts; runZero oobscan BMC/IPMI; apt Signature Bypass (CVE-2026-109518); SonicW...",
-      "date": "Nov 08, 2026",
+      "summary": "In this Soap Box episode Patrick Gray chats to Push Security co-founder and CEO Adam Bateman about the benefits of taking a browser-centric approach to security. By now most Risky Business listeners know that Push sells a browser extension-based product tha...",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
-          "label": "SANS StormCast",
-          "url": "https://isc.sans.edu/podcastdetail/10166"
+          "label": "Risky Business",
+          "url": "https://risky.biz/SOAPBOX112/"
         }
       ]
     },
@@ -976,7 +976,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by special guest co-host Ciaran Martin, former CEO of the UK\u2019s National Cyber Security Centre (NCSC), to talk through the week\u2019s cybersecurity news, including: The $6.3 billion dollar Binance hack...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -986,27 +986,12 @@
       ]
     },
     {
-      "title": "Snake Oilers: Minimal.dev, Request Rocket and TRM Labs",
-      "show": "Risky Business",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "In this edition of the Snake Oilers podcast, three vendors drop by to pitch their products. Minimal.dev: A sandbox for AI agents! Co-Founder and CEO Jake King explains what the company is and how it works. Request Rocket: Runtime access control for AI agent...",
-      "date": "Nov 08, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Risky Business",
-          "url": "https://risky.biz/SNAKEOILERS24PT2/"
-        }
-      ]
-    },
-    {
       "title": "182: Blackshades",
       "show": "Darknet Diaries",
       "kind": "podcast",
       "severity": "info",
       "summary": "What if you got infected by a friend who wanted to spy on you? This is the story of how BlackShades spread to more than half a million machines, and 97 people got arrested.SponsorsSupport for this show comes from Drata. Drata is the trust management platfor...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1021,7 +1006,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Imagine driving down the road and your phone loses signal. Not just a lost signal, but it starts displaying SOS. Meaning no service configured at all. You can't make any calls, no data, no service. What goes through your head?In this episode we hear from Ri...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1036,7 +1021,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Bank of America has a message for its customers: please, for the love of God, stop handing your banking passwords to your AI assistant. And if your robot does something daft with your money? That's your problem, not theirs.Meanwhile, a company that promised...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1051,7 +1036,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Dutch spies, Russian hackers and Jared Kushner\u2019s iPhone. It sounds like the ingredients for a thriller, but according to claims in a new book the US President's son-in-law may have been hacked twice. Is any of it true, and what does it tell us about the pho...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1066,7 +1051,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "What happens when a 27-year-old gets handed the keys to completely refactor nearly all of Cisco's code? This week's episode dives into tech's strangest management bets and the friction brewing inside one of the industry's giants. Cisco gives a 27-year old t...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1081,7 +1066,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "A newly uncovered PHP vulnerability put nearly 70% of the internet at risk, sending governments and enterprises into a frenzy as AI-powered attackers raced to exploit a flaw that had lurked unnoticed for 14 years. Hear why this could be just the start of an...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1089,40 +1074,10 @@
           "url": "https://twit.tv/shows/security-now/episodes/1102"
         }
       ]
-    },
-    {
-      "title": "Fromage-Gate: Old-School Hacking Tactics vs. French Supermarkets",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "Who You See: Daniel Cuthbert -LinkedIn: \u2060https://www.linkedin.com/in/daniel-cuthbert0x/ -X: \u2060https://x.com/dcuthbert\u2060 The Grugq -LinkedIn: \u2060https://www.linkedin.com/in/grugq/\u2060 -X: \u2060https://x.com/thegrugq\u2060 Show Notes: Grain of rice -Shorthand in the communit...",
-      "date": "Nov 08, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/watch?v=QH9Lh7wVZAg"
-        }
-      ]
-    },
-    {
-      "title": "Understanding the Blast Radius of a Cryptographic Change",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "Updating cryptography can break systems no one touched \u2014 so weak algorithms stay in place longer than they should. Threat Point maps the full blast radius of a change before it ships, closing the gap between finding weak cryptography and safely replacing it...",
-      "date": "Nov 08, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/watch?v=7SCMgzQzsx8"
-        }
-      ]
     }
   ],
   "_meta": {
-    "generated": "2026-11-08T21:26:51Z",
+    "generated": "2026-11-09T03:28:44Z",
     "max_age": 8
   },
   "advisory": [
@@ -1132,7 +1087,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user....",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1147,7 +1102,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "A vulnerability has been discovered in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software that could allow for denial of service (DoS). Cisco Secure Firewall ASA and FTD provide firewall, VPN, and threat def...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1162,7 +1117,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "A vulnerability has been discovered in GitLab that could allow for remote code execution. GitLab is a DevOps platform that provides source code management, CI/CD pipelines, issue tracking, and collaboration tools in a single application for software development teams. Successf...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1177,7 +1132,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user....",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1192,7 +1147,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "A vulnerability has been discovered in the Brotli library that could allow for remote code execution. Brotli is a compression algorithm developed by Google and commonly used to compress web content before it is sent over HTTP. Successful exploitation could allow an unauthentic...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
@@ -1207,7 +1162,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution.iOS is a mobile operating system for mobile devices, including the iPhone and iPod touch.iPadOS is the operating system for iPad devices.macOS is ...",
-      "date": "Nov 08, 2026",
+      "date": "Nov 09, 2026",
       "age": 0,
       "sources": [
         {
