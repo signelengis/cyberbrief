@@ -2,7 +2,7 @@
   "breach": [
     {
       "summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -16,7 +16,7 @@
     },
     {
       "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -30,7 +30,7 @@
     },
     {
       "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -44,7 +44,7 @@
     },
     {
       "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -58,7 +58,7 @@
     },
     {
       "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -72,7 +72,7 @@
     },
     {
       "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -86,7 +86,7 @@
     },
     {
       "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those...",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "The Hacker News",
@@ -100,7 +100,7 @@
     },
     {
       "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -114,7 +114,7 @@
     },
     {
       "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than \u20ac4.3 million using a network of cryptocurrency investment scam call centers. [...]",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -128,7 +128,7 @@
     },
     {
       "summary": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -142,7 +142,7 @@
     },
     {
       "summary": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -156,7 +156,7 @@
     },
     {
       "summary": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company\u2019s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek.",
-      "age": 3,
+      "age": 4,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -171,8 +171,24 @@
   ],
   "cve": [
     {
-      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+      "summary": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "cve_id": "",
+      "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+      "product": "Microsoft",
+      "vendor": "Dark Reading",
+      "severity": "High"
+    },
+    {
+      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -188,7 +204,7 @@
     },
     {
       "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -204,7 +220,7 @@
     },
     {
       "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -220,7 +236,7 @@
     },
     {
       "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -236,7 +252,7 @@
     },
     {
       "summary": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it\u2019s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -252,7 +268,7 @@
     },
     {
       "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day\u2014the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -268,7 +284,7 @@
     },
     {
       "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking our Hosted...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -284,7 +300,7 @@
     },
     {
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -300,7 +316,7 @@
     },
     {
       "summary": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -316,7 +332,7 @@
     },
     {
       "summary": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -332,7 +348,7 @@
     },
     {
       "summary": "The high-severity use-after-free in Chrome\u2019s XML component was reported anonymously on November 6 and is already exploited in attacks. The post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -345,28 +361,51 @@
       "product": "Chrome",
       "vendor": "SecurityWeek",
       "severity": "Critical"
-    },
-    {
-      "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "cve_id": "",
-      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-      "product": "",
-      "vendor": "BleepingComputer",
-      "severity": "Critical"
     }
   ],
   "threat": [
     {
-      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check...",
+      "summary": "New questionnaire captures critical data and information that improves the agency\u2019s ability to assess incidents, identify trends and prioritize response actions.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "actor": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+      "severity": "Critical"
+    },
+    {
+      "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "actor": "PwC's CISO on AI, Robots & What's Next for Security",
+      "severity": "High"
+    },
+    {
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "actor": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "severity": "High"
+    },
+    {
+      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check...",
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -379,7 +418,7 @@
     },
     {
       "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -392,7 +431,7 @@
     },
     {
       "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic,...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -405,7 +444,7 @@
     },
     {
       "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -418,7 +457,7 @@
     },
     {
       "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -431,7 +470,7 @@
     },
     {
       "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising fresh concerns for defenders.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -444,7 +483,7 @@
     },
     {
       "summary": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -457,7 +496,7 @@
     },
     {
       "summary": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -470,7 +509,7 @@
     },
     {
       "summary": "Android device manufacturer Videostrong allegedly ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "Dark Reading",
@@ -480,51 +519,116 @@
       "date": "Nov 10, 2026",
       "actor": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
       "severity": "High"
-    },
-    {
-      "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
-      "age": 2,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "actor": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-      "severity": "High"
-    },
-    {
-      "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "actor": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-      "severity": "High"
-    },
-    {
-      "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs...",
-      "age": 2,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "actor": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-      "severity": "High"
     }
   ],
   "news": [
     {
-      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of today, other updates released...",
       "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+      "category": "Incident"
+    },
+    {
+      "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+      "category": "Incident"
+    },
+    {
+      "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+      "category": "Incident"
+    },
+    {
+      "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+      "category": "Incident"
+    },
+    {
+      "summary": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 \u2013 Join Global Cybersecurity Leaders appeared first on...",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "Today: CISO Forum Virtual Summit 2026 \u2013 Join Global Cybersecurity Leaders",
+      "category": "Research"
+    },
+    {
+      "summary": "The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization\u2019s environment. The post WhiteMatter Raises $20 Million in Series A Funding appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "WhiteMatter Raises $20 Million in Series A Funding",
+      "category": "Research"
+    },
+    {
+      "summary": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+      "category": "Incident"
+    },
+    {
+      "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes appeared first on SecurityWeek.",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
+      "category": "Product Update"
+    },
+    {
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -537,7 +641,7 @@
     },
     {
       "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -550,7 +654,7 @@
     },
     {
       "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -563,7 +667,7 @@
     },
     {
       "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -572,110 +676,6 @@
       ],
       "date": "Nov 10, 2026",
       "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-      "category": "Incident"
-    },
-    {
-      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-      "category": "Incident"
-    },
-    {
-      "summary": "Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The post Adobe Patches 110 Vulnerabilities Across 9 Products appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
-      "category": "Research"
-    },
-    {
-      "summary": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it. The post Software Transparency Is Changing: Allan...",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
-      "category": "Research"
-    },
-    {
-      "summary": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code appeared first on SecurityWeek.",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
-      "category": "Research"
-    },
-    {
-      "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-      "category": "Incident"
-    },
-    {
-      "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
-      "age": 1,
-      "sources": [
-        {
-          "label": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Fireworks AI discloses new breach after cloud provider hack",
-      "category": "Incident"
-    },
-    {
-      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-      "category": "Research"
-    },
-    {
-      "summary": "At some point your security will fail. This isn\u2019t pessimism. It\u2019s not because your team and tools aren\u2019t sophisticated enough. It\u2019s the reason we have detections in the first place. And, it\u2019s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got...",
-      "age": 1,
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html"
-        }
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Beyond the Alert: The Case for Rich Network Data",
       "category": "Incident"
     }
   ],
@@ -690,7 +690,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -712,7 +712,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -734,7 +734,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -756,7 +756,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -778,7 +778,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance\u2019s global configuration. This vulnerability can be chained with CVE-2026-111560.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -800,7 +800,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -822,7 +822,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -844,7 +844,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -866,7 +866,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -888,7 +888,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -910,7 +910,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -932,7 +932,7 @@
       "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
       "age": 0,
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "sources": [
         {
           "label": "CISA KEV Catalog",
@@ -947,8 +947,22 @@
   ],
   "patch": [
     {
-      "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
       "age": 0,
+      "sources": [
+        {
+          "label": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves"
+        }
+      ],
+      "date": "Nov 11, 2026",
+      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+      "vendor": "Dark Reading",
+      "severity": "Critical"
+    },
+    {
+      "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -962,7 +976,7 @@
     },
     {
       "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -976,7 +990,7 @@
     },
     {
       "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -990,7 +1004,7 @@
     },
     {
       "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "The Hacker News",
@@ -1004,7 +1018,7 @@
     },
     {
       "summary": "SAP has published 42 new and updated security advisories, including nine that address critical-severity vulnerabilities. The post SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities appeared first on SecurityWeek.",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "SecurityWeek",
@@ -1018,7 +1032,7 @@
     },
     {
       "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "Krebs on Security",
@@ -1032,7 +1046,7 @@
     },
     {
       "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -1046,7 +1060,7 @@
     },
     {
       "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -1060,7 +1074,7 @@
     },
     {
       "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free...",
-      "age": 1,
+      "age": 2,
       "sources": [
         {
           "label": "The Hacker News",
@@ -1076,7 +1090,7 @@
   "ransomware": [
     {
       "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client...",
-      "age": 0,
+      "age": 1,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -1091,7 +1105,7 @@
     },
     {
       "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
-      "age": 2,
+      "age": 3,
       "sources": [
         {
           "label": "BleepingComputer",
@@ -1112,7 +1126,7 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
-      "age": 2,
+      "age": 3,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1127,27 +1141,12 @@
       "sector": "EDUCATION",
       "severity": "High",
       "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
-      "age": 2,
+      "age": 3,
       "date": "Nov 10, 2026",
       "sources": [
         {
           "label": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
-        }
-      ]
-    },
-    {
-      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-      "org": "The Hacker News",
-      "sector": "HEALTHCARE",
-      "severity": "High",
-      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a...",
-      "age": 0,
-      "date": "Nov 10, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
         }
       ]
     }
@@ -1159,7 +1158,7 @@
       "severity": "High",
       "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1174,7 +1173,7 @@
       "severity": "High",
       "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those...",
       "source": "The Hacker News",
-      "age": 2,
+      "age": 3,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1189,7 +1188,7 @@
       "severity": "High",
       "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
       "source": "BleepingComputer",
-      "age": 3,
+      "age": 4,
       "date": "Nov 09, 2026",
       "sources": [
         {
@@ -1204,7 +1203,7 @@
       "severity": "High",
       "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than \u20ac4.3 million using a network of cryptocurrency investment scam call centers. [...]",
       "source": "BleepingComputer",
-      "age": 3,
+      "age": 4,
       "date": "Nov 09, 2026",
       "sources": [
         {
@@ -1219,7 +1218,7 @@
       "severity": "Critical",
       "summary": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek.",
       "source": "SecurityWeek",
-      "age": 1,
+      "age": 2,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1229,12 +1228,27 @@
       ]
     },
     {
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "topic": "AWARENESS",
+      "severity": "High",
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is...",
+      "source": "Krebs on Security",
+      "age": 0,
+      "date": "Nov 11, 2026",
+      "sources": [
+        {
+          "label": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+        }
+      ]
+    },
+    {
       "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
       "topic": "AWARENESS",
       "severity": "High",
       "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1249,7 +1263,7 @@
       "severity": "High",
       "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic,...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1259,12 +1273,27 @@
       ]
     },
     {
+      "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+      "topic": "AWARENESS",
+      "severity": "Medium",
+      "summary": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "age": 0,
+      "date": "Nov 11, 2026",
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/"
+        }
+      ]
+    },
+    {
       "title": "Railway breach leads to $740,000 in fraudulent AI charges",
       "topic": "AWARENESS",
       "severity": "Medium",
       "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1279,7 +1308,7 @@
       "severity": "Medium",
       "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
       "source": "BleepingComputer",
-      "age": 0,
+      "age": 1,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1294,7 +1323,7 @@
       "severity": "Medium",
       "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now...",
       "source": "The Hacker News",
-      "age": 0,
+      "age": 1,
       "date": "Nov 10, 2026",
       "sources": [
         {
@@ -1302,46 +1331,31 @@
           "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html"
         }
       ]
-    },
-    {
-      "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The post Adobe Patches 110 Vulnerabilities Across 9 Products appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "age": 0,
-      "date": "Nov 10, 2026",
-      "sources": [
-        {
-          "label": "SecurityWeek",
-          "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/"
-        }
-      ]
-    },
-    {
-      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-      "topic": "AWARENESS",
-      "severity": "Medium",
-      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A...",
-      "source": "The Hacker News",
-      "age": 1,
-      "date": "Nov 10, 2026",
-      "sources": [
-        {
-          "label": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
-        }
-      ]
     }
   ],
   "media": [
+    {
+      "title": "SANS Stormcast Wednesday, November 11th, 2026: Microsoft Patch Tuesday Outlook Spoofing (CVE-2026-124194); Apple Bluetooth and iMessage Fixes; SAP NetWeaver CVSS 10s (CVE-2026-89103)",
+      "show": "SANS StormCast",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "Microsoft's November Patch Tuesday, Apple's iOS and macOS updates, and SAP's Security Patch Day all arrived this week, including an already exploited Outlook spoofing bug and four SAP flaws with a perfect CVSS score of 10. Microsoft Patch Tuesday Microsoft ...",
+      "date": "Nov 11, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "SANS StormCast",
+          "url": "https://isc.sans.edu/podcastdetail/10174"
+        }
+      ]
+    },
     {
       "title": "SANS Stormcast Tuesday, November 10th, 2026: SAP NetWeaver Webshells (CVE-2025-31324); N-able N-central Offline; Chrome XML 0-Day (CVE-2026-125350); Outlook DMARC Required",
       "show": "SANS StormCast",
       "kind": "podcast",
       "severity": "info",
-      "summary": "Today's episode covers attackers hunting SAP NetWeaver webshells from CVE-2025-31324, N-able taking N-central offline after dozens of unpatched flaws, a Chrome XML use-after-free zero-day, and Outlook rejecting mail without DMARC. Attackers Searching for SA...",
-      "date": "Nov 10, 2026",
+      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Tuesday, November 10th, 2026: SAP NetWeaver Webshells (CVE-2025-31324); N-able N-central Offline; Chrome XML 0-Day (CVE-20...",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1351,27 +1365,12 @@
       ]
     },
     {
-      "title": "SANS Stormcast Monday, November 9th, 2026: sshole Scans (CVE-2026-123158); SonicWall SonicOS MFA Bypass (CVE-2026-19868); Entra Device Registration (CVE-2026-109469); Claude Code Secrets Leak",
-      "show": "SANS StormCast",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "Daily 5 min cyber security news summary. News, patches, vulnerabilities and trends in information and network security. SANS Stormcast Monday, November 9th, 2026: sshole Scans (CVE-2026-123158); SonicWall SonicOS MFA Bypass (CVE-2026-19868); Entra Device Re...",
-      "date": "Nov 10, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "SANS StormCast",
-          "url": "https://isc.sans.edu/podcastdetail/10170"
-        }
-      ]
-    },
-    {
       "title": "Soap Box: Security must be more browser-centric",
       "show": "Risky Business",
       "kind": "podcast",
       "severity": "info",
       "summary": "In this Soap Box episode Patrick Gray chats to Push Security co-founder and CEO Adam Bateman about the benefits of taking a browser-centric approach to security. By now most Risky Business listeners know that Push sells a browser extension-based product tha...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1386,7 +1385,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by special guest co-host Ciaran Martin, former CEO of the UK\u2019s National Cyber Security Centre (NCSC), to talk through the week\u2019s cybersecurity news, including: The $6.3 billion dollar Binance hack...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1401,7 +1400,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "What if you got infected by a friend who wanted to spy on you? This is the story of how BlackShades spread to more than half a million machines, and 97 people got arrested.SponsorsSupport for this show comes from Drata. Drata is the trust management platfor...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1416,7 +1415,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Imagine driving down the road and your phone loses signal. Not just a lost signal, but it starts displaying SOS. Meaning no service configured at all. You can't make any calls, no data, no service. What goes through your head?In this episode we hear from Ri...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1431,7 +1430,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Bank of America has a message for its customers: please, for the love of God, stop handing your banking passwords to your AI assistant. And if your robot does something daft with your money? That's your problem, not theirs.Meanwhile, a company that promised...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1446,7 +1445,7 @@
       "kind": "podcast",
       "severity": "info",
       "summary": "Dutch spies, Russian hackers and Jared Kushner\u2019s iPhone. It sounds like the ingredients for a thriller, but according to claims in a new book the US President's son-in-law may have been hacked twice. Is any of it true, and what does it tell us about the pho...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1456,12 +1455,27 @@
       ]
     },
     {
+      "title": "SN 1104: The hole in OpenSSH - Password Bypass in Plain Sight",
+      "show": "Security Now",
+      "kind": "podcast",
+      "severity": "info",
+      "summary": "From hacked French refrigerators igniting fires to a massive OpenSSH authentication bug hiding in plain sight for a decade, this week's stories expose how lapses in basic security ripple into chaos\u2014and why AI is now both a weapon and shield. TA surprising a...",
+      "date": "Nov 11, 2026",
+      "age": 0,
+      "sources": [
+        {
+          "label": "Security Now",
+          "url": "https://twit.tv/shows/security-now/episodes/1104"
+        }
+      ]
+    },
+    {
       "title": "SN 1103: Exposing Bad Consumer Crypto - AI vs. Encrypted Drives",
       "show": "Security Now",
       "kind": "podcast",
       "severity": "info",
       "summary": "What happens when a 27-year-old gets handed the keys to completely refactor nearly all of Cisco's code? This week's episode dives into tech's strangest management bets and the friction brewing inside one of the industry's giants. Cisco gives a 27-year old t...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1469,55 +1483,10 @@
           "url": "https://twit.tv/shows/security-now/episodes/1103"
         }
       ]
-    },
-    {
-      "title": "SN 1102: A Strategic Plug Pull - Lessons From a Global Patch-and-Panic Fire Drill",
-      "show": "Security Now",
-      "kind": "podcast",
-      "severity": "info",
-      "summary": "A newly uncovered PHP vulnerability put nearly 70% of the internet at risk, sending governments and enterprises into a frenzy as AI-powered attackers raced to exploit a flaw that had lurked unnoticed for 14 years. Hear why this could be just the start of an...",
-      "date": "Nov 10, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Security Now",
-          "url": "https://twit.tv/shows/security-now/episodes/1102"
-        }
-      ]
-    },
-    {
-      "title": "Fromage-Gate: Old-School Hacking Tactics vs. French Supermarkets",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "Who You See: Daniel Cuthbert -LinkedIn: \u2060https://www.linkedin.com/in/daniel-cuthbert0x/ -X: \u2060https://x.com/dcuthbert\u2060 The Grugq -LinkedIn: \u2060https://www.linkedin.com/in/grugq/\u2060 -X: \u2060https://x.com/thegrugq\u2060 Show Notes: Grain of rice -Shorthand in the communit...",
-      "date": "Nov 10, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/watch?v=QH9Lh7wVZAg"
-        }
-      ]
-    },
-    {
-      "title": "Understanding the Blast Radius of a Cryptographic Change",
-      "show": "Black Hat",
-      "kind": "video",
-      "severity": "info",
-      "summary": "Updating cryptography can break systems no one touched \u2014 so weak algorithms stay in place longer than they should. Threat Point maps the full blast radius of a change before it ships, closing the gap between finding weak cryptography and safely replacing it...",
-      "date": "Nov 10, 2026",
-      "age": 0,
-      "sources": [
-        {
-          "label": "Black Hat",
-          "url": "https://www.youtube.com/watch?v=7SCMgzQzsx8"
-        }
-      ]
     }
   ],
   "_meta": {
-    "generated": "2026-11-10T22:37:58Z",
+    "generated": "2026-11-11T03:36:34Z",
     "max_age": 8
   },
   "advisory": [
@@ -1527,7 +1496,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Critical",
       "summary": "Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution. Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged-on use...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1542,7 +1511,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution. Mozilla Firefox is a web browser used to access the Internet.Mozilla Firefox ESR is a version of the web browser intended to be deployed in lar...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1557,7 +1526,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution. Depending on the privileges associa...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1572,7 +1541,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associa...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1587,7 +1556,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in SAP Products, the most severe of which could allow for arbitrary code execution. SAP NetWeaver is SAP\u2019s technology platform and application server stack (ABAP and Java) that underpins many SAP business applications, including ER...",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
@@ -1602,7 +1571,7 @@
       "agency": "MS-ISAC / SLTT",
       "severity": "Medium",
       "summary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user....",
-      "date": "Nov 10, 2026",
+      "date": "Nov 11, 2026",
       "age": 0,
       "sources": [
         {
